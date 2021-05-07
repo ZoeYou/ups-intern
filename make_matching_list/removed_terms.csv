@@ -1,0 +1,1423 @@
+term,annotation,df
+Brion James,person,ai_dev
+Leon Kowalski,person,ai_dev
+Joanna Cassidy,person,ai_dev
+Zhora,person,ai_dev
+Lee Sedol,person,ai_dev
+Kiichiro Toyoda,person,ai_dev
+Sakichi Toyoda,person,ai_dev
+Mamie Van Doren,person,ai_dev
+Pinky Lee,person,ai_dev
+Harrison Ford,person,ai_dev
+Rutger Hauer,person,ai_dev
+Sean Young,person,ai_dev
+Philip K. Dick,person,ai_dev
+David Fincher,person,ai_dev
+Kevin Spacey,person,ai_dev
+Hampton Fancher,person,ai_dev
+Sammon,person,ai_dev
+Michael Deeley,person,ai_dev
+Fancher,person,ai_dev
+Ridley Scott,person,ai_dev
+Manuel Toharia,person,ai_dev
+Ragageles,person,ai_dev
+Mick Foley,person,ai_dev
+Rebecca Grant,person,ai_dev
+Gary Hamel,person,ai_dev
+C. K. Prahalad,person,ai_dev
+Čapek,person,ai_dev
+Samantha Ponder,person,ai_dev
+Molly McGrath,person,ai_dev
+Paul J. McAuley,person,ai_dev
+Lester del Rey,person,ai_dev
+Fernando Lamas,person,ai_dev
+Arlene Dahl,person,ai_dev
+David Arquette,person,ai_dev
+Elizabeth Berkley,person,ai_dev
+Thomas Jane,person,ai_dev
+Norman McLaren,person,ai_dev
+The Wachowskis,person,ai_dev
+J. Michael Straczynski,person,ai_dev
+Senator Edward M. Kennedy,person,ai_dev
+Dalton,person,ai_test
+Daniel Pearl,person,ai_test
+Judea,person,ai_test
+John Waters,person,ai_test
+Walter R. Booth,person,ai_test
+Cecil Hepworth,person,ai_test
+Mustafa Suleyman,person,ai_test
+Chris Landreth,person,ai_test
+Zack Snyder,person,ai_test
+Clint Eastwood,person,ai_test
+Damien Chazelle,person,ai_test
+Patty Jenkins,person,ai_test
+Cary Joji Fukunaga,person,ai_test
+Joseph Kosinski,person,ai_test
+Louis Daguerre,person,ai_test
+Henry Fox Talbot,person,ai_test
+David Avidan,person,ai_test
+Toyota,person,ai_test
+Donna D 'Errico,person,ai_test
+Carmen Electra,person,ai_test
+Traci Bingham,person,ai_test
+Heidi Mark,person,ai_test
+Arj Barker,person,ai_test
+Randy,person,ai_test
+Jason Sklar,person,ai_test
+John Ireland,person,ai_test
+Joanne Dru,person,ai_test
+Macdonald Carey,person,ai_test
+Jack Broder,person,ai_test
+Chris Rose,person,ai_test
+Kenny Florian,person,ai_test
+Edsinger,person,ai_test
+Rachael,person,ai_test
+Tyrell,person,ai_test
+Nina Axelrod,person,ai_test
+Fon Davis,person,ai_test
+Jessica Chobot,person,ai_test
+Leland Melvin,person,ai_test
+Clark Gregg,person,ai_test
+Adam Savage,person,ai_test
+Vernon Davis,person,ai_test
+Michael Stevens,person,ai_test
+Vsauce,person,ai_test
+Dug North,person,ai_test
+Chomick + Meder,person,ai_test
+Arthur Ganson,person,ai_test
+Joe Jones,person,ai_test
+Jacques Monestier,person,ai_test
+François Junod,person,ai_test
+Devol,person,ai_test
+Sam Katzman,person,ai_test
+William Castle,person,ai_test
+Cole Porter,person,ai_test
+Howard Keel,person,ai_test
+Kathryn Grayson,person,ai_test
+Ann Miller,person,ai_test
+Keenan Wynn,person,ai_test
+Bobby Van,person,ai_test
+James Whitmore,person,ai_test
+Kurt Kasznar,person,ai_test
+Tommy Rall,person,ai_test
+Marie Doro,person,ai_test
+John B. Mason,person,ai_test
+Jim the Penman,person,ai_test
+Francis Ford Coppola,person,ai_train
+Michael Jackson,person,ai_train
+John Wayne,person,ai_train
+Rita Hayworth,person,ai_train
+Dean Martin,person,ai_train
+Jerry Lewis,person,ai_train
+Schirra,person,science_dev
+Yukimasa Kishino,person,science_dev
+Akio Ōtsuka,person,science_dev
+Jūrōta Kosugi,person,science_dev
+Kaoru Katō,person,science_dev
+Yōko,person,science_dev
+Tsumugi Ōsawa,person,science_dev
+Yōko Saitō,person,science_dev
+Fumiko Orikasa,person,science_dev
+Kazue Nakamoto,person,science_dev
+Seiko Yoshida,person,science_dev
+Mamiko Noto,person,science_dev
+Sanzō,person,science_dev
+Fumihiko Tachiki,person,science_dev
+Kōji Ishii,person,science_dev
+Masaaki Tsukada,person,science_dev
+Naomi Otome,person,science_dev
+Billy the Kid,person,science_dev
+John Chisum,person,science_dev
+Lawrence Murphy,person,science_dev
+Maxwell,person,science_dev
+Hamilton,person,science_dev
+Ray Kurzweil,person,science_dev
+Gwen Cooper,person,science_dev
+Eve Myles,person,science_dev
+Ianto Jones,person,science_dev
+Gareth David-Lloyd,person,science_dev
+Luke Smith,person,science_dev
+Tommy Knight,person,science_dev
+Mr Smith,person,science_dev
+Alexander Armstrong,person,science_dev
+Myles,person,science_dev
+Titan Cronus,person,science_dev
+Knowles,person,science_dev
+Jack Splash,person,science_dev
+Shea Taylor,person,science_dev
+Mr. Familiar,person,science_dev
+Lamont Dozier,person,science_dev
+Pharrell Williams,person,science_dev
+Bilal,person,science_dev
+Q-Tip,person,science_dev
+Lil Wayne,person,science_dev
+Pierre Elliott Trudeau,person,science_dev
+Tracy Bond,person,science_dev
+Diana Rigg,person,science_dev
+Ilse Steppat,person,science_dev
+drive-by shooting,person,science_dev
+Peterlin,person,science_dev
+Bennett,person,science_dev
+Dolan,person,science_dev
+John Tunstall,person,science_dev
+McSween,person,science_dev
+Michele Besso,person,science_dev
+Stephen Samuel Wise,person,science_dev
+Oliver Coleman,person,science_dev
+Walter Dyett,person,science_dev
+Adjoa Andoh,person,science_dev
+Penelope Wilton,person,science_dev
+Martha,person,science_dev
+Francine Jones,person,science_dev
+Harriet Jones,person,science_dev
+Charpentier,person,science_dev
+Hughes,person,science_dev
+George Hearn,person,science_dev
+Angela Lansbury,person,science_dev
+Kobe,person,science_dev
+David Tennant,person,science_dev
+Donna Noble,person,science_dev
+Catherine Tate,person,science_dev
+Jack Harkness,person,science_dev
+John Barrowman,person,science_dev
+Martha Jones,person,science_dev
+Freema Agyeman,person,science_dev
+Sarah Jane Smith,person,science_dev
+Elisabeth Sladen,person,science_dev
+Rose Tyler,person,science_dev
+Billie Piper,person,science_dev
+Richard E. Grant,person,science_dev
+Joanna Lumley,person,science_dev
+Jeremy,person,science_dev
+Claudia Black,person,science_dev
+Aeryn Sun,person,science_dev
+Virginia Hey,person,science_dev
+Pa 'u Zotoh Zhaan,person,science_dev
+Terry Nation,person,science_dev
+Dennis Spooner,person,science_dev
+Douglas Camfield,person,science_dev
+John Wiles,person,science_dev
+Kuyper,person,science_dev
+Gellar,person,science_dev
+Kevin O 'Connell,person,science_dev
+Greg P. Russell,person,science_dev
+Lee Orloff,person,science_dev
+Shakespearean,person,science_dev
+Scottish Executive,person,science_dev
+Arthur Miller,person,science_dev
+Tennessee Williams,person,science_dev
+Otto Scherzer,person,science_dev
+Georg Joos,person,science_dev
+Otto Heckmann,person,science_dev
+Virendranath Chattopadhyaya,person,science_dev
+Har Dayal,person,science_dev
+M.P.T. Acharya,person,science_dev
+Vinayak Damodar Savarkar,person,science_dev
+Gerald Ford,person,science_dev
+Dwight Eisenhower,person,science_dev
+Dave Rudabaugh,person,science_dev
+Pat Garrett,person,science_dev
+Shotgun John Collins,person,science_dev
+"Wilkinson , S.",person,science_dev
+"Liew , C.",person,science_dev
+"Mackay , J.",person,science_dev
+"Salleh , H.",person,science_dev
+"Withers , S.",person,science_dev
+"McLeod , M.",person,science_dev
+C.W. Leadbeater,person,science_dev
+Alice A. Bailey,person,science_dev
+Sanat Kumara,person,science_dev
+A.E. Powell,person,science_dev
+Elizabeth Clare Prophet,person,science_dev
+Sam Anderson,person,science_dev
+L. Scott Caldwell,person,science_dev
+Francois Chau,person,science_dev
+Fionnula Flanagan,person,science_dev
+Sonya Walger,person,science_dev
+John Terry,person,science_dev
+Low,person,science_dev
+Sam Shepard,person,science_dev
+Art Direction,person,science_dev
+Geoffrey Kirkland,person,science_dev
+Richard Lawrence,person,science_dev
+W. Stewart Campbell,person,science_dev
+Peter R. Romero,person,science_dev
+Set Decoration,person,science_dev
+George R. Nelson,person,science_dev
+Caleb Deschanel,person,science_dev
+NeNe Leakes,person,science_test
+Nicki Minaj,person,science_test
+Rihanna,person,science_test
+Solange Knowles,person,science_test
+Beyoncé,person,science_test
+Sharkeisha,person,science_test
+Mariah Carey,person,science_test
+Mark C Lidwill,person,science_test
+Richard Harrison,person,science_test
+J. D. H. Slater,person,science_test
+A. Grabham,person,science_test
+Tyas,person,science_test
+Lutz D. Schmadel,person,science_test
+Rachel,person,science_test
+Bonaparte,person,science_test
+Gustav IV Adolf,person,science_test
+von Fersen,person,science_test
+Flexner,person,science_test
+Julie Gardner,person,science_test
+Phil Collinson,person,science_test
+Collinson,person,science_test
+Steven Moffat,person,science_test
+Piers Wenger,person,science_test
+Gardner,person,science_test
+Jeffrey Lieber,person,science_test
+J. J. Abrams,person,science_test
+Damon Lindelof,person,science_test
+Abrams,person,science_test
+Grissom,person,science_test
+Lynn Ahrens,person,science_test
+Stephen Flahertyin,person,science_test
+Mark Harmon,person,science_test
+John Mese,person,science_test
+Eisele,person,science_test
+Fredric Lehne,person,science_test
+Cunningham,person,science_test
+Max Wright,person,science_test
+Wendt,person,science_test
+Shenton,person,science_test
+Ellis Hillman,person,science_test
+Catherine Zeta-Jones,person,science_test
+Velma Kelly,person,science_test
+Susan Misner,person,science_test
+Liz,person,science_test
+Denise Faye,person,science_test
+Annie,person,science_test
+Deidre Goodwin,person,science_test
+June,person,science_test
+Ekaterina Shchelkanova,person,science_test
+Katalin Helinszki,person,science_test
+Hunyak,person,science_test
+Mýa,person,science_test
+Mona,person,science_test
+Simon Kress,person,science_test
+Barbara Mandrell,person,science_test
+Loretta Lynn,person,science_test
+Taylor Swift,person,science_test
+Al-Farabi,person,science_test
+Aristotle,person,science_test
+Alfarabi,person,science_test
+Galen,person,science_test
+Daniel Loxton,person,science_test
+Clark Gable,person,science_test
+Spencer Tracy,person,science_test
+Yunjin Kim,person,science_test
+Sun-Hwa Kwon,person,science_test
+Daniel Dae Kim,person,science_test
+Jin-Soo Kwon,person,science_test
+Michael Wisher,person,science_test
+Terry Molloy,person,science_test
+CeeLo Green,person,science_test
+Mark Ronson,person,science_test
+Sailor V. Artemis,person,science_test
+Hubert Wilkins,person,science_test
+Lincoln Ellsworth,person,science_test
+William Randolph Hearst,person,science_test
+Siemens brothers,person,science_test
+Marquis of Salisbury,person,science_test
+Indiana University,university,ai_dev
+Stanford University,university,ai_dev
+Rajabazar Science College,university,ai_dev
+University of Calcutta,university,ai_dev
+Indian Statistical Institute,university,ai_dev
+Imperial College,university,ai_dev
+University of London,university,ai_dev
+universities of Newcastle,university,ai_dev
+Surrey,university,ai_dev
+Tel Aviv University,university,ai_dev
+Simon Fraser University,university,ai_dev
+University of Tromsø,university,ai_dev
+University of Toronto,university,ai_dev
+CMU,university,ai_dev
+Imperial Academy of Sciences and Arts,university,ai_dev
+University of North Sumatra,university,ai_dev
+Indonesian Christian University,university,ai_dev
+Padjadjaran University,university,ai_dev
+Jenderal Soedirman University,university,ai_dev
+Muhammadiyah University,university,ai_dev
+University of Reading,university,ai_dev
+Massachusetts Institute of Technology,university,ai_dev
+Harvard,university,ai_dev
+Columbia,university,ai_dev
+Bar-Ilan University,university,ai_dev
+Harvard University,university,ai_dev
+Vrije Universiteit Brussel,university,ai_dev
+Duke,university,ai_dev
+Stanford,university,ai_dev
+KTH Royal Institute of Technology,university,ai_dev
+Washington University School of Medicine,university,ai_dev
+UCSD,university,ai_dev
+Yale University,university,ai_dev
+University of Freiburg,university,ai_dev
+Bosch,university,ai_dev
+Georgia Tech,university,ai_dev
+KU Leuven,university,ai_dev
+MIT,university,ai_dev
+Technical University of Munich,university,ai_dev
+UC Berkeley,university,ai_dev
+U Penn,university,ai_dev
+USC,university,ai_dev
+University of Tokyo,university,ai_dev
+Georgia Institute of Technology,university,ai_dev
+University of Edinburgh School of Informatics,university,ai_dev
+Carnegie Mellon University,university,ai_dev
+Human-Computer Interaction Institute,university,ai_dev
+Robotics Institute,university,ai_dev
+Entertainment Technology Center,university,ai_dev
+KAIST,university,ai_dev
+Moscow State University,university,ai_dev
+Collège de France,university,ai_test
+Penn,university,ai_test
+University of California at Berkeley,university,ai_test
+University of Twente,university,ai_test
+Cambridge University,university,ai_test
+Hebrew University,university,ai_test
+École pratique des hautes études,university,ai_test
+École Polytechnique,university,ai_test
+John Jay College of Criminal Justice,university,ai_test
+B.M.S. College of Engineering,university,ai_test
+Bangalore University,university,ai_test
+Drexel University,university,ai_test
+University of Wisconsin-Madison,university,ai_test
+University of Edinburgh,university,ai_test
+Nagoya University,university,ai_test
+University of Debrecen,university,ai_test
+Eötvös Loránd University,university,ai_test
+University of Konstanz,university,ai_test
+University of Salzburg,university,ai_test
+Samarkand State University,university,ai_test
+Brown University,university,ai_train
+MPI Saarbruecken,university,ai_train
+"University of California , San Diego",university,ai_train
+École Centrale Paris,university,ai_train
+ETH Zurich,university,ai_train
+National University of Sciences and Technology,university,ai_train
+NUST,university,ai_train
+"University of California , Irvine",university,ai_train
+University of Groningen,university,ai_train
+Tokyo Institute of Technology,university,ai_train
+Cambridge,university,ai_train
+University of Padua,university,ai_train
+Delft University of Technology,university,ai_train
+Nippon Telegraph and Telephone,university,ai_train
+NTT,university,ai_train
+Massachusetts,university,ai_train
+University of Nice Sophia Antipolis,university,ai_train
+École des ponts ParisTech,university,ai_train
+Rutgers University,university,ai_train
+University of Houston,university,ai_train
+U.S. Air Force Institute of Technology,university,science_dev
+Technische Hochschule Dresden,university,science_dev
+University of São Paulo,university,science_dev
+University of Copenhagen,university,science_dev
+Humboldt University of Berlin,university,science_dev
+University of Strasbourg,university,science_dev
+"UCSI University , Sarawak Campus",university,science_dev
+University College of Technology Sarawak,university,science_dev
+UCTS,university,science_dev
+Tunku Abdul Rahman University College ( Sabah campus ),university,science_dev
+International University College Of Technology Twintech ( Sabah campus ),university,science_dev
+Open University Malaysia ( Sabah campus ),university,science_dev
+University of Pisa,university,science_dev
+Scuola Normale Superiore di Pisa,university,science_dev
+Deutsche Akademie of Munich,university,science_dev
+Berkeley,university,science_dev
+Oak Ridge Associated Universities,university,science_dev
+University of Tennessee,university,science_dev
+University of Paris,university,science_dev
+University of Vienna,university,science_dev
+University of Kraków,university,science_dev
+University of Göttingen,university,science_dev
+College of the Mainland,university,science_dev
+Galveston College,university,science_dev
+University of Chicago,university,science_dev
+Rockefeller University,university,science_dev
+University of Nairobi,university,science_dev
+University of Lausanne,university,science_dev
+University of Hamburg,university,science_dev
+University of Sassari,university,science_dev
+Sapienza University of Rome,university,science_dev
+Weizmann Institute of Science,university,science_dev
+Loop College,university,science_dev
+Princeton University,university,science_dev
+Chinese University of Hong Kong,university,science_dev
+Technical University of Berlin,university,science_dev
+Kobe University,university,science_dev
+Kobe Institute of Computing,university,science_dev
+Konan University,university,science_dev
+National Southeastern University,university,science_dev
+National Central University,university,science_dev
+Nanjing University,university,science_dev
+Massey University,university,science_dev
+University of Auckland,university,science_dev
+Victoria University of Wellington,university,science_dev
+University of Otago,university,science_dev
+University of Canterbury,university,science_dev
+Boston University,university,science_dev
+Tufts University,university,science_dev
+University of Massachusetts Medical School,university,science_dev
+Charité - Universitätsmedizin Berlin,university,science_dev
+University of Zurich,university,science_dev
+WCSU,university,science_dev
+CSU,university,science_dev
+Connecticut State Colleges & Universities,university,science_dev
+CSCU,university,science_dev
+Eastern Connecticut State University,university,science_dev
+Southern and Central Connecticut state universities,university,science_dev
+Kwame Nkrumah University of Science and Technology,university,science_dev
+Calvin College,university,science_dev
+Dordt College,university,science_dev
+Redeemer University College,university,science_dev
+Covenant College,university,science_dev
+University Health Network,university,science_dev
+Oxford,university,science_dev
+Manchester,university,science_dev
+Louvain,university,science_dev
+Uppsala University,university,science_dev
+Lyon,university,science_dev
+National and Kapodistrian University of Athens,university,science_dev
+Dublin,university,science_dev
+Edinburgh,university,science_dev
+Montreal,university,science_dev
+Liverpool,university,science_dev
+Brussels,university,science_dev
+Sheffield,university,science_dev
+University of Bern,university,science_dev
+Birmingham,university,science_dev
+Glasgow,university,science_dev
+University of Wales,university,science_dev
+University of Stuttgart,university,science_dev
+Lone Star College System,university,science_dev
+San Jacinto College,university,science_dev
+University of Ljubljana,university,science_dev
+University of Zagreb,university,science_dev
+University of Udine,university,science_dev
+University of Leoben,university,science_dev
+"California State University , Chico",university,science_dev
+Colgate University,university,science_dev
+University of Amsterdam,university,science_dev
+Maynooth University,university,science_dev
+Odessa University,university,science_dev
+Saint Petersburg State University,university,science_dev
+RCS,university,science_dev
+Royal School of Mines,university,science_dev
+City and Guilds Central Technical College,university,science_dev
+Imperial College of Science and Technology,university,science_dev
+Constituent College of Imperial,university,science_dev
+Jack Welch Management Institute,university,science_dev
+JWMI,university,science_dev
+Chancellor University,university,science_dev
+Henderson State University,university,science_dev
+Arkadelphia Methodist College,university,science_dev
+Arkansas State University System,university,science_dev
+Ouachita Baptist University,university,science_dev
+Heidelberg University,university,science_dev
+University of Marburg,university,science_dev
+Caltech,university,science_dev
+University of Sydney,university,science_test
+University of Tübingen,university,science_test
+"All Souls College , Oxford",university,science_test
+Royal College of Physicians,university,science_test
+Pacific Union College,university,science_test
+Indian Institute of Management Indore,university,science_test
+Indian Institute of Technology Indore,university,science_test
+University of East London,university,science_test
+University of Tsukuba,university,science_test
+Zhejiang University,university,science_test
+California Institute of Technology,university,science_test
+Georg August University of Göttingen,university,science_test
+University of Cambridge,university,science_test
+Harold Washington College,university,science_test
+Columbia University,university,science_test
+University of Antwerp,university,science_test
+Liverpool John Moores University,university,science_test
+"University of California , Berkeley",university,science_test
+University of Würzburg,university,science_test
+University of Bonn,university,science_test
+CMS College Kottayam,university,science_test
+Madras Christian College,university,science_test
+National Taiwan Ocean University,university,science_test
+Ching Kuo Institute of Management and Health,university,science_test
+Chungyu Institute of Technology,university,science_test
+University of Madras,university,science_test
+Presidency College,university,science_test
+Queen Mary 's College,university,science_test
+St. Xavier 's College,university,science_test
+Government Law College,university,science_test
+Jai Hind College,university,science_test
+Grant Medical College,university,science_test
+Exeter,university,science_test
+Ray Kurzweil,researcher,ai_dev
+Hans Moravec,researcher,ai_dev
+Kevin Kelly,researcher,ai_dev
+Ralph Merkle,researcher,ai_dev
+Bill Joy,researcher,ai_dev
+Frank Drake,researcher,ai_dev
+John Henry Holland,researcher,ai_dev
+John Koza,researcher,ai_dev
+Scheinman,researcher,ai_dev
+Banerjee,researcher,ai_dev
+Lavie,researcher,ai_dev
+Ian Niles,researcher,ai_dev
+Adam Pease,researcher,ai_dev
+Webber,researcher,ai_dev
+Ulf Grenander,researcher,ai_dev
+Marvin Minsky,researcher,ai_dev
+Seymour Papert,researcher,ai_dev
+Hal Abelson,researcher,ai_dev
+Gerald Jay Sussman,researcher,ai_dev
+Ghahramani,researcher,ai_dev
+Geoffrey Hinton,researcher,ai_dev
+Lafferty,researcher,ai_dev
+Eugene Charniak,researcher,ai_dev
+Terry Winograd,researcher,ai_dev
+Christian Gottlieb Kratzenstein,researcher,ai_dev
+Mehler,researcher,ai_dev
+s.Jenny Rose Finkel,researcher,ai_dev
+Alex Kleeman,researcher,ai_dev
+Christopher D. Manning,researcher,ai_dev
+Kevin Warwick,researcher,ai_dev
+Goostman,researcher,ai_dev
+Victor Gershevich Katz,researcher,ai_dev
+Mikhail Gershevich Katz,researcher,ai_dev
+Sepp Hochreiter,researcher,ai_dev
+Jürgen Schmidhuber,researcher,ai_dev
+Lawrence J. Fogel,researcher,ai_dev
+Doug,researcher,ai_dev
+Alan,researcher,ai_dev
+Allen Newell,researcher,ai_dev
+Edward Feigenbaum,researcher,ai_dev
+John McCarthy,researcher,ai_dev
+Zurada,researcher,ai_dev
+Yann LeCun,researcher,ai_dev
+Bengio,researcher,ai_dev
+Miller,researcher,ai_dev
+Wydner,researcher,ai_dev
+Victor Scheinman,researcher,ai_dev
+Sycara,researcher,ai_dev
+George Cybenko,researcher,ai_dev
+Cybenko G.,researcher,ai_dev
+Sowa,researcher,ai_dev
+Posner,researcher,ai_dev
+Rodney Brooks,researcher,ai_dev
+Mark Tilden,researcher,ai_dev
+David,researcher,ai_dev
+Judah Levine,researcher,ai_dev
+Cade Metz,researcher,ai_dev
+Tim Berners-Lee,researcher,ai_dev
+Roger Schank,researcher,ai_dev
+Yorick Wilks,researcher,ai_dev
+Y. Bengio,researcher,ai_dev
+P. Frasconi,researcher,ai_dev
+George Miller,researcher,ai_dev
+Harry Blum,researcher,ai_dev
+Getoor,researcher,ai_dev
+Daniel G. Bobrow,researcher,ai_dev
+Qiang Zhu,researcher,ai_dev
+Shai Avidan,researcher,ai_dev
+Mei-Chen Yeh,researcher,ai_dev
+Kwang-Ting Cheng,researcher,ai_dev
+Hayes,researcher,ai_dev
+Terzopoulos,researcher,ai_dev
+Norman,researcher,ai_dev
+Allan M. Collins,researcher,ai_dev
+David E. Rumelhart,researcher,ai_dev
+Ronald J. Williams,researcher,ai_dev
+Hinton,researcher,ai_dev
+Alex Krizhevsky,researcher,ai_dev
+Sydney Lamb,researcher,ai_dev
+Schank,researcher,ai_dev
+Robert Wilensky,researcher,ai_dev
+Wendy Lehnert,researcher,ai_dev
+Janet Kolodner,researcher,ai_dev
+Herbert Bay,researcher,ai_dev
+Tinne Tuytelaars,researcher,ai_dev
+Luc Van Gool,researcher,ai_dev
+Kass,researcher,ai_dev
+Witkin,researcher,ai_dev
+Devol,researcher,ai_dev
+Xavier Anguera,researcher,ai_dev
+Erik Miller,researcher,ai_dev
+Nicholas Matsakis,researcher,ai_dev
+Paul Viola,researcher,ai_dev
+Gregory I. Piatetsky-Shapiro,researcher,ai_dev
+Usama Fayyad,researcher,ai_dev
+Pat Ambler,researcher,ai_dev
+Robin Popplestone,researcher,ai_dev
+Austin Tate,researcher,ai_dev
+Donald Mitchie,researcher,ai_dev
+Dr. Paulos,researcher,ai_dev
+Ron Sun,researcher,ai_dev
+Vasant Honavar,researcher,ai_dev
+Gregg Oden,researcher,ai_dev
+Cordell Green,researcher,ai_dev
+Joshua Lederberg,researcher,ai_dev
+Paul Cohen,researcher,ai_dev
+Herbert Simon,researcher,ai_dev
+Alan Turing,researcher,ai_dev
+Herbert A. Simon,researcher,ai_dev
+Engelberger,researcher,ai_test
+Mikolov,researcher,ai_test
+Gebel,researcher,ai_test
+Johnson-Laird,researcher,ai_test
+William James,researcher,ai_test
+Rui Hu,researcher,ai_test
+Mark Banard,researcher,ai_test
+John Collomosse,researcher,ai_test
+Richard Zemel,researcher,ai_test
+Zoubin Ghahramani,researcher,ai_test
+Thrun,researcher,ai_test
+Wolfram Burgard,researcher,ai_test
+Dieter Fox,researcher,ai_test
+George Devol,researcher,ai_test
+Steve Mann,researcher,ai_test
+Ray Solomonoff,researcher,ai_test
+Samuel Rathmanner,researcher,ai_test
+Marcus Hutter,researcher,ai_test
+Papineni,researcher,ai_test
+.P. Viola,researcher,ai_test
+M. Jones,researcher,ai_test
+Demis Hassabis,researcher,ai_test
+Shane Legg,researcher,ai_test
+James S. Albus,researcher,ai_test
+Gerd Gigerenzer,researcher,ai_test
+Cardie,researcher,ai_test
+G. A. Miller,researcher,ai_test
+R. Beckwith,researcher,ai_test
+C. D. Fellbaum,researcher,ai_test
+D. Gross,researcher,ai_test
+K. Miller,researcher,ai_test
+Felix Gers,researcher,ai_test
+Fred Cummins,researcher,ai_test
+Alex Graves,researcher,ai_test
+Schmidhuber,researcher,ai_test
+Arthur Samuel,researcher,ai_test
+Youden 's J,researcher,ai_test
+Tetreault,researcher,ai_test
+Thad Starner,researcher,ai_test
+Alex Pentland,researcher,ai_test
+John D. Lafferty,researcher,ai_test
+Andrew McCallum,researcher,ai_test
+Pereiramath,researcher,ai_test
+Breiman,researcher,ai_test
+Milner,researcher,ai_test
+John Searle,researcher,ai_test
+Flores,researcher,ai_test
+Navneet Dalal,researcher,ai_test
+Bill Triggs,researcher,ai_test
+Michael L. Littman,researcher,ai_test
+David A. McAllester,researcher,ai_test
+Richard S. Sutton,researcher,ai_test
+Michael Collins,researcher,ai_test
+Bonn,researcher,ai_test
+Sebastian Thrun,researcher,ai_test
+Yoshua Bengio,researcher,ai_test
+Atran,researcher,ai_test
+Leonard Uhr,researcher,ai_test
+Sussman,researcher,ai_test
+Winograd,researcher,ai_test
+Thorne McCarty,researcher,ai_test
+Keutzer,researcher,ai_test
+Berners-Lee,researcher,ai_test
+James Hendler,researcher,ai_test
+Ora Lassila,researcher,ai_test
+Gerry Sussman,researcher,ai_test
+Walter,researcher,ai_test
+Stephen H. Muggleton,researcher,ai_test
+Fumitada Itakura,researcher,ai_test
+Shuzo Saito,researcher,ai_test
+Wally Feurzeig,researcher,ai_test
+Cynthia Solomon,researcher,ai_test
+John F. Sowa,researcher,ai_test
+John Zachman,researcher,ai_test
+Pausch,researcher,ai_test
+Honglak Lee,researcher,ai_test
+Roger Grosse,researcher,ai_test
+Rajesh Ranganath,researcher,ai_test
+Andrew Y. Ng,researcher,ai_test
+Dr. Julesz,researcher,ai_test
+Lenat,researcher,ai_test
+Ernest Friedman-Hill,researcher,ai_test
+Werbos,researcher,ai_test
+Williams,researcher,ai_test
+Robinson,researcher,ai_test
+Pearlmutter,researcher,ai_test
+David Blei,researcher,ai_test
+Andrew Ng,researcher,ai_test
+Michael I. Jordan,researcher,ai_test
+Sirovich,researcher,ai_test
+Kirby,researcher,ai_test
+Matthew Turk,researcher,ai_test
+"Turk , Matthew A",researcher,ai_test
+"Pentland , Alex P.",researcher,ai_test
+Allen,researcher,ai_test
+C. Raymond Perrault,researcher,ai_test
+Christensen,researcher,ai_test
+Rousseeuw,researcher,ai_test
+Leroy,researcher,ai_test
+Bishnu S. Atal,researcher,ai_test
+Manfred R. Schroeder,researcher,ai_test
+Dalal,researcher,ai_test
+Triggs,researcher,ai_test
+Cordelia Schmid,researcher,ai_test
+X.Y. Feng,researcher,ai_train
+H. Zhang,researcher,ai_train
+Y.J. Ren,researcher,ai_train
+P.H. Shang,researcher,ai_train
+Y. Zhu,researcher,ai_train
+Y.C. Liang,researcher,ai_train
+R.C. Guan,researcher,ai_train
+D. Xu,researcher,ai_train
+Geoff Hinton,researcher,ai_train
+Ronald Fisher,researcher,ai_train
+Bliss,researcher,ai_train
+Hutter,researcher,ai_train
+David Norris,researcher,ai_train
+Laurent Cohen,researcher,ai_train
+Dehaene,researcher,ai_train
+Collins,researcher,ai_train
+Kenneth Ford,researcher,ai_train
+Simon Newcomb,researcher,ai_train
+Reginald Fessenden,researcher,ai_train
+C. Papageorgiou,researcher,ai_train
+T. Poggio,researcher,ai_train
+N. Dalal,researcher,ai_train
+B. Triggs,researcher,ai_train
+Haralick,researcher,ai_train
+Navdeep Jaitly,researcher,ai_train
+Xu,researcher,ai_train
+Doug Lenat,researcher,ai_train
+Poggio,researcher,ai_train
+David Hays,researcher,ai_train
+Boris Katz,researcher,ai_train
+India,country,ai_dev
+Pakistan,country,ai_dev
+Sweden,country,ai_dev
+Switzerland,country,ai_dev
+Germany,country,ai_dev
+Italy,country,ai_dev
+U.S.,country,ai_dev
+Canada,country,ai_dev
+Mexico,country,ai_dev
+Brazil,country,ai_dev
+Argentina,country,ai_dev
+Denmark,country,ai_dev
+Indonesia,country,ai_dev
+US,country,ai_dev
+UK,country,ai_dev
+United States,country,ai_dev
+Netherlands,country,ai_dev
+Tokugawa Shogunate,country,ai_dev
+the U.S.,country,ai_dev
+Austria-Hungary,country,ai_dev
+Czechoslovakia,country,ai_dev
+Czech Republic,country,ai_dev
+Spain,country,ai_dev
+China,country,ai_dev
+Greece,country,ai_dev
+Portugal,country,ai_dev
+France,country,ai_dev
+Lithuania,country,ai_dev
+Korea,country,ai_dev
+Soviet Union,country,ai_test
+United Kingdom,country,ai_test
+Thailand,country,ai_test
+Japan,country,ai_test
+Egypt,country,ai_test
+Syria,country,ai_test
+Australia,country,ai_test
+England,country,ai_test
+Hungary,country,ai_test
+the United States,country,ai_test
+Soviet,country,ai_test
+Uzbek Soviet Socialist Republic,country,ai_test
+Singapore,country,ai_test
+South Korea,country,ai_test
+Sri Lanka,country,ai_test
+Poland,country,ai_train
+Malaysia,country,ai_train
+Philippines,country,ai_train
+Russia,country,ai_train
+South Africa,country,ai_train
+Taiwan,country,ai_train
+Turkey,country,ai_train
+Moldova,country,ai_train
+Kenyan,country,science_dev
+Costa Rica,country,science_dev
+Newfoundland Colony,country,science_test
+Expo II,location,ai_dev
+Medan,location,ai_dev
+Jakarta,location,ai_dev
+Bandung,location,ai_dev
+Purwokerto,location,ai_dev
+Malang,location,ai_dev
+Valencia 's City of arts and Sciences,location,ai_dev
+Houston,location,ai_dev
+Detroit,location,ai_dev
+Michigan,location,ai_dev
+TCF Center,location,ai_dev
+Ford Field,location,ai_dev
+Rochester Hills,location,ai_dev
+Hronov,location,ai_dev
+Bohemia,location,ai_dev
+Colegio Miguel Hernández,location,ai_dev
+Ceulaj,location,ai_dev
+Municipal Sport Arena of Benalmádena,location,ai_dev
+Málaga,location,ai_dev
+Valencia County Fair,location,ai_dev
+City of Arts and Sciences,location,ai_dev
+Valencia,location,ai_dev
+The Computer Museum,location,ai_dev
+Boston,location,ai_dev
+Hanscom Air Force Base,location,ai_dev
+Bedford,location,ai_dev
+Massachusetts,location,ai_dev
+Rancho Los Amigos National Rehabilitation Center,location,ai_dev
+Downey,location,ai_dev
+California,location,ai_dev
+Sång-Säby,location,ai_dev
+Caja Mágica,location,ai_dev
+Madrid,location,ai_dev
+Atlanta,location,ai_dev
+Georgia,location,ai_dev
+Asia / Pacific,location,ai_dev
+Beihang University Gymnasium,location,ai_dev
+Beijing,location,ai_dev
+Freedom Hall,location,ai_dev
+Paris,location,ai_dev
+Taejon,location,ai_dev
+Robot Hall of Fame,location,ai_test
+Brighton Centre,location,ai_test
+Brighton,location,ai_test
+Deutsches Museum Bonn,location,ai_test
+Chicago,location,ai_test
+Cow Palace,location,ai_test
+Shanghai,location,ai_test
+Oakland,location,ai_test
+Wallersdorf,location,ai_test
+Sapporo Dome,location,ai_test
+Greenwich,location,ai_test
+London,location,ai_test
+The O2 Arena,location,ai_test
+Nagoya,location,ai_test
+Wright-Patterson Air Force Base,location,ai_test
+Ohio,location,ai_test
+Cleveland Clinic,location,ai_test
+Jerusalem,location,ai_test
+New York City,location,ai_test
+Bangalore,location,ai_test
+Montreal,location,ai_test
+Florida,location,ai_test
+Edinburgh,location,ai_test
+Hill Air Force Base,location,ai_test
+Ogden,location,ai_test
+Utah,location,ai_test
+Le Défenseur du Temps,location,ai_test
+Samarkand,location,ai_test
+Moscow,location,ai_test
+Niagara Falls,location,ai_test
+Alexandra Palace,location,ai_test
+Scotiabank Theatre Toronto,location,ai_train
+TIFF Bell Lightbox,location,ai_train
+Chișinău,location,ai_train
+Moldavian SSR,location,ai_train
+Olympic golf course,location,science_dev
+Agudseri,location,science_dev
+Agudzery,location,science_dev
+Jingūji,location,science_dev
+East Malaysia,location,science_dev
+Pisa,location,science_dev
+Franklin County,location,science_dev
+10th District,location,science_dev
+Cape of Good Hope,location,science_dev
+Rustiban,location,science_dev
+Palomar Observatory,location,science_dev
+John Innes Centre,location,science_dev
+Galveston County,location,science_dev
+Pine Avenue,location,science_dev
+Cormier House,location,science_dev
+Sillamäe,location,science_dev
+U.S. Palomar Observatory,location,science_dev
+Obninsk,location,science_dev
+Hamburger Sternwarte,location,science_dev
+Palmerston North,location,science_dev
+Kumasi,location,science_dev
+Point Loma,location,science_dev
+Marine Corps Recruit Depot San Diego,location,science_dev
+MCRD San Diego,location,science_dev
+Naval Base Point Loma,location,science_dev
+MA,location,science_dev
+Middlesex Hospital,location,science_dev
+London Hospital,location,science_dev
+King 's College Hospital,location,science_dev
+Charing Cross Hospital,location,science_dev
+Genoa,location,science_dev
+Palermo,location,science_dev
+Brescia,location,science_dev
+New York-based,location,science_dev
+Antony,location,science_dev
+Cawsand,location,science_dev
+Crafthole,location,science_dev
+Cremyll,location,science_dev
+Downderry,location,science_dev
+Fourlanesend,location,science_dev
+Freathy,location,science_dev
+Hessenford,location,science_dev
+Higher Wilcove,location,science_dev
+Kingsand,location,science_dev
+Lower Tregantle,location,science_dev
+Maker,location,science_dev
+Mount Edgcumbe House,location,science_dev
+Mount Edgcumbe Country Park,location,science_dev
+Penlee,location,science_dev
+Polbathic,location,science_dev
+Portwrinkle,location,science_dev
+Rame,location,science_dev
+Rame Head,location,science_dev
+Rame Peninsula,location,science_dev
+Seaton,location,science_dev
+Seaton Valley Countryside Park,location,science_dev
+Sheviock,location,science_dev
+St John,location,science_dev
+Torpoint,location,science_dev
+Whitsand Bay,location,science_dev
+Widegates,location,science_dev
+Withnoe Barton,location,science_dev
+Tornio river valley,location,science_dev
+Lapland,location,science_dev
+Rancho,location,science_dev
+Mirage,location,science_dev
+Betty Ford Center,location,science_dev
+Eisenhower Medical Center,location,science_dev
+Van Nuys,location,science_dev
+Northridge,location,science_dev
+Sylmar,location,science_dev
+Encino,location,science_dev
+Sherman Oaks,location,science_dev
+Wichita Falls,location,science_dev
+Mackay,location,science_dev
+Stadium Mackay,location,science_dev
+Northern Rocky Mountains,location,science_dev
+Lake Williston,location,science_dev
+Rocky Mountain Foothills,location,science_dev
+Peace River,location,science_dev
+Cassiar Mountains,location,science_dev
+Omineca Mountains,location,science_dev
+Kepler space observatory,location,science_dev
+Arkadelphia,location,science_dev
+Arctic,location,science_dev
+Royal Prince Alfred Hospital,location,science_test
+Annapolis,location,science_test
+MD,location,science_test
+Little Bay Copper Mine,location,science_test
+Thimble Tickle Bay,location,science_test
+Notre Dame Bay,location,science_test
+Oxon,location,science_test
+Doughiska,location,science_test
+Dubna,location,science_test
+Wakō,location,science_test
+meridian of Greenwich,location,science_test
+A30 road,location,science_test
+Retew,location,science_test
+Treviscoe,location,science_test
+Redmoor,location,science_test
+Penpillick,location,science_test
+Cambridge,location,science_test
+Big Bend Country,location,science_test
+Columbia Country,location,science_test
+Columbia Valley,location,science_test
+Arrow Lakes,location,science_test
+Loop,location,science_test
+Stockport,location,science_test
+Edgeley Park,location,science_test
+Naval Station San Diego,location,science_test
+Ballast Point,location,science_test
+Nuclear Submarine base,location,science_test
+Naval Amphibious Base Coronado,location,science_test
+Radcliffe Infirmary,location,science_test
+Ong Valley,location,science_test
+Kreiling Mesa,location,science_test
+Miller Range,location,science_test
+Palomar,location,science_test
+Louisiana,location,science_test
+Brabourne Stadium,location,science_test
+Wankhede Stadium,location,science_test
+Keelung City,location,science_test
+M. A. Chidambaram Stadium,location,science_test
+Vivekananda House,location,science_test
+Dr. Annie Besant Park,location,science_test
+Palmer Land,location,science_test
+North Pole,location,science_test
+Hammarbybacken,location,science_test
+Estoril,location,science_test
+Cascais,location,science_test
+Algés,location,science_test
+Scheele,scientist,science_dev
+Richard Myers,scientist,science_dev
+Naqvi,scientist,science_dev
+Gerty Theresa Cori,scientist,science_dev
+née Radnitz,scientist,science_dev
+Rexer,scientist,science_dev
+Heinz Pose,scientist,science_dev
+Werner Hartmann,scientist,science_dev
+Heinz Barwich,scientist,science_dev
+Galton,scientist,science_dev
+Walter Weldon,scientist,science_dev
+Arthur Dukinfield Darbishire,scientist,science_dev
+Karl Pearson,scientist,science_dev
+Bateson,scientist,science_dev
+Mendel,scientist,science_dev
+Charles Davenport,scientist,science_dev
+Wilhelm Johannsen,scientist,science_dev
+Leakey,scientist,science_dev
+Mary Leakey,scientist,science_dev
+Louis Leakey,scientist,science_dev
+Richard Leakey,scientist,science_dev
+Werner Siemens,scientist,science_dev
+Thomas Edison,scientist,science_dev
+Alexander Graham Bell,scientist,science_dev
+William Thomson,scientist,science_dev
+Max Born,scientist,science_dev
+Werner Heisenberg,scientist,science_dev
+Kramers,scientist,science_dev
+Michelson,scientist,science_dev
+Peter Goldreich,scientist,science_dev
+John Hopkinson,scientist,science_dev
+Philipp Lenard,scientist,science_dev
+Ernest Rutherford,scientist,science_dev
+Paul Dirac,scientist,science_dev
+Pyotr Kapitsa,scientist,science_dev
+Peter Kapitza,scientist,science_dev
+Thompson,scientist,science_dev
+Sawa,scientist,science_dev
+Nusinow,scientist,science_dev
+Kay,scientist,science_dev
+Imaizumi,scientist,science_dev
+Hans Moravec,scientist,science_dev
+Kevin Warwick,scientist,science_dev
+Matjaž Perc,scientist,science_dev
+Rubbia,scientist,science_dev
+Marcello Conversi,scientist,science_dev
+Henry Chandler Cowles,scientist,science_dev
+Arthur Tansley,scientist,science_dev
+Frederic Clements,scientist,science_dev
+Glenn,scientist,science_dev
+Alfred Wegener,scientist,science_dev
+Maurice Ewing,scientist,science_dev
+Robert S. Dietz,scientist,science_dev
+Harry Hammond Hess,scientist,science_dev
+Hugo Benioff,scientist,science_dev
+"Walter C. Pitman , III",scientist,science_dev
+Frederick Vine,scientist,science_dev
+Drummond Matthews,scientist,science_dev
+Keith Runcorn,scientist,science_dev
+Bryan L. Isacks,scientist,science_dev
+Edward Bullard,scientist,science_dev
+Xavier Le Pichon,scientist,science_dev
+Dan McKenzie,scientist,science_dev
+W. Jason Morgan,scientist,science_dev
+John Tuzo Wilson,scientist,science_dev
+Miller,scientist,science_dev
+Alan Hodgkin,scientist,science_dev
+Andrew Huxley,scientist,science_dev
+Bernard Katz,scientist,science_dev
+John Herschel,scientist,science_dev
+William Herschel,scientist,science_dev
+F. Berkei,scientist,science_dev
+W. Borrmann,scientist,science_dev
+W. Czulius,scientist,science_dev
+Kurt Diebner,scientist,science_dev
+Georg Hartwig,scientist,science_dev
+Karl-Heinz Höcker,scientist,science_dev
+Walter Herrmann,scientist,science_dev
+Menzel,scientist,science_dev
+Ingrid van Houten-Groeneveld,scientist,science_dev
+Cornelis van Houten,scientist,science_dev
+Tom Gehrels,scientist,science_dev
+Gibbs,scientist,science_dev
+Joseph Liouville,scientist,science_dev
+Michel Chasles,scientist,science_dev
+Walther Bothe,scientist,science_dev
+Siegfried Flügge,scientist,science_dev
+Hans Geiger,scientist,science_dev
+Otto Hahn,scientist,science_dev
+Paul Harteck,scientist,science_dev
+Gerhard Hoffmann,scientist,science_dev
+Josef Mattauch,scientist,science_dev
+Georg Stetter,scientist,science_dev
+Eggleton,scientist,science_dev
+Cotton,scientist,science_dev
+Cornelis Johannes van Houten,scientist,science_dev
+Haraway,scientist,science_dev
+David Hilbert,scientist,science_dev
+Woldemar Voigt,scientist,science_dev
+Walther Nernst,scientist,science_dev
+Karl Schwarzschild,scientist,science_dev
+Hermann Minkowski,scientist,science_dev
+Pouillet,scientist,science_dev
+Savart,scientist,science_dev
+Gabriel Lamé,scientist,science_dev
+Claude-Louis Navier,scientist,science_dev
+Cauchy,scientist,science_dev
+Kepler,scientist,science_dev
+Wasserburg,scientist,science_dev
+Harold Urey,scientist,science_dev
+Mark Inghram,scientist,science_dev
+García-Sastre,scientist,science_dev
+Ludwig Boltzmann,scientist,science_dev
+Josiah Willard Gibbs,scientist,science_dev
+James Clerk Maxwell,scientist,science_dev
+René Descartes,scientist,science_dev
+Arthur Cayley,scientist,science_dev
+William Rowan Hamilton,scientist,science_dev
+Ludwig Schläfli,scientist,science_dev
+Bernhard Riemann,scientist,science_dev
+Eduard Otto Emil Karl Adam Freiherr von Stackelberg,scientist,science_dev
+Singer,scientist,science_dev
+Alan Turing,scientist,science_dev
+John von Neumann,scientist,science_dev
+Norbert Wiener,scientist,science_dev
+Claude Shannon,scientist,science_dev
+Warren McCullough,scientist,science_dev
+Walter Pitts,scientist,science_dev
+Donald Hebb,scientist,science_dev
+Gerard Kuiper,scientist,science_dev
+Einstein,scientist,science_dev
+Paul Ehrenfest,scientist,science_dev
+Marcel Grossmann,scientist,science_dev
+János Plesch,scientist,science_dev
+Daniel Q. Posin,scientist,science_dev
+Maurice Solovine,scientist,science_dev
+Schintlmeister,scientist,science_dev
+Ernst Rexer,scientist,science_dev
+Michel Adanson,scientist,science_dev
+Antoine Laurent de Jussieu,scientist,science_dev
+Augustin Pyramus de Candolle,scientist,science_dev
+Goodall,scientist,science_dev
+Otto Heckmann,scientist,science_dev
+Engelbert Schücking,scientist,science_dev
+Beatrice Mintz,scientist,science_dev
+Rudolf Jaenisch,scientist,science_dev
+Pupin,scientist,science_dev
+Ooguri,scientist,science_dev
+Stephen Demainbray,scientist,science_dev
+Francis Ronalds,scientist,science_dev
+John Welsh,scientist,science_dev
+Balfour Stewart,scientist,science_dev
+Francis John Welsh Whipple,scientist,science_dev
+Charles Chree,scientist,science_dev
+George Clarke Simpson,scientist,science_dev
+Schweickart,scientist,science_dev
+Michael Atiyah,scientist,science_dev
+Stanley N. Cohen,scientist,science_dev
+Rita Levi-Montalcini,scientist,science_dev
+Peter Medawar,scientist,science_dev
+August Krogh,scientist,science_dev
+Kenneth Denbigh,scientist,science_dev
+Christof Koch,scientist,science_dev
+Francis Crick,scientist,science_dev
+Gadagkar,scientist,science_dev
+René Thom,scientist,science_dev
+John Milnor,scientist,science_dev
+Stephen Smale,scientist,science_dev
+Schrödinger,scientist,science_dev
+Max Planck,scientist,science_dev
+Albert Einstein,scientist,science_dev
+Niels Bohr,scientist,science_dev
+Arnold Sommerfeld,scientist,science_dev
+Li,scientist,science_dev
+Emil Wiechert,scientist,science_dev
+Beno Gutenberg,scientist,science_dev
+Andrija Mohorovičić,scientist,science_dev
+Harold Jeffreys,scientist,science_dev
+Inge Lehmann,scientist,science_dev
+Charles Francis Richter,scientist,science_dev
+Francis Birch,scientist,science_dev
+Frank Press,scientist,science_dev
+Hiroo Kanamori,scientist,science_dev
+Walter Elsasser,scientist,science_dev
+Sakharov,scientist,science_dev
+Valery Chalidze,scientist,science_dev
+Andrei Tverdokhlebov,scientist,science_dev
+Alan Stern,scientist,science_dev
+Moore,scientist,science_dev
+George Darwin,scientist,science_dev
+Charles Darwin,scientist,science_dev
+Carolyn S. Shoemaker,scientist,science_dev
+Eugene Merle Shoemaker,scientist,science_dev
+David H. Levy,scientist,science_dev
+Gilbert Gil,scientist,science_dev
+Jerome Perlow,scientist,science_dev
+Peter Debye,scientist,science_dev
+Richard Becker,scientist,science_dev
+Sommerfeld,scientist,science_dev
+Charles Chamberland,scientist,science_dev
+Herschbach,scientist,science_dev
+Wang,scientist,science_dev
+Ting,scientist,science_dev
+Michalak,scientist,science_dev
+Kandler,scientist,science_dev
+Hill,scientist,science_dev
+Sagan,scientist,science_dev
+Sherrington,scientist,science_dev
+Robert Döpel,scientist,science_dev
+Wolfgang Gentner,scientist,science_dev
+Wilhelm Hanle,scientist,science_dev
+Georg Joos,scientist,science_dev
+Luis Walter Alvarez,scientist,science_dev
+George Kistiakowsky,scientist,science_dev
+Finkelnburg,scientist,science_dev
+Carl Friedrich von Weizsäcker,scientist,science_dev
+Hans Kopfermann,scientist,science_dev
+Fritz Bopp,scientist,science_dev
+Otto Haxel,scientist,science_dev
+Willibald Jentschke,scientist,science_dev
+Heinz Maier-Leibnitz,scientist,science_dev
+Wolfgang Riezler,scientist,science_dev
+Wilhelm Walcher,scientist,science_dev
+Klaus Clusius,scientist,science_dev
+Pierre Louis Maupertuis,scientist,science_dev
+Jacques Cassini,scientist,science_dev
+Max Volmer,scientist,science_dev
+E. Prodan,scientist,science_dev
+C. Prodan,scientist,science_dev
+"J. H. Miller , Jr",scientist,science_dev
+Murray Gell-Mann,scientist,science_dev
+Frank Wilczek,scientist,science_dev
+Andrew Wiles,scientist,science_dev
+Timothy Gowers,scientist,science_dev
+G. Evelyn Hutchinson,scientist,science_dev
+Tansley,scientist,science_dev
+Charles Sutherland Elton,scientist,science_dev
+Vladimir Vernadsky,scientist,science_dev
+Libby,scientist,science_dev
+Sydney Brenner,scientist,science_dev
+Horvitz,scientist,science_dev
+John Sulston,scientist,science_dev
+Stephen Hales,scientist,science_dev
+Joseph Black,scientist,science_dev
+Joseph Priestley,scientist,science_dev
+Antoine-Laurent Lavoisier,scientist,science_dev
+Welch,scientist,science_dev
+Daniel Janzen,scientist,science_dev
+Stephen Hubbell,scientist,science_dev
+Gary Stiles,scientist,science_dev
+Luis Diego Gómez,scientist,science_dev
+Isidro A. Chacón,scientist,science_dev
+Gordon B. Small,scientist,science_dev
+Alwyn H. Gentry,scientist,science_dev
+Robin Foster,scientist,science_dev
+Morley,scientist,science_dev
+Gregory S. Paul,scientist,science_dev
+Kenneth Carpenter,scientist,science_dev
+Short,scientist,science_dev
+John Keill,scientist,science_dev
+John Theophilus Desaguliers,scientist,science_dev
+William Whiston,scientist,science_dev
+Henry Hallett Dale,scientist,science_dev
+Otto Loewi,scientist,science_dev
+Ernest Starling,scientist,science_dev
+de Bary,scientist,science_dev
+Lowenstam,scientist,science_dev
+Harrison Brown,scientist,science_dev
+Sam Epstein,scientist,science_dev
+Clair Patterson,scientist,science_dev
+August Kopff,scientist,science_test
+Wolf,scientist,science_test
+Edgar H. Booth,scientist,science_test
+Nüsslein-Volhard,scientist,science_test
+Francis Bacon,scientist,science_test
+Robert Boyle,scientist,science_test
+Robert Hooke,scientist,science_test
+John Mayow,scientist,science_test
+Paul G. Comba,scientist,science_test
+Eigen,scientist,science_test
+Arnold Eucken,scientist,science_test
+Michael Faraday,scientist,science_test
+Maxwell,scientist,science_test
+David J. Griffiths,scientist,science_test
+Julius Tafel,scientist,science_test
+Hans Kramers,scientist,science_test
+Helge Holst,scientist,science_test
+Henry Acland,scientist,science_test
+Ashutosh Mukherjee,scientist,science_test
+Jan Baptist van Helmont,scientist,science_test
+Isaac Newton,scientist,science_test
+Weisskopf,scientist,science_test
+Tania Singer,scientist,science_test
+Chris Frith,scientist,science_test
+Joly,scientist,science_test
+John Preskill,scientist,science_test
+Kip Thorne,scientist,science_test
+Stephen Hawking,scientist,science_test
+George Ellery Hale,scientist,science_test
+Mechnikov,scientist,science_test
+Hideki Shirakawa,scientist,science_test
+白川 英樹,scientist,science_test
+Shirakawa Hideki,scientist,science_test
+J.B. van Helmont,scientist,science_test
+Henry Cavendish,scientist,science_test
+Carl Wilhelm Scheele,scientist,science_test
+Zakian,scientist,science_test
+Jeffreys,scientist,science_test
+Lin,scientist,science_test
+Marie Curie,scientist,science_test
+Pierre Curie,scientist,science_test
+Johan Gadolin,scientist,science_test
+Galileo Galilei,scientist,science_test
+Tycho Brahe,scientist,science_test
+Johannes Kepler,scientist,science_test
+Christian Olufsen,scientist,science_test
+Maheswari,scientist,science_test
+Robert S. Bandurski,scientist,science_test
+John Madsen,scientist,science_test
+Xu,scientist,science_test
+Charles Mason,scientist,science_test
+Jeremiah Dixon,scientist,science_test
+Carl Ramsauer,scientist,science_test
+Wolfgang Finkelnburg,scientist,science_test
+Juilfs,scientist,science_test
+Renato Dulbecco,scientist,science_test
+Gregor Mendel,scientist,science_test
+William Harvey,scientist,science_test
+Georges Cuvier,scientist,science_test
+Richard Owen,scientist,science_test
+Adam Sedgwick,scientist,science_test
+Charles Lyell,scientist,science_test
+T Hockaday,scientist,science_test
+Donald Prothero,scientist,science_test
+Roy Mackal,scientist,science_test
+H. Hart,scientist,science_test
+A. Bashir-Hashemi,scientist,science_test
+J. Luo,scientist,science_test
+M. A. Meador,scientist,science_test
+Alberts,scientist,science_test
+Emilio Segrè,scientist,science_test
+Owen Chamberlain,scientist,science_test
+Steven Pinker,scientist,science_test
+Chomsky,scientist,science_test
+Gerald Edelman,scientist,science_test
+Alexander Luria,scientist,science_test
+Antonio de Ulloa y de la Torre-Giralt,scientist,science_test
+Hewish,scientist,science_test
+Hans von Euler-Chelpin,scientist,science_test
+Ulf von Euler,scientist,science_test
+Arthur Kornberg,scientist,science_test
+Roger D. Kornberg,scientist,science_test
+Alexander Marson,scientist,science_test
+Max Dehn,scientist,science_test
+W. B. R. Lickorish,scientist,science_test
+Allen Hatcher,scientist,science_test
+Parsons,scientist,science_test
+Holmes,scientist,science_test
+Hermann von Helmholtz,scientist,science_test
+Gustav Kirchhoff,scientist,science_test
+Lord Kelvin,scientist,science_test

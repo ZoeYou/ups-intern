@@ -61,7 +61,6 @@ def main():
             # retrieve all patents in the file
             patents = [patent for patent in open(file).read().split('\n\n\n')]
             for patent in patents:
-
                 patent_year = re.findall('\n_____(\d\d\d\d)\d', patent)
                 if patent_year:
                     patent_year = int(patent_year[0])
@@ -73,8 +72,10 @@ def main():
                     continue
                 f.write(patent+'\n\n\n')
                 cnt += 1
-
-    msg.good(f"Complete. Concatenated {cnt} patents to file {output_file.resolve()}")
+    if cnt == 0:
+        raise ValueError("No patent found in the input directory.")
+    else:
+        msg.good(f"Complete. Concatenated {cnt} patents to file {output_file.resolve()}")
     
 
 if __name__ == "__main__":

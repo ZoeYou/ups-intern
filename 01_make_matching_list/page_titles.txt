@@ -7865,7 +7865,7 @@ xylometazoline	Xylometazoline
 codeine	Codeine
 pentazocine	Pentazocine
 codine	Codine
-nan	Nan
+	Nan
 monoamines	Monoamine neurotransmitter
 monosodium glutamate	Monosodium glutamate
 msg	Monosodium glutamate

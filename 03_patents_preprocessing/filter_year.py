@@ -61,7 +61,12 @@ def main():
             # retrieve all patents in the file
             patents = [patent for patent in open(file).read().split('\n\n\n')]
             for patent in patents:
-                patent_year = int(re.findall('\n_____(\d\d\d\d)\d', patent)[0])
+
+                patent_year = re.findall('\n_____(\d\d\d\d)\d', patent)
+                if patent_year:
+                    patent_year = int(patent_year[0])
+                else:
+                    continue
 
                 # check patent released year
                 if patent_year < args.year:

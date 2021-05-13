@@ -2618,7 +2618,6 @@ degradation,Process,scienceie
 acidification,Process,scienceie
 bulk-mean concentration,Material,scienceie
 cb⁎¯,Material,scienceie
-a,Material,scienceie
 turbulent mixing,Process,scienceie
 water flow,Process,scienceie
 extensive investigation on the efficiency of the aquarium chemical reaction,Task,scienceie
@@ -7766,10 +7765,8 @@ asphaltic samples,Material,scienceie
 modified asphalt,Material,scienceie
 glass particles,Material,scienceie
 saphaltic samples,Material,scienceie
-batches #1/#2,Material,scienceie
 110-nm process technology,Process,scienceie
 lnt,Material,scienceie
-batches #3/#4,Material,scienceie
 #5/#6,Material,scienceie
 process technology,Process,scienceie
 transistor parameters,Process,scienceie

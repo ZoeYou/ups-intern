@@ -65,7 +65,7 @@ def main():
                         help="Path to output directory.")
 
     parser.add_argument("--patterns_file",
-                        default='./patterns.jsonl',
+                        default='./assets/patterns.jsonl',
                         type=str,
                         help="Path of the patterns file.")
 

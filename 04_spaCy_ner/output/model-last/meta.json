@@ -2,13 +2,13 @@
   "lang":"en",
   "name":"pipeline",
   "version":"0.0.0",
-  "spacy_version":">=3.0.6,<3.1.0",
+  "spacy_version":">=3.0.5,<3.1.0",
   "description":"",
   "author":"",
   "email":"",
   "url":"",
   "license":"",
-  "spacy_git_version":"df3444421",
+  "spacy_git_version":"53a3b967a",
   "vectors":{
     "width":0,
     "vectors":0,
@@ -37,15 +37,15 @@
   "performance":{
     "ents_per_type":{
       "TERM":{
-        "p":0.9887640449,
-        "r":0.9565217391,
-        "f":0.9723756906
+        "p":0.9277095454,
+        "r":0.9139248567,
+        "f":0.9207656116
       }
     },
-    "ents_f":0.9723756906,
-    "ents_p":0.9887640449,
-    "ents_r":0.9565217391,
-    "tok2vec_loss":0.8716257795,
-    "ner_loss":0.4893844282
+    "ents_f":0.9207656116,
+    "ents_p":0.9277095454,
+    "ents_r":0.9139248567,
+    "tok2vec_loss":1217.6507306322,
+    "ner_loss":4174.7095181241
   }
 }

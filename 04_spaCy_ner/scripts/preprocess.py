@@ -107,8 +107,10 @@ def main():
     # create dataset
     msg.text("Creating NER dataset:")
     DATA = []
+
     #iterate over the sentences
-    for sentence in tqdm(sentences):
+    random.shuffle(sentences)
+    for sentence in tqdm(sentences[:10000]):
         doc = nlp(sentence)
         entities = []    
         for ent in doc.ents:

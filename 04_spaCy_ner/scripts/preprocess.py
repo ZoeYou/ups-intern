@@ -74,14 +74,19 @@ def main():
                         type=float,
                         help="Split rate of evaluation dataset.")
 
-    # parser.add_argument("--max_docs",
-    #                     default=10 ** 6,
-    #                     type=int,
-    #                     help="Maximum docs per batch."           
-    # )
+    parser.add_argument("--max_docs",
+                        default=10 ** 5,
+                        type=int,
+                        help="Maximum docs per batch.")
+
+    parser.add_argument("--n_process",
+                        default=4,
+                        type=int,
+                        help="Number of process (multiprocessinng)"
+                        )
+           
 
     args = parser.parse_args()
-
 
     # read patterns
     msg.text("Reading pattern file...")
@@ -110,10 +115,10 @@ def main():
 
     #iterate over the sentences
     random.shuffle(sentences)
-    for sentence in tqdm(sentences[:10000]):
+    for sentence in tqdm(sentences[:args.max_docs]):
         doc = nlp(sentence)
-        entities = []    
-        for ent in doc.ents:
+        entities = [] 
+        for ent in sentence.ents:
             entities.append([ent.start_char, ent.end_char, ent.label_])
         DATA.append([sentence, {"entities": entities}])    
 

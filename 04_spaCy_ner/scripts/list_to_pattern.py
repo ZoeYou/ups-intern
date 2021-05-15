@@ -45,7 +45,7 @@ def main():
     matching_list = pd.read_csv(args.terms_file, delimiter='\t', dtype={'wiki_title': str})
 
     msg.text("Start creating patterns:")
-    with open('patterns.jsonl','w') as f:
+    with open(args.out_dir+'patterns.jsonl','w') as f:
         terms = matching_list.term.values.astype(str)
         for term in tqdm(terms):
             f.write(term2jsonl(term, args.case_insensitive) + '\n')

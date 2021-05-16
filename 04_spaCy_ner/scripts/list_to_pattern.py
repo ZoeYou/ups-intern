@@ -2,6 +2,7 @@
 import json
 import argparse
 import pandas as pd 
+import numpy as np
 from wasabi import msg
 from tqdm import tqdm
 
@@ -46,11 +47,12 @@ def main():
 
     msg.text("Start creating patterns:")
     with open(args.out_dir+'patterns.jsonl','w') as f:
-        terms = matching_list.term.values.astype(str)
+        terms = np.concatenate((matching_list.term.values.astype(str), matching_list.wiki_title.values.astype(str)))
+        terms = set(terms)  # remove the duplicate
         for term in tqdm(terms):
             f.write(term2jsonl(term, args.case_insensitive) + '\n')
     msg.good(
-        f"Completed. Saved final {len(matching_list)} patterns to file."
+        f"Completed. Saved final {len(terms)} patterns to file."
     )
 
 

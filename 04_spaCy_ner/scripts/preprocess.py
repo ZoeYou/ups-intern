@@ -118,7 +118,7 @@ def main():
     for sentence in tqdm(sentences[:args.max_docs]):
         doc = nlp(sentence)
         entities = [] 
-        for ent in sentence.ents:
+        for ent in doc.ents:
             entities.append([ent.start_char, ent.end_char, ent.label_])
         DATA.append([sentence, {"entities": entities}])    
 
@@ -133,7 +133,7 @@ def main():
     db_eval = convert_format(dataset=TEST_DATA)
 
     # save .spacy file
-    patent_name = os.path.basename(args.in_file).split('_')[0]
+    patent_name = os.path.basename(args.in_file).split('.')[0]
     db_train.to_disk(f"{args.out_dir}/{patent_name}_terms_training.spacy")
     db_eval.to_disk(f"{args.out_dir}/{patent_name}_terms_eval.spacy")
     msg.good(f"Processed totally {len(db_train) + len(db_eval)} documents to {args.out_dir}")

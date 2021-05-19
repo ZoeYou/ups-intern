@@ -7,18 +7,16 @@ from wasabi import msg
 from tqdm import tqdm
 
 
-def term2jsonl(term, case_insensitive, label = 'TERM'):
-    tokens = term.lower().split()
-    
+def term2jsonl(term, case_sensitive, label = 'TERM'): 
     json_line = {}
     json_line["label"] = label 
 
-    if case_insensitive:
-        json_line["pattern"] = [{"lower":token} for token in tokens]  
+    if case_sensitive:
+        json_line["pattern"] = term 
     else:
-        json_line["pattern"] = [token for token in tokens]
+        json_line["pattern"] = [{"lower":token} for token in term.lower().split()] 
     
-    return json.dumps(json_line).replace(" ","")
+    return json.dumps(json_line)
 
 
 def main():
@@ -35,7 +33,7 @@ def main():
                         required=True,
                         help="Path to output directory.")
 
-    parser.add_argument("--case_insensitive",
+    parser.add_argument("--case_sensitive",
                         default=True,
                         type=str,
                         help="Whether the pattern should be case insensitive, True as default.")
@@ -50,7 +48,7 @@ def main():
         terms = np.concatenate((matching_list.term.values.astype(str), matching_list.wiki_title.values.astype(str)))
         terms = set(terms)  # remove the duplicate
         for term in tqdm(terms):
-            f.write(term2jsonl(term, args.case_insensitive) + '\n')
+            f.write(term2jsonl(term, args.case_sensitive) + '\n')
     msg.good(
         f"Completed. Saved final {len(terms)} patterns to file."
     )

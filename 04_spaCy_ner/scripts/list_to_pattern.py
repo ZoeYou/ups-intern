@@ -42,11 +42,11 @@ def main():
 
     msg.text("Uploading data...")
     matching_list = pd.read_csv(args.terms_file, delimiter='\t', dtype={'wiki_title': str})
+    print(matching_list.head(100))
 
     msg.text("Start creating patterns:")
     with open(args.out_dir+'patterns.jsonl','w') as f:
-        terms = np.concatenate((matching_list.term.values.astype(str), matching_list.wiki_title.values.astype(str)))
-        terms = set(terms)  # remove the duplicate
+        terms = set(matching_list.term.values.astype(str))  # remove the duplicate
         for term in tqdm(terms):
             f.write(term2jsonl(term, args.case_sensitive) + '\n')
     msg.good(

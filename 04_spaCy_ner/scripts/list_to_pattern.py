@@ -42,7 +42,6 @@ def main():
 
     msg.text("Uploading data...")
     matching_list = pd.read_csv(args.terms_file, delimiter='\t', dtype={'wiki_title': str})
-    print(matching_list.head(100))
 
     msg.text("Start creating patterns:")
     with open(args.out_dir+'patterns.jsonl','w') as f:

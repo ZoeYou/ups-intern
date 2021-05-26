@@ -5,26 +5,45 @@ import re
 import argparse
 import random 
 import os
+import pandas as pd
+
 from wasabi import msg
+from pathlib import Path
 from tqdm import tqdm
 from spacy.tokens import DocBin
+from spacy.matcher import Matcher
+from collections import defaultdict
+
+def collect_sents(doc, matcher):
+    """
+    collect sentences with matched spans, 
+    if overlapping then pick up the longest else pick up the 1st
+    """
+    matches = matcher(doc)
+    dict_sents = defaultdict(list)
+    
+    spans = [doc[start:end] for _, start, end in matches]
+    for span in spacy.util.filter_spans(spans): 
+        term = doc[span.start: span.end]      
+        sent = term.sent  # Sentence containing matched span
+    # Append mock entity for match in displaCy style to matched_sents
+    # get the match span by ofsetting the start and end of the span with the
+    # start and end of the sentence in the doc
+        match_ents = (
+            term.start_char - sent.start_char,  # start
+            term.end_char - sent.start_char,    # end 
+            "TERM", # label
+        )
+        dict_sents[sent.text].append(match_ents)
+    dict_sents = dict(dict_sents)
+
+    return [(key, {"entities": value}) for key, value in dict_sents.items()]
 
 
-def create_patterns(patterns_file):
-    with open(patterns_file, 'r', encoding='utf-8') as f:
-        lines = f.read().splitlines()
+def save_data(dataset, out_file):
+    with open(out_file, 'w', encoding='utf-8') as f:
+        json.dump(dataset, f, indent=4)
 
-    json_lines = [json.loads(line) for line in lines]
-    return json_lines
-
-# def save_data(dataset, eval_size, out_file):
-#     random.shuffle(dataset)
-#     split = int(len(dataset) * eval_size)
-
-#     TRAIN_DATA = dataset[split:]
-#     TEST_DATA = dataset[:split]
-#     with open(out_file, 'w', encoding='utf-8') as f:
-#         json.dump(TRAIN_DATA, f, indent=4)
 
 def convert_format(dataset):
     nlp = spacy.blank('en')
@@ -59,15 +78,14 @@ def main():
                         help="Path of the patent text file after being preprocessed.")
     
     parser.add_argument("--out_dir",
-                        default=None,
+                        default='../03_spaCy_ner',
                         type=str,
-                        required=True,
                         help="Path to output directory.")
 
-    parser.add_argument("--patterns_file",
-                        default='./assets/patterns.jsonl',
+    parser.add_argument("--matching_list",
+                        default='../01_make_matching_list/matching_list.csv',
                         type=str,
-                        help="Path of the patterns file.")
+                        help="Path of the matching list file.")
 
     parser.add_argument("--eval_size",
                         default=0.2,
@@ -88,18 +106,60 @@ def main():
 
     args = parser.parse_args()
 
-    # read patterns
-    msg.text("Reading pattern file...")
+    output_path = Path(args.out_dir)
+    if not output_path.exists():
+        output_path.mkdir(parents=True)
+        msg.good(f"Created output directory {args.out_dir}")
 
-    patterns = create_patterns(patterns_file = args.patterns_file)
-    msg.good(f"Read {len(patterns)} pattern rules.")
+    # create matcher
+    msg.text("Creating Rule-based Matcher...")
 
-    # create spacy entity ruler
-    msg.text("Creating entity ruler...")
-    nlp = spacy.blank("en")
-    ruler = nlp.add_pipe("entity_ruler")
-    ruler.add_patterns(patterns)
-    msg.good("Complete.")
+    # load matching list
+    term_list = pd.read_csv(args.matching_list, delimiter='\t', na_filter= False)
+
+    # ==============================================PATTERNS_DEFINITION=================================================
+    nlp = spacy.load("en_core_web_lg")
+
+    # add custom stop words 
+    nlp.Defaults.stop_words |= {"secondary", "primary", "second", "third", "forth", "fourth", "useful", "fewer", "more", "less"}
+
+    # build matcher
+    matcher = Matcher(nlp.vocab, validate=True)
+
+    # build patterns
+    patterns = []
+    for term in tqdm(term_list.term.values):
+        term_split = term.split(' ')
+        if len(term_split) > 1: # if it is MWE
+            patterns.append([{"POS": {"IN":["ADJ", "NOUN", "PROPN"]}, "OP": "*", "IS_STOP": False}] 
+                            + [{"TEXT": token} for token in term_split]
+                            + [{"POS": {"IN":["PROPN", "NOUN"]}, "OP": "*", "IS_STOP": False}])
+            
+        else: # if it is single word
+            patterns.append([{"POS": {"IN":["ADJ", "NOUN", "PROPN"]}, "OP": "*", "IS_STOP": False}, 
+                            {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
+                            {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "*", "IS_STOP": False, "IS_DIGIT": False}])
+            
+            patterns.append([{"POS": {"IN":["ADJ", "NOUN", "PROPN"]}, "OP": "*", "IS_STOP": False},
+                            {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
+                            {"TEXT": "of"},
+                            {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "+", "IS_STOP": False}])
+            
+            
+    patterns.append([{"POS": {"IN":["PROPN", "NOUN"]}, "IS_TITLE": True, "OP": '+'}, 
+                    {"POS": {"IN":["PROPN", "NOUN"]}, "IS_TITLE": True, "OP": '+'},
+                    {"POS": {"IN":["PROPN", "NOUN"]}, "IS_TITLE": True, "OP": '+'}])     
+
+    patterns.append([{"POS": {"IN":["PROPN", "NOUN"]}, 
+                    "LENGTH": {"<=": 4}, 
+                    "IS_STOP": False,
+                    'TEXT': {'REGEX': '^[A-Z]{2,}[s]?', 
+                            "NOT_IN": ["XMLs", "FIG", "FIGS", "CODE", "CORE", "TIME", "ART", "LIST"]}}])
+    # ===================================================================================================================
+    
+    # add patterns to the matcher(this takes a quite long time)
+    matcher.add('TERM', patterns) 
+    msg.good(f"Added {len(patterns)} pattern rules.")
 
     # load patent data
     fig = re.compile(r'(figs?)\.',re.I) # FIG. ==> FIG
@@ -115,27 +175,23 @@ def main():
 
     #iterate over the sentences
     random.shuffle(sentences)
-    for sentence in tqdm(sentences[:args.max_docs]):
-        doc = nlp(sentence)
-        entities = [] 
-        for ent in doc.ents:
-            entities.append([ent.start_char, ent.end_char, ent.label_])
-        DATA.append([sentence, {"entities": entities}])    
+    for doc in tqdm(nlp.pipe(sentences[:args.max_docs], batch_size=50)):
+        DATA.extend(collect_sents(doc, matcher))    
+
 
     # split to training and evaluation set
-    TRAIN_DATA, TEST_DATA = train_eval_split(dataset = DATA, eval_size = args.eval_size)
-     
+    TRAIN_DATA, TEST_DATA = train_eval_split(dataset = DATA, eval_size = args.eval_size)   
 
     # transform data format from jsonl to spacy v3.0's version .spacy
-    msg.text('Converting data format from jsonl to .spacy format:')
+    msg.text('Converting data format from jsonl to .spacy:')
 
     db_train = convert_format(dataset=TRAIN_DATA)
     db_eval = convert_format(dataset=TEST_DATA)
 
     # save .spacy file
     patent_name = os.path.basename(args.in_file).split('.')[0]
-    db_train.to_disk(f"{args.out_dir}/{patent_name}_terms_training.spacy")
-    db_eval.to_disk(f"{args.out_dir}/{patent_name}_terms_eval.spacy")
+    db_train.to_disk(f"{args.out_dir}/{patent_name}_training.spacy")
+    db_eval.to_disk(f"{args.out_dir}/{patent_name}_eval.spacy")
     msg.good(f"Processed totally {len(db_train) + len(db_eval)} documents to {args.out_dir}")
 
 

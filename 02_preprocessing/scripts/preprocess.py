@@ -118,7 +118,7 @@ def main():
     term_list = pd.read_csv(args.matching_list, delimiter='\t', na_filter= False)
 
     # ==============================================PATTERNS_DEFINITION=================================================
-    nlp = spacy.load("en_core_web_lg")
+    nlp = spacy.load("en_core_web_md", disable=[ "ner", "lemmatizer", "textcat"])
 
     # add custom stop words 
     nlp.Defaults.stop_words |= {"secondary", "primary", "second", "third", "forth", "fourth", "useful", "fewer", "more", "less"}
@@ -175,7 +175,7 @@ def main():
 
     #iterate over the sentences
     random.shuffle(sentences)
-    for doc in tqdm(nlp.pipe(sentences[:args.max_docs], batch_size=50)):
+    for doc in tqdm(nlp.pipe(sentences[:args.max_docs], batch_size = 2000)):
         DATA.extend(collect_sents(doc, matcher))    
 
 

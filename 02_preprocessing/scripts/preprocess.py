@@ -78,7 +78,7 @@ def main():
                         help="Path of the patent text file after being preprocessed.")
     
     parser.add_argument("--out_dir",
-                        default='../03_spaCy_ner',
+                        default='../03_spaCy_ner/assets',
                         type=str,
                         help="Path to output directory.")
 
@@ -88,12 +88,12 @@ def main():
                         help="Path of the matching list file.")
 
     parser.add_argument("--eval_size",
-                        default=0.2,
+                        default=0.1,
                         type=float,
                         help="Split rate of evaluation dataset.")
 
     parser.add_argument("--max_docs",
-                        default=10 ** 5,
+                        default=50000,
                         type=int,
                         help="Maximum docs per batch.")
 

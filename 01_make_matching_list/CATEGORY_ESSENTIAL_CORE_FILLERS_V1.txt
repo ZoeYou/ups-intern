@@ -1,0 +1,37 @@
+act 
+activity
+apparatus
+article 
+article of manufacture         
+assembly
+business method        
+cell
+circuit
+composition          
+compound        
+computer program product
+computer-implemented method 
+computer-readable medium comprising instructions which when executed by a computer perform a method
+data structure 
+device 
+display
+gene
+machine       
+material 
+medical device 
+medium
+memory  
+method
+mixture        
+object       
+plant
+printed matter 
+process
+processor
+product
+product-by-process
+signal  
+substance   
+system    
+use
+user interface

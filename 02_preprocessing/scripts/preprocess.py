@@ -12,6 +12,8 @@ from pathlib import Path
 from tqdm import tqdm
 from spacy.tokens import DocBin
 from spacy.matcher import Matcher
+from spacy.tokenizer import Tokenizer
+from spacy.util import compile_infix_regex
 from collections import defaultdict
 
 def collect_sents(doc, matcher):
@@ -88,12 +90,12 @@ def main():
                         help="Path of the matching list file.")
 
     parser.add_argument("--eval_size",
-                        default=0.16,
+                        default=0.1,
                         type=float,
                         help="Split rate of evaluation dataset.")
 
     parser.add_argument("--max_docs",
-                        default=60000,
+                        default=50000,
                         type=int,
                         help="Maximum docs per batch.")
 
@@ -120,9 +122,26 @@ def main():
     # ==============================================PATTERNS_DEFINITION=================================================
     spacy.prefer_gpu()
     nlp = spacy.load("en_core_web_md", disable=[ "ner", "lemmatizer", "textcat"])
+    
+    # remove "-" as spliter in tokenizer
+    def custom_tokenizer(nlp):
+        inf = list(nlp.Defaults.infixes)               # Default infixes
+        inf.remove(r"(?<=[0-9])[+\-\*^](?=[0-9-])")    # Remove the generic op between numbers or between a number and a -
+        inf = tuple(inf)                               # Convert inf to tuple
+        infixes = inf + tuple([r"(?<=[0-9])[+*^](?=[0-9-])", r"(?<=[0-9])-(?=-)"])  # Add the removed rule after subtracting (?<=[0-9])-(?=[0-9]) pattern
+        infixes = [x for x in infixes if '-|–|—|--|---|——|~' not in x] # Remove - between letters rule
+        infix_re = compile_infix_regex(infixes)
+
+        return Tokenizer(nlp.vocab, prefix_search=nlp.tokenizer.prefix_search,
+                                    suffix_search=nlp.tokenizer.suffix_search,
+                                    infix_finditer=infix_re.finditer,
+                                    token_match=nlp.tokenizer.token_match,
+                                    rules=nlp.Defaults.tokenizer_exceptions)
+
+    nlp.tokenizer = custom_tokenizer(nlp)
 
     # add custom stop words 
-    nlp.Defaults.stop_words |= {"secondary", "primary", "second", "third", "forth", "fourth", "useful", "fewer", "more", "less"}
+    nlp.Defaults.stop_words |= {"secondary", "primary", "second", "third", "forth", "fourth","useful", "fewer", "more", "less", "different", "traditional", "considerable","new", "old", "appropriate", "K", "poor"}
 
     # build matcher
     matcher = Matcher(nlp.vocab, validate=True)
@@ -145,6 +164,10 @@ def main():
                             {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
                             {"TEXT": "of"},
                             {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "+", "IS_STOP": False}])
+            
+            patterns.append([{"POS": "ADP", "OP": "!"}, 
+                             {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}}, # "in order to" is not supposed to appear
+                             {"POS": "PART", "OP": "!"}])
             
             
     patterns.append([{"POS": {"IN":["PROPN", "NOUN"]}, "IS_TITLE": True, "OP": '+'}, 

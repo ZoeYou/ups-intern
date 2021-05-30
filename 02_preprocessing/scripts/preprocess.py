@@ -88,12 +88,12 @@ def main():
                         help="Path of the matching list file.")
 
     parser.add_argument("--eval_size",
-                        default=0.1,
+                        default=0.16,
                         type=float,
                         help="Split rate of evaluation dataset.")
 
     parser.add_argument("--max_docs",
-                        default=50000,
+                        default=60000,
                         type=int,
                         help="Maximum docs per batch.")
 
@@ -118,6 +118,7 @@ def main():
     term_list = pd.read_csv(args.matching_list, delimiter='\t', na_filter= False)
 
     # ==============================================PATTERNS_DEFINITION=================================================
+    spacy.prefer_gpu()
     nlp = spacy.load("en_core_web_md", disable=[ "ner", "lemmatizer", "textcat"])
 
     # add custom stop words 

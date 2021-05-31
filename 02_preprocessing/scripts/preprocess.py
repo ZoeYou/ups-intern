@@ -141,7 +141,81 @@ def main():
     nlp.tokenizer = custom_tokenizer(nlp)
 
     # add custom stop words 
-    nlp.Defaults.stop_words |= {"secondary", "primary", "second", "third", "forth", "fourth","useful", "fewer", "more", "less", "different", "traditional", "considerable","new", "old", "appropriate", "K", "poor"}
+    nlp.Defaults.stop_words |= {'K',
+     'absolutely',
+     'advantageous',
+     'all',
+     'always',
+     'appropriate',
+     'chief',
+     'classic',
+     'clear',
+     'common',
+     'concise',
+     'considerable',
+     'convenient',
+     'correct',
+     'critical',
+     'desirable',
+     'different',
+     'difficult',
+     'essential',
+     'ever',
+     'every',
+     'exact',
+     'example',
+     'exclusive',
+     'expected',
+     'few',
+     'fewer',
+     'forth',
+     'fourth',
+     'frequent',
+     'full',
+     'fundamental',
+     'general',
+     'important',
+     'key',
+     'laborious',
+     'less',
+     'limited',
+     'main',
+     'majority',
+     'mandatory',
+     'more',
+     'most',
+     'must',
+     'necessary',
+     'needed',
+     'new',
+     'none',
+     'old',
+     'only',
+     'partly',
+     'peculiar',
+     'permanent',
+     'poor',
+     'preferable',
+     'primary',
+     'principal',
+     'rare',
+     'required',
+     'said',
+     'second',
+     'secondary',
+     'significant',
+     'solely',
+     'special',
+     'such',
+     'superior',
+     'third',
+     'traditional',
+     'typical',
+     'uncommon',
+     'useful',
+     'usual',
+     'vital',
+     'present'}
 
     # build matcher
     matcher = Matcher(nlp.vocab, validate=True)
@@ -154,31 +228,27 @@ def main():
             patterns.append([{"POS": {"IN":["ADJ", "NOUN", "PROPN"]}, "OP": "*", "IS_STOP": False}] 
                             + [{"TEXT": token} for token in term_split]
                             + [{"POS": {"IN":["PROPN", "NOUN"]}, "OP": "*", "IS_STOP": False}])
-            
+
         else: # if it is single word
             patterns.append([{"POS": {"IN":["ADJ", "NOUN", "PROPN"]}, "OP": "*", "IS_STOP": False}, 
-                            {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
-                            {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "*", "IS_STOP": False, "IS_DIGIT": False}])
-            
+                             {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
+                             {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "*", "IS_STOP": False, "IS_DIGIT": False}])
+
             patterns.append([{"POS": {"IN":["ADJ", "NOUN", "PROPN"]}, "OP": "*", "IS_STOP": False},
-                            {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
-                            {"TEXT": "of"},
-                            {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "+", "IS_STOP": False}])
-            
-            patterns.append([{"POS": "ADP", "OP": "!"}, 
-                             {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}}, # "in order to" is not supposed to appear
-                             {"POS": "PART", "OP": "!"}])
-            
-            
+                             {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
+                             {"TEXT": "of"},
+                             {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "+", "IS_STOP": False}])
+
+
     patterns.append([{"POS": {"IN":["PROPN", "NOUN"]}, "IS_TITLE": True, "OP": '+'}, 
-                    {"POS": {"IN":["PROPN", "NOUN"]}, "IS_TITLE": True, "OP": '+'},
-                    {"POS": {"IN":["PROPN", "NOUN"]}, "IS_TITLE": True, "OP": '+'}])     
+                     {"POS": {"IN":["PROPN", "NOUN"]}, "IS_TITLE": True, "OP": '+'},
+                     {"POS": {"IN":["PROPN", "NOUN"]}, "IS_TITLE": True, "OP": '+'}])     
 
     patterns.append([{"POS": {"IN":["PROPN", "NOUN"]}, 
-                    "LENGTH": {"<=": 4}, 
-                    "IS_STOP": False,
-                    'TEXT': {'REGEX': '^[A-Z]{2,}[s]?', 
-                            "NOT_IN": ["XMLs", "FIG", "FIGS", "CODE", "CORE", "TIME", "ART", "LIST"]}}])
+                      "LENGTH": {"<=": 4}, 
+                      "IS_STOP": False,
+                      'TEXT': {'REGEX': '^[A-Z]{2,}[s]?', 
+                               "NOT_IN": ["FIG", "FIGS", "CODE", "CORE", "TIME", "ART", "LIST"]}}])
     # ===================================================================================================================
     
     # add patterns to the matcher(this takes a quite long time)

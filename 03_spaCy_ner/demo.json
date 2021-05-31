@@ -1,0 +1,2978 @@
+{
+    "method": {
+        "position": [
+            [
+                163,
+                169
+            ],
+            [
+                1325,
+                1331
+            ],
+            [
+                3464,
+                3470
+            ],
+            [
+                3630,
+                3636
+            ],
+            [
+                4280,
+                4286
+            ],
+            [
+                11081,
+                11087
+            ],
+            [
+                16320,
+                16326
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Method",
+        "summary": null
+    },
+    "images": {
+        "position": [
+            [
+                195,
+                201
+            ],
+            [
+                253,
+                259
+            ],
+            [
+                323,
+                329
+            ],
+            [
+                399,
+                405
+            ],
+            [
+                496,
+                502
+            ],
+            [
+                581,
+                587
+            ],
+            [
+                1228,
+                1234
+            ],
+            [
+                1413,
+                1419
+            ],
+            [
+                3662,
+                3668
+            ],
+            [
+                3732,
+                3738
+            ],
+            [
+                3801,
+                3807
+            ],
+            [
+                3877,
+                3883
+            ],
+            [
+                3974,
+                3980
+            ],
+            [
+                4059,
+                4065
+            ],
+            [
+                4326,
+                4332
+            ],
+            [
+                4374,
+                4380
+            ],
+            [
+                4456,
+                4462
+            ],
+            [
+                4583,
+                4589
+            ],
+            [
+                4607,
+                4613
+            ],
+            [
+                4711,
+                4717
+            ],
+            [
+                4735,
+                4741
+            ],
+            [
+                5053,
+                5059
+            ],
+            [
+                5251,
+                5257
+            ],
+            [
+                5321,
+                5327
+            ],
+            [
+                5412,
+                5418
+            ],
+            [
+                5523,
+                5529
+            ],
+            [
+                5608,
+                5614
+            ],
+            [
+                5892,
+                5898
+            ],
+            [
+                6066,
+                6072
+            ],
+            [
+                6148,
+                6154
+            ],
+            [
+                6275,
+                6281
+            ],
+            [
+                6299,
+                6305
+            ],
+            [
+                6403,
+                6409
+            ],
+            [
+                6427,
+                6433
+            ],
+            [
+                6742,
+                6748
+            ],
+            [
+                6962,
+                6968
+            ],
+            [
+                7032,
+                7038
+            ],
+            [
+                7144,
+                7150
+            ],
+            [
+                7257,
+                7263
+            ],
+            [
+                7342,
+                7348
+            ],
+            [
+                7602,
+                7608
+            ],
+            [
+                7799,
+                7805
+            ],
+            [
+                7881,
+                7887
+            ],
+            [
+                8008,
+                8014
+            ],
+            [
+                8032,
+                8038
+            ],
+            [
+                8136,
+                8142
+            ],
+            [
+                8160,
+                8166
+            ],
+            [
+                10394,
+                10400
+            ],
+            [
+                10530,
+                10536
+            ],
+            [
+                10780,
+                10786
+            ],
+            [
+                11194,
+                11200
+            ],
+            [
+                11263,
+                11269
+            ],
+            [
+                11333,
+                11339
+            ],
+            [
+                11433,
+                11439
+            ],
+            [
+                11518,
+                11524
+            ],
+            [
+                12088,
+                12094
+            ],
+            [
+                12178,
+                12184
+            ],
+            [
+                12340,
+                12346
+            ],
+            [
+                12394,
+                12400
+            ],
+            [
+                12516,
+                12522
+            ],
+            [
+                12803,
+                12809
+            ],
+            [
+                13307,
+                13313
+            ],
+            [
+                13697,
+                13703
+            ],
+            [
+                13721,
+                13727
+            ],
+            [
+                13792,
+                13798
+            ],
+            [
+                14378,
+                14384
+            ],
+            [
+                14402,
+                14408
+            ],
+            [
+                14508,
+                14514
+            ],
+            [
+                14532,
+                14538
+            ],
+            [
+                16423,
+                16429
+            ],
+            [
+                16505,
+                16511
+            ],
+            [
+                16632,
+                16638
+            ],
+            [
+                16656,
+                16662
+            ],
+            [
+                16760,
+                16766
+            ],
+            [
+                16784,
+                16790
+            ],
+            [
+                19454,
+                19460
+            ],
+            [
+                19478,
+                19484
+            ],
+            [
+                19670,
+                19676
+            ],
+            [
+                19800,
+                19806
+            ],
+            [
+                19954,
+                19960
+            ],
+            [
+                20850,
+                20856
+            ],
+            [
+                20920,
+                20926
+            ],
+            [
+                21058,
+                21064
+            ],
+            [
+                21226,
+                21232
+            ],
+            [
+                21311,
+                21317
+            ],
+            [
+                21724,
+                21730
+            ],
+            [
+                21806,
+                21812
+            ],
+            [
+                21933,
+                21939
+            ],
+            [
+                21957,
+                21963
+            ],
+            [
+                22061,
+                22067
+            ],
+            [
+                22085,
+                22091
+            ],
+            [
+                22660,
+                22666
+            ],
+            [
+                22730,
+                22736
+            ],
+            [
+                22798,
+                22804
+            ],
+            [
+                22895,
+                22901
+            ],
+            [
+                22980,
+                22986
+            ],
+            [
+                23561,
+                23567
+            ],
+            [
+                23651,
+                23657
+            ],
+            [
+                23818,
+                23824
+            ],
+            [
+                23872,
+                23878
+            ],
+            [
+                24195,
+                24201
+            ],
+            [
+                24348,
+                24354
+            ],
+            [
+                24919,
+                24925
+            ],
+            [
+                25143,
+                25149
+            ],
+            [
+                25225,
+                25231
+            ],
+            [
+                25352,
+                25358
+            ],
+            [
+                25376,
+                25382
+            ],
+            [
+                25480,
+                25486
+            ],
+            [
+                25504,
+                25510
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Image",
+        "summary": "An image (from Latin: imago) is an artifact that depicts visual perception, such as a photograph or other two-dimensional picture, that resembles a subject\u2014usually a physical object\u2014and thus provides a depiction of it. In the context of signal processing, an image is a distributed amplitude of color(s). A pictorial script is a writing system that employs images as symbols for various semantic entities, rather than the abstract signs used by alphabets.\n\n"
+    },
+    "stored.": {
+        "position": [
+            [
+                442,
+                449
+            ],
+            [
+                3920,
+                3927
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Stored_procedure",
+        "summary": "A stored procedure (also termed proc, storp, sproc, StoPro, StoredProc, StoreProc, sp, or SP) is a subroutine available to applications that access a relational database management system (RDBMS). Such procedures are stored in the database data dictionary.\nUses for stored procedures include data-validation (integrated into the database) or access-control mechanisms.  Furthermore, stored procedures can consolidate and centralize logic that was originally implemented in applications. To save time and memory, extensive or complex processing that requires execution of several SQL statements can be saved into stored procedures, and all applications call the procedures. One can use nested stored procedures by executing one stored procedure from within another.\nStored procedures may return result sets, i.e., the results of a SELECT statement.  Such result sets can be processed using cursors, by other stored procedures, by associating a result-set locator, or by applications. Stored procedures may also contain declared variables for processing data and cursors that allow it to loop through multiple rows in a table. Stored-procedure flow-control statements typically include IF, WHILE, LOOP, REPEAT, and CASE statements, and more. Stored procedures can receive variables, return results or modify variables and return them, depending on how and where the variable is declared."
+    },
+    "copy": {
+        "position": [
+            [
+                452,
+                456
+            ],
+            [
+                637,
+                641
+            ],
+            [
+                3930,
+                3934
+            ],
+            [
+                4115,
+                4119
+            ],
+            [
+                4412,
+                4416
+            ],
+            [
+                4536,
+                4540
+            ],
+            [
+                4650,
+                4654
+            ],
+            [
+                4759,
+                4763
+            ],
+            [
+                4857,
+                4861
+            ],
+            [
+                5479,
+                5483
+            ],
+            [
+                5652,
+                5656
+            ],
+            [
+                6104,
+                6108
+            ],
+            [
+                6228,
+                6232
+            ],
+            [
+                6342,
+                6346
+            ],
+            [
+                6470,
+                6474
+            ],
+            [
+                6581,
+                6585
+            ],
+            [
+                7213,
+                7217
+            ],
+            [
+                7386,
+                7390
+            ],
+            [
+                7837,
+                7841
+            ],
+            [
+                7961,
+                7965
+            ],
+            [
+                8075,
+                8079
+            ],
+            [
+                8224,
+                8228
+            ],
+            [
+                8351,
+                8355
+            ],
+            [
+                11389,
+                11393
+            ],
+            [
+                11570,
+                11574
+            ],
+            [
+                12470,
+                12474
+            ],
+            [
+                14221,
+                14225
+            ],
+            [
+                14327,
+                14331
+            ],
+            [
+                14447,
+                14451
+            ],
+            [
+                14950,
+                14954
+            ],
+            [
+                15049,
+                15053
+            ],
+            [
+                15178,
+                15182
+            ],
+            [
+                15194,
+                15198
+            ],
+            [
+                15326,
+                15330
+            ],
+            [
+                15534,
+                15538
+            ],
+            [
+                15618,
+                15622
+            ],
+            [
+                15698,
+                15702
+            ],
+            [
+                15754,
+                15758
+            ],
+            [
+                15804,
+                15808
+            ],
+            [
+                15996,
+                16000
+            ],
+            [
+                16218,
+                16222
+            ],
+            [
+                16267,
+                16271
+            ],
+            [
+                16461,
+                16465
+            ],
+            [
+                16585,
+                16589
+            ],
+            [
+                16699,
+                16703
+            ],
+            [
+                16807,
+                16811
+            ],
+            [
+                16907,
+                16911
+            ],
+            [
+                17038,
+                17042
+            ],
+            [
+                17054,
+                17058
+            ],
+            [
+                17186,
+                17190
+            ],
+            [
+                17394,
+                17398
+            ],
+            [
+                17478,
+                17482
+            ],
+            [
+                17558,
+                17562
+            ],
+            [
+                17614,
+                17618
+            ],
+            [
+                17664,
+                17668
+            ],
+            [
+                17856,
+                17860
+            ],
+            [
+                18078,
+                18082
+            ],
+            [
+                18130,
+                18134
+            ],
+            [
+                18200,
+                18204
+            ],
+            [
+                18242,
+                18246
+            ],
+            [
+                18330,
+                18334
+            ],
+            [
+                18452,
+                18456
+            ],
+            [
+                18621,
+                18625
+            ],
+            [
+                18725,
+                18729
+            ],
+            [
+                18800,
+                18804
+            ],
+            [
+                18908,
+                18912
+            ],
+            [
+                19051,
+                19055
+            ],
+            [
+                19165,
+                19169
+            ],
+            [
+                19389,
+                19393
+            ],
+            [
+                19551,
+                19555
+            ],
+            [
+                20465,
+                20469
+            ],
+            [
+                20554,
+                20558
+            ],
+            [
+                21182,
+                21186
+            ],
+            [
+                21363,
+                21367
+            ],
+            [
+                21762,
+                21766
+            ],
+            [
+                21886,
+                21890
+            ],
+            [
+                22000,
+                22004
+            ],
+            [
+                22176,
+                22180
+            ],
+            [
+                22344,
+                22348
+            ],
+            [
+                22851,
+                22855
+            ],
+            [
+                23032,
+                23036
+            ],
+            [
+                24149,
+                24153
+            ],
+            [
+                25181,
+                25185
+            ],
+            [
+                25305,
+                25309
+            ],
+            [
+                25419,
+                25423
+            ],
+            [
+                25524,
+                25528
+            ],
+            [
+                25621,
+                25625
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Copy",
+        "summary": null
+    },
+    "particular image": {
+        "position": [
+            [
+                462,
+                478
+            ],
+            [
+                649,
+                665
+            ],
+            [
+                3940,
+                3956
+            ],
+            [
+                4127,
+                4143
+            ],
+            [
+                4422,
+                4438
+            ],
+            [
+                4548,
+                4564
+            ],
+            [
+                4662,
+                4678
+            ],
+            [
+                4771,
+                4787
+            ],
+            [
+                4869,
+                4885
+            ],
+            [
+                5489,
+                5505
+            ],
+            [
+                5665,
+                5681
+            ],
+            [
+                6114,
+                6130
+            ],
+            [
+                6240,
+                6256
+            ],
+            [
+                6354,
+                6370
+            ],
+            [
+                6482,
+                6498
+            ],
+            [
+                6593,
+                6609
+            ],
+            [
+                7223,
+                7239
+            ],
+            [
+                7399,
+                7415
+            ],
+            [
+                7847,
+                7863
+            ],
+            [
+                7973,
+                7989
+            ],
+            [
+                8087,
+                8103
+            ],
+            [
+                8236,
+                8252
+            ],
+            [
+                8363,
+                8379
+            ],
+            [
+                11399,
+                11415
+            ],
+            [
+                11582,
+                11598
+            ],
+            [
+                11785,
+                11801
+            ],
+            [
+                12306,
+                12322
+            ],
+            [
+                12482,
+                12498
+            ],
+            [
+                12605,
+                12621
+            ],
+            [
+                12656,
+                12672
+            ],
+            [
+                12769,
+                12785
+            ],
+            [
+                12902,
+                12918
+            ],
+            [
+                12961,
+                12977
+            ],
+            [
+                13046,
+                13062
+            ],
+            [
+                13194,
+                13210
+            ],
+            [
+                13249,
+                13265
+            ],
+            [
+                13382,
+                13398
+            ],
+            [
+                13510,
+                13526
+            ],
+            [
+                13635,
+                13651
+            ],
+            [
+                13761,
+                13777
+            ],
+            [
+                13872,
+                13888
+            ],
+            [
+                14124,
+                14140
+            ],
+            [
+                14233,
+                14249
+            ],
+            [
+                14339,
+                14355
+            ],
+            [
+                14459,
+                14475
+            ],
+            [
+                14962,
+                14978
+            ],
+            [
+                15061,
+                15077
+            ],
+            [
+                15338,
+                15354
+            ],
+            [
+                15546,
+                15562
+            ],
+            [
+                15630,
+                15646
+            ],
+            [
+                15710,
+                15726
+            ],
+            [
+                15766,
+                15782
+            ],
+            [
+                16008,
+                16024
+            ],
+            [
+                16230,
+                16246
+            ],
+            [
+                16471,
+                16487
+            ],
+            [
+                16597,
+                16613
+            ],
+            [
+                16711,
+                16727
+            ],
+            [
+                16819,
+                16835
+            ],
+            [
+                16919,
+                16935
+            ],
+            [
+                17198,
+                17214
+            ],
+            [
+                17406,
+                17422
+            ],
+            [
+                17490,
+                17506
+            ],
+            [
+                17570,
+                17586
+            ],
+            [
+                17626,
+                17642
+            ],
+            [
+                17868,
+                17884
+            ],
+            [
+                18090,
+                18106
+            ],
+            [
+                18142,
+                18158
+            ],
+            [
+                18212,
+                18228
+            ],
+            [
+                18342,
+                18358
+            ],
+            [
+                18464,
+                18480
+            ],
+            [
+                18812,
+                18828
+            ],
+            [
+                19401,
+                19417
+            ],
+            [
+                19563,
+                19579
+            ],
+            [
+                19718,
+                19734
+            ],
+            [
+                19880,
+                19896
+            ],
+            [
+                20220,
+                20236
+            ],
+            [
+                20329,
+                20345
+            ],
+            [
+                20477,
+                20493
+            ],
+            [
+                20566,
+                20582
+            ],
+            [
+                21192,
+                21208
+            ],
+            [
+                21376,
+                21392
+            ],
+            [
+                21772,
+                21788
+            ],
+            [
+                21898,
+                21914
+            ],
+            [
+                22012,
+                22028
+            ],
+            [
+                22188,
+                22204
+            ],
+            [
+                22356,
+                22372
+            ],
+            [
+                22861,
+                22877
+            ],
+            [
+                23045,
+                23061
+            ],
+            [
+                23253,
+                23269
+            ],
+            [
+                23784,
+                23800
+            ],
+            [
+                24029,
+                24045
+            ],
+            [
+                24080,
+                24096
+            ],
+            [
+                24161,
+                24177
+            ],
+            [
+                24314,
+                24330
+            ],
+            [
+                24504,
+                24520
+            ],
+            [
+                24563,
+                24579
+            ],
+            [
+                24653,
+                24669
+            ],
+            [
+                24806,
+                24822
+            ],
+            [
+                24861,
+                24877
+            ],
+            [
+                25191,
+                25207
+            ],
+            [
+                25317,
+                25333
+            ],
+            [
+                25431,
+                25447
+            ],
+            [
+                25536,
+                25552
+            ],
+            [
+                25633,
+                25649
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Catholic_particular_churches_and_liturgical_rites",
+        "summary": "A particular church (Latin: ecclesia particularis) is an ecclesiastical community of faithful headed by a bishop (or equivalent), as defined by Catholic canon law and ecclesiology. A liturgical rite depends on the particular church the bishop (or equivalent) belongs to. Thus \"particular church\" refers to an institution, and \"liturgical rite\" to its practices. \nParticular churches exist in two kinds:\n\nAn autonomous particular church sui iuris: an aggregation of particular churches with distinct liturgical, spiritual, theological and canonical traditions. The largest such autonomous particular church is the Latin Church. The other 23 Eastern Catholic Churches are headed by bishops, some of which are titled Patriarch or Major Archbishop. In this context the descriptors autonomous (Greek: \u03b1\u1f50\u03c4\u03cc\u03bd\u03bf\u03bc\u03bf\u03c2, romanized: aut\u00f3nomos) and sui iuris (Latin) are synonymous, meaning \"of its own law\".\nA local particular church: a diocese (or eparchy) headed by a bishop (or equivalent), typically collected in a national polity under an episcopal conference. However, there are also other forms, including  apostolic vicariates, apostolic prefectures, military ordinariates, personal ordinariates, personal prelatures, and territorial abbacies.Liturgical rites also exist in two kinds:\n\nLiturgical rite: a liturgical rite depending on the tradition of an autonomous particular church sui iuris\nCatholic order liturgical rite: a variant of a liturgical rite exceptionately depending on a specific religious order"
+    },
+    "location": {
+        "position": [
+            [
+                518,
+                526
+            ],
+            [
+                740,
+                748
+            ],
+            [
+                3996,
+                4004
+            ],
+            [
+                4218,
+                4226
+            ],
+            [
+                4503,
+                4511
+            ],
+            [
+                4915,
+                4923
+            ],
+            [
+                5545,
+                5553
+            ],
+            [
+                5756,
+                5764
+            ],
+            [
+                6195,
+                6203
+            ],
+            [
+                6626,
+                6634
+            ],
+            [
+                7279,
+                7287
+            ],
+            [
+                7490,
+                7498
+            ],
+            [
+                7928,
+                7936
+            ],
+            [
+                8396,
+                8404
+            ],
+            [
+                11455,
+                11463
+            ],
+            [
+                11673,
+                11681
+            ],
+            [
+                12269,
+                12277
+            ],
+            [
+                12540,
+                12548
+            ],
+            [
+                12858,
+                12866
+            ],
+            [
+                13618,
+                13626
+            ],
+            [
+                14043,
+                14051
+            ],
+            [
+                14294,
+                14302
+            ],
+            [
+                15094,
+                15102
+            ],
+            [
+                16552,
+                16560
+            ],
+            [
+                16952,
+                16960
+            ],
+            [
+                18264,
+                18272
+            ],
+            [
+                18293,
+                18301
+            ],
+            [
+                18375,
+                18383
+            ],
+            [
+                18497,
+                18505
+            ],
+            [
+                19274,
+                19282
+            ],
+            [
+                19303,
+                19311
+            ],
+            [
+                19423,
+                19431
+            ],
+            [
+                19535,
+                19543
+            ],
+            [
+                20203,
+                20211
+            ],
+            [
+                21248,
+                21256
+            ],
+            [
+                21467,
+                21475
+            ],
+            [
+                21853,
+                21861
+            ],
+            [
+                22389,
+                22397
+            ],
+            [
+                22917,
+                22925
+            ],
+            [
+                23136,
+                23144
+            ],
+            [
+                23747,
+                23755
+            ],
+            [
+                24219,
+                24227
+            ],
+            [
+                24460,
+                24468
+            ],
+            [
+                25272,
+                25280
+            ],
+            [
+                25666,
+                25674
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Location",
+        "summary": "In geography, location or place are used to denote a region (point, line, or area) on Earth\u2019s surface or elsewhere. The term location generally implies a higher degree of certainty than place, the latter often indicating an entity with an ambiguous boundary, relying more on human or social attributes of place identity and sense of place than on geometry."
+    },
+    "APPLICATION": {
+        "position": [
+            [
+                792,
+                803
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Application",
+        "summary": null
+    },
+    "application": {
+        "position": [
+            [
+                809,
+                820
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Application",
+        "summary": null
+    },
+    "priority of provisional U.S. Patent Application Ser": {
+        "position": [
+            [
+                861,
+                912
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Toyota_Prius_(XW10)",
+        "summary": null
+    },
+    "Aircraft Maintenance Information": {
+        "position": [
+            [
+                975,
+                1007
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Aircraft_maintenance_checks",
+        "summary": "Aircraft maintenance checks are periodic inspections that have to be done on all commercial and civil aircraft after a certain amount of time or usage. Military aircraft normally follow specific maintenance programmes which may, or may not, be similar to those of commercial and civil operators.\n\n"
+    },
+    "Tiled 2D Illustrations": {
+        "position": [
+            [
+                1014,
+                1036
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Penrose_tiling",
+        "summary": "A Penrose tiling is an example of an aperiodic tiling. Here, a tiling is a covering of the plane by non-overlapping polygons or other shapes, and aperiodic means that shifting any tiling with these shapes by any finite distance, without rotation, cannot produce the same tiling. However, despite their lack of translational symmetry, Penrose tilings may have both reflection symmetry and fivefold rotational symmetry. Penrose tilings are named after mathematician and physicist Roger Penrose, who investigated them in the 1970s.\nThere are several different variations of Penrose tilings with different tile shapes. The original form of Penrose tiling used tiles of four different shapes, but this was later reduced to only two shapes: either two different rhombi, or two different quadrilaterals called kites and darts. The Penrose tilings are obtained by constraining the ways in which these shapes are allowed to fit together. This may be done in several different ways, including matching rules, substitution tiling or finite subdivision rules, cut and project schemes, and coverings. Even constrained in this manner, each variation yields infinitely many different Penrose tilings.\n\nPenrose tilings are self-similar: they may be converted to equivalent Penrose tilings with different sizes of tiles, using processes called inflation and deflation. The pattern represented by every finite patch of tiles in a Penrose tiling occurs infinitely many times throughout the tiling. They are quasicrystals: implemented as a physical structure a Penrose tiling will produce diffraction patterns with Bragg peaks and five-fold symmetry, revealing the repeated patterns and fixed orientations of its tiles. The study of these tilings has been important in the understanding of physical materials that also form quasicrystals. Penrose tilings have also been applied in architecture and decoration, as in the floor tiling shown."
+    },
+    "reference": {
+        "position": [
+            [
+                1071,
+                1080
+            ],
+            [
+                8647,
+                8656
+            ],
+            [
+                8992,
+                9001
+            ],
+            [
+                20277,
+                20286
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Reference",
+        "summary": "Reference is a relationship between objects in which one object designates, or acts as a means by which to connect to or link to, another object. The first object in this relation is said to refer to the second object. It is called a name for the second object. The second object, the one to which the first object refers, is called the referent of the first object. A name is usually a phrase or expression, or some other symbolic representation. Its referent may be anything \u2013 a material object, a person, an event, an activity, or an abstract concept.\nReferences can take on many forms, including: a thought, a sensory perception that is audible (onomatopoeia), visual (text), olfactory, or tactile, emotional state, relationship with other, spacetime coordinate, symbolic or alpha-numeric, a physical object or an energy projection. In some cases, methods are used that intentionally hide the reference from some observers, as in cryptography.References feature in many spheres of human activity and knowledge, and the term adopts shades of meaning particular to the contexts in which it is used. Some of them are described in the sections below."
+    },
+    "BACKGROUND": {
+        "position": [
+            [
+                1082,
+                1092
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Background",
+        "summary": null
+    },
+    "improved data processing system": {
+        "position": [
+            [
+                1162,
+                1193
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Data_processing_system",
+        "summary": "A data processing system is a combination of machines, people, and processes that for a set of inputs produces a defined set of outputs. The inputs and outputs are interpreted as data, facts, information etc. depending on the interpreter's relation to the system.\nA term commonly used synonymously with data or storage (codes) processing system is information system. With regard particularly to electronic data processing, the corresponding concept is referred to as electronic data processing system.\nA data processing system may involve some combination of:\n\nConversion converting data to another form or Language.\nValidation \u2013 Ensuring that supplied data is \"clean, correct and useful.\"\nSorting \u2013 \"arranging items in some sequence and/or in different sets.\"\nSummarization \u2013 reducing detail data to its main points.\nAggregation \u2013 combining multiple pieces of data.\nAnalysis \u2013 the \"collection, organization, analysis, interpretation and presentation of data.\".\nReporting \u2013 list detail or summary data or computed information.The first machines used for data processing were punched card machines, now computers are used.\n\n"
+    },
+    "data processing system": {
+        "position": [
+            [
+                1240,
+                1262
+            ],
+            [
+                3196,
+                3218
+            ],
+            [
+                10998,
+                11020
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Data_processing_system",
+        "summary": "A data processing system is a combination of machines, people, and processes that for a set of inputs produces a defined set of outputs. The inputs and outputs are interpreted as data, facts, information etc. depending on the interpreter's relation to the system.\nA term commonly used synonymously with data or storage (codes) processing system is information system. With regard particularly to electronic data processing, the corresponding concept is referred to as electronic data processing system.\nA data processing system may involve some combination of:\n\nConversion converting data to another form or Language.\nValidation \u2013 Ensuring that supplied data is \"clean, correct and useful.\"\nSorting \u2013 \"arranging items in some sequence and/or in different sets.\"\nSummarization \u2013 reducing detail data to its main points.\nAggregation \u2013 combining multiple pieces of data.\nAnalysis \u2013 the \"collection, organization, analysis, interpretation and presentation of data.\".\nReporting \u2013 list detail or summary data or computed information.The first machines used for data processing were punched card machines, now computers are used.\n\n"
+    },
+    "apparatus": {
+        "position": [
+            [
+                1333,
+                1342
+            ],
+            [
+                3475,
+                3484
+            ],
+            [
+                6707,
+                6716
+            ],
+            [
+                7553,
+                7562
+            ],
+            [
+                22442,
+                22451
+            ],
+            [
+                24934,
+                24943
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Apparatus",
+        "summary": null
+    },
+    "computer program product": {
+        "position": [
+            [
+                1348,
+                1372
+            ],
+            [
+                5003,
+                5027
+            ],
+            [
+                5828,
+                5852
+            ],
+            [
+                14653,
+                14677
+            ],
+            [
+                14760,
+                14784
+            ],
+            [
+                14887,
+                14911
+            ],
+            [
+                20613,
+                20637
+            ],
+            [
+                21497,
+                21521
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Computer_program_product",
+        "summary": null
+    },
+    "display": {
+        "position": [
+            [
+                1390,
+                1397
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Display",
+        "summary": null
+    },
+    "object": {
+        "position": [
+            [
+                1427,
+                1433
+            ],
+            [
+                2115,
+                2121
+            ],
+            [
+                2196,
+                2202
+            ],
+            [
+                2562,
+                2568
+            ],
+            [
+                12145,
+                12151
+            ],
+            [
+                13487,
+                13493
+            ],
+            [
+                23618,
+                23624
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Object",
+        "summary": null
+    },
+    "information": {
+        "position": [
+            [
+                1531,
+                1542
+            ],
+            [
+                2840,
+                2851
+            ],
+            [
+                3387,
+                3398
+            ],
+            [
+                13409,
+                13420
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Information",
+        "summary": "Information can be thought of as the resolution of uncertainty; it answers the question of \"What an entity is\" and thus defines both its essence and the nature of its characteristics. The concept of information has different meanings in different contexts. Thus the concept becomes synonymous to notions of constraint, communication, control, data, form, education, knowledge, meaning, understanding, mental stimuli, pattern, perception, representation, and entropy.\nInformation is associated with data. The difference is that information resolves uncertainty. Data can represent redundant symbols, but approaches information through optimal data compression.\nInformation can be transmitted in time, via data storage, and space, via communication and telecommunication. Information is expressed either as the content of a message or through direct or indirect observation. That which is perceived can be construed as a message in its own right, and in that sense, information is always conveyed as the content of a message.\nInformation can be encoded into various forms for transmission and interpretation (for example, information may be encoded into a sequence of signs, or transmitted via a signal). It can also be encrypted for safe storage and communication.\nThe uncertainty of an event is measured by its probability of occurrence and is inversely proportional to that. Information theory takes advantage of this simple fact by concluding that more uncertain events, require more information to resolve uncertainty of that event. The bit is a typical unit of information. It is 'that which reduces uncertainty by half'. Other units such as the nat may be used. For example, the information encoded in one \"fair\" coin flip is log2(2/1) = 1 bit, and in two fair coin flips is log2(4/1) = 2 bits. A 2011 Science article estimated that 97% of technologically stored information was already in digital bits in 2007, and that the year 2002 was the beginning of the digital age for information storage (with digital storage capacity bypassing analog for the first time)."
+    },
+    "assembly": {
+        "position": [
+            [
+                1863,
+                1871
+            ],
+            [
+                1957,
+                1965
+            ],
+            [
+                19746,
+                19754
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Assembly",
+        "summary": null
+    },
+    "library": {
+        "position": [
+            [
+                1912,
+                1919
+            ],
+            [
+                1995,
+                2002
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Library",
+        "summary": "A library is a collection of materials, books or media that are easily accessible for use and not just for display purposes. It is responsible for housing updated information in order to meet the user's needs on a daily basis. A Library provides physical (hard copies documents) or digital access (soft copies) materials, and may be a physical location or a virtual space, or both. A library's collection can include printed materials and other physical resources in many formats such as DVDs, CDs and Cassette as well as access to information, music or other content held on bibliographic databases.\nA library, which may vary widely in size, may be organized for use and maintained by a public body such as a government, an institution/ schools, a corporation, or a private individual. In addition to providing materials, libraries also provide the services of librarians who are trained and experts at finding, selecting, circulating and organizing information and at interpreting information needs, navigating and analyzing very large amounts of information with a variety of resources. Hence, librarians go an extra mile to meet the user's need by ensuring that their users are satisfied with the information provided. A Librarian is one person who is expected to be very vibrant and innovative especially in this digital world.\nLibrary buildings often provide quiet and conducive areas for studying, as well as common areas for group study and collaboration, and may provide public facilities for access to their electronic resources for instance Computers and Desktop and access to the Internet. The library's clientele and therefore the services offered vary depending on its type: users of a public library have different needs from those of a special library, for example. Libraries may also be community hubs, where programs are delivered and people engage in lifelong learning. Modern libraries extend their services beyond the physical walls of a building by providing material accessible by electronic means, including from home via the Internet. Hence managing information in an information world has become very easy simply because information can be provided or being accessed virtually by people who are in remote areas and other places away from the Library.\nThe services the library offers are variously described as library services, information services, or the combination \"library and information services\", although different institutions and sources define such terminology differently."
+    },
+    "Printed information": {
+        "position": [
+            [
+                2014,
+                2033
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Printed_circuit_board",
+        "summary": "A printed circuit board (PCB) mechanically supports and electrically connects electrical or electronic components using conductive tracks, pads and other features etched from one or more sheet layers of copper laminated onto and/or between sheet layers of a non-conductive substrate. Components are generally soldered onto the PCB to both electrically connect and mechanically fasten them to it.\nPrinted circuit boards are used in all but the simplest electronic products. They are also used in some electrical products, such as passive switch boxes.\nAlternatives to PCBs include wire wrap and point-to-point construction, both once popular but now rarely used. PCBs require additional design effort to lay out the circuit, but manufacturing and assembly can be automated. Electronic computer-aided design software is available to do much of the work of layout. Mass-producing circuits with PCBs is cheaper and faster than with other wiring methods, as components are mounted and wired in one operation.  Large numbers of PCBs can be fabricated at the same time, and the layout only has to be done once.  PCBs can also be made manually in small quantities, with reduced benefits.\nPCBs can be single-sided (one copper layer), double-sided (two copper layers on both sides of one substrate layer), or multi-layer (outer and inner layers of copper, alternating with layers of substrate).  Multi-layer PCBs allow for much higher component density, because circuit traces on the inner layers would otherwise take up surface space between components.  The rise in popularity of multilayer PCBs with more than two, and especially with more than four, copper planes was concurrent with the adoption of surface mount technology.  However, multilayer PCBs make repair, analysis, and field modification of circuits much more difficult and usually impractical.\nThe world market for bare PCBs exceeded $60.2 billion in 2014 and is estimated to reach $79 billion by 2024."
+    },
+    "document": {
+        "position": [
+            [
+                2068,
+                2076
+            ],
+            [
+                2138,
+                2146
+            ],
+            [
+                10258,
+                10266
+            ],
+            [
+                20292,
+                20300
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Document",
+        "summary": "A document is a written, drawn, presented, or memorialized representation of thought, often the manifestation of non-fictional, as well as fictional, content.  The word originates from the Latin Documentum, which denotes a \"teaching\" or \"lesson\": the verb doce\u014d denotes \"to teach\". In the past, the word was usually used to denote written proof useful as evidence of a truth or fact. In the computer age, \"document\" usually denotes a primarily textual computer file, including its structure and format, e.g. fonts, colors, and images. Contemporarily, \"document\" is not defined by its transmission medium, e.g., paper, given the existence of electronic documents. \"Documentation\" is distinct because it has more denotations than \"document\". Documents are also distinguished from \"realia\", which are three-dimensional objects that would otherwise satisfy the definition of \"document\" because they memorialize or represent thought; documents are considered more as 2-dimensional representations. While documents can have large varieties of customization, all documents can be shared freely and have the right to do so, creativity can be represented by documents, also. History, events, examples, opinions, etc. all can be expressed in documents."
+    },
+    "level of detail": {
+        "position": [
+            [
+                2090,
+                2105
+            ],
+            [
+                2165,
+                2180
+            ],
+            [
+                13465,
+                13480
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Level_of_detail",
+        "summary": null
+    },
+    "different information": {
+        "position": [
+            [
+                2525,
+                2546
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Information",
+        "summary": "Information can be thought of as the resolution of uncertainty; it answers the question of \"What an entity is\" and thus defines both its essence and the nature of its characteristics. The concept of information has different meanings in different contexts. Thus the concept becomes synonymous to notions of constraint, communication, control, data, form, education, knowledge, meaning, understanding, mental stimuli, pattern, perception, representation, and entropy.\nInformation is associated with data. The difference is that information resolves uncertainty. Data can represent redundant symbols, but approaches information through optimal data compression.\nInformation can be transmitted in time, via data storage, and space, via communication and telecommunication. Information is expressed either as the content of a message or through direct or indirect observation. That which is perceived can be construed as a message in its own right, and in that sense, information is always conveyed as the content of a message.\nInformation can be encoded into various forms for transmission and interpretation (for example, information may be encoded into a sequence of signs, or transmitted via a signal). It can also be encrypted for safe storage and communication.\nThe uncertainty of an event is measured by its probability of occurrence and is inversely proportional to that. Information theory takes advantage of this simple fact by concluding that more uncertain events, require more information to resolve uncertainty of that event. The bit is a typical unit of information. It is 'that which reduces uncertainty by half'. Other units such as the nat may be used. For example, the information encoded in one \"fair\" coin flip is log2(2/1) = 1 bit, and in two fair coin flips is log2(4/1) = 2 bits. A 2011 Science article estimated that 97% of technologically stored information was already in digital bits in 2007, and that the year 2002 was the beginning of the digital age for information storage (with digital storage capacity bypassing analog for the first time)."
+    },
+    "textual information": {
+        "position": [
+            [
+                2690,
+                2709
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Textual_criticism",
+        "summary": "Textual criticism is a branch of textual scholarship, philology, and of literary criticism that is concerned with the identification of textual variants, or different versions, of either manuscripts or of printed books. Such texts may range in dates from the earliest writing in cuneiform, impressed on clay, for example, to multiple unpublished versions of a 21st-century author's work. Historically, scribes who were paid to copy documents may have been literate, but many were simply copyists, mimicking the shapes of letters without necessarily understanding what they meant. This means that unintentional alterations were common when copying manuscripts by hand. Intentional alterations may have been made as well, for example the censoring of printed work for political, religious or cultural reasons.\nThe objective of the textual critic's work is to provide a better understanding of the creation and historical transmission of the text and its variants. This understanding may lead to the production of a \"critical edition\" containing a scholarly curated text. If a scholar has several versions of a manuscript but no known original, then established methods of textual criticism can be used to seek to reconstruct the original text as closely as possible. The same methods can be used to reconstruct intermediate versions, or recensions, of a document's transcription history, depending on the number and quality of the text available.On the other hand, the one original text that a scholar theorizes to exist is referred to as the urtext (in the context of Biblical studies), archetype or autograph; however, there is not necessarily a single original text for every group of texts. For example, if a story was spread by oral tradition, and then later written down by different people in different locations, the versions can vary greatly.\nThere are many approaches or methods to the practice of textual criticism, notably eclecticism, stemmatics, and copy-text editing. Quantitative techniques are also used to determine the relationships between witnesses to a text, with methods from evolutionary biology (phylogenetics) appearing to be effective on a range of traditions.In some domains, such as religious and classical text editing, the phrase \"lower criticism\" refers to textual criticism and \"higher criticism\" to the endeavor to establish the authorship, date, and place of composition of the original text."
+    },
+    "entire wiring system": {
+        "position": [
+            [
+                2861,
+                2881
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Home_wiring",
+        "summary": "Homes typically have several kinds of home wiring, including electrical wiring for lighting and power distribution, permanently installed and portable appliances, telephone, heating or ventilation system control, and increasingly for home theatre and computer networks. Safety regulations for wiring installation vary widely around the world, with national, regional, and municipal rules sometimes in effect. Some places allow the homeowner to install some or all of the wiring in a home; other jurisdictions require electrical wiring to be installed by licensed electricians only.\n\n"
+    },
+    "engineering diagrams": {
+        "position": [
+            [
+                2901,
+                2921
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Block_diagram",
+        "summary": "A block diagram is a diagram of a system in which the principal parts or functions are represented by blocks connected by lines that show the relationships of the blocks. They are heavily used in engineering in hardware design, electronic design, software design, and process flow diagrams.\nBlock diagrams are typically used for higher level, less detailed descriptions that are intended to clarify overall concepts without concern for the details of implementation. Contrast this with the schematic diagrams and layout diagrams used in electrical engineering, which show the implementation details of electrical components and physical construction."
+    },
+    "wiring diagrams": {
+        "position": [
+            [
+                2943,
+                2958
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Wiring_diagram",
+        "summary": "A wiring diagram is a simplified conventional pictorial representation of an electrical circuit. It shows the components of the circuit as simplified shapes, and the power and signal connections between the devices. \nA wiring diagram usually gives information about the relative position and arrangement of devices and terminals on the devices, to help in building or servicing the device.  This is unlike a schematic diagram, where the arrangement of the components' interconnections on the diagram usually does not correspond to the components' physical locations in the finished device. A pictorial diagram would show more detail of the physical appearance, whereas a wiring diagram uses a more symbolic notation to emphasize interconnections over physical appearance. \nA wiring diagram is often used to troubleshoot problems and to make sure that all the connections have been made and that everything is present."
+    },
+    "suitable document types": {
+        "position": [
+            [
+                2970,
+                2993
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/XML",
+        "summary": "Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The World Wide Web Consortium's XML 1.0 Specification of 1998 and several other related specifications\u2014all of them free open standards\u2014define XML.The design goals of XML emphasize simplicity, generality, and usability across the Internet. It is a textual data format with strong support via Unicode for different human languages. Although the design of XML focuses on documents, the language is widely used for the representation of arbitrary data structures such as those used in web services.\nSeveral schema systems exist to aid in the definition of XML-based languages, while programmers have developed many application programming interfaces (APIs) to aid the processing of XML data."
+    },
+    "maintenance": {
+        "position": [
+            [
+                3013,
+                3024
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Maintenance",
+        "summary": null
+    },
+    "form.": {
+        "position": [
+            [
+                3091,
+                3096
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Form",
+        "summary": null
+    },
+    "electronic form": {
+        "position": [
+            [
+                3144,
+                3159
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Electronic_signature",
+        "summary": "An electronic signature, or e-signature, refers to data in electronic form, which is logically associated with other data in electronic form and which is used by the signatory to sign. This type of signature has the same legal standing as a handwritten signature as long as it adheres to the requirements of the specific regulation under which it was created (e.g., eIDAS in the European Union, NIST-DSS in the USA or ZertES in Switzerland).Electronic signatures are a legal concept distinct from digital signatures, a cryptographic mechanism often used to implement electronic signatures. While an electronic signature can be as simple as a name entered in an electronic document, digital signatures are increasingly used in e-commerce and in regulatory filings to implement electronic signatures in a cryptographically protected way. Standardization agencies like NIST or ETSI provide standards for their implementation (e.g., NIST-DSS, XAdES or PAdES). The concept itself is not new, with common law jurisdictions having recognized telegraph signatures as far back as the mid-19th century and faxed signatures since the 1980s."
+    },
+    "display device": {
+        "position": [
+            [
+                3176,
+                3190
+            ],
+            [
+                18527,
+                18541
+            ],
+            [
+                18585,
+                18599
+            ],
+            [
+                18690,
+                18704
+            ],
+            [
+                18985,
+                18999
+            ],
+            [
+                19130,
+                19144
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Display_device",
+        "summary": "A display device is an output device for presentation of information in visual or tactile form (the latter used for example in tactile electronic displays for blind people). When the input information that is supplied has an electrical signal the display is called an electronic display.\nCommon applications for electronic visual displays are television sets or computer monitors.\n\n"
+    },
+    "media": {
+        "position": [
+            [
+                3312,
+                3317
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Media",
+        "summary": null
+    },
+    "review": {
+        "position": [
+            [
+                3332,
+                3338
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Review",
+        "summary": "A review is an evaluation of a publication, service, or company such as a movie (a movie review), video game (video game review), musical composition (music review of a composition or recording), book (book review); a piece of hardware like a car, home appliance, or computer; or softwares such as business software, sales softwares; or an event or performance, such as a live music concert, play, musical theater show, dance show or art exhibition. In addition to a critical evaluation, the review's author may assign the work a rating to indicate its relative merit. More loosely, an author may review current events, trends, or items in the news. A compilation of reviews may itself be called a review. The New York Review of Books, for instance, is a collection of essays on literature, culture, and current affairs. National Review, founded by William F. Buckley Jr., is an influential conservative magazine, and Monthly Review is a long-running socialist periodical."
+    },
+    "time": {
+        "position": [
+            [
+                3351,
+                3355
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Time",
+        "summary": "The ( (listen)) is a grammatical article in English, denoting persons or things already mentioned, under discussion, implied or otherwise presumed familiar to listeners, readers or speakers. It is the definite article in English. The is the most commonly used word in the English language; studies and analyses of texts have found it to account for seven percent of all printed English-language words. It is derived from gendered articles in Old English which combined in Middle English and now has a single form used with pronouns of any gender. The word can be used with both singular and plural nouns and with a noun that starts with any letter. This is different from many other languages which have different forms of the definite article for different genders or numbers."
+    },
+    "SUMMARY": {
+        "position": [
+            [
+                3588,
+                3595
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Summary",
+        "summary": "Summer  is the hottest of the four temperate seasons, falling after spring and before autumn. At or around the summer solstice (about 3 days before Midsummer Day), the earliest sunrise and latest sunset occurs, the days are longest and the nights are shortest, with day length decreasing as the season progresses after the solstice. The date of the beginning of summer varies according to climate, tradition, and culture. When it is summer in the Northern Hemisphere, it is winter in the Southern Hemisphere, and vice versa."
+    },
+    "identifier": {
+        "position": [
+            [
+                4395,
+                4405
+            ],
+            [
+                4841,
+                4851
+            ],
+            [
+                6087,
+                6097
+            ],
+            [
+                6539,
+                6549
+            ],
+            [
+                7820,
+                7830
+            ],
+            [
+                8293,
+                8303
+            ],
+            [
+                14202,
+                14212
+            ],
+            [
+                15018,
+                15028
+            ],
+            [
+                16444,
+                16454
+            ],
+            [
+                16876,
+                16886
+            ],
+            [
+                21745,
+                21755
+            ],
+            [
+                22245,
+                22255
+            ],
+            [
+                25164,
+                25174
+            ],
+            [
+                25593,
+                25603
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Identifier",
+        "summary": "An identifier is a name that identifies (that is, labels the identity of) either a unique object or a unique class of objects, where the \"object\" or class may be an idea, physical countable object (or class thereof), or physical noncountable substance (or class thereof). The abbreviation ID often refers to identity, identification (the process of identifying), or an identifier (that is, an instance of identification). An identifier may be a word, number, letter, symbol, or any combination of those.\nThe words, numbers, letters, or symbols may follow an encoding system (wherein letters, digits, words, or symbols stand for (represent) ideas or longer names) or they may simply be arbitrary. When an identifier follows an encoding system, it is often referred to as a code or ID code.  For instance the ISO/IEC 11179 metadata registry standard defines a code as system of valid symbols that substitute for longer values in contrast to identifiers without symbolic meaning. Identifiers that do not follow any encoding scheme are often said to be arbitrary IDs; they are arbitrarily assigned and have no greater meaning. (Sometimes identifiers are called \"codes\" even when they are actually arbitrary, whether because the speaker believes that they have deeper meaning or simply because they are speaking casually and imprecisely.)\nThe unique identifier (UID) is an identifier that refers to only one instance\u2014only one particular object in the universe. A part number is an identifier, but it is not a unique identifier\u2014for that, a serial number is needed, to identify each instance of the part design. Thus the identifier \"Model T\" identifies the class (model) of automobiles that Ford's Model T comprises; whereas the unique identifier \"Model T Serial Number 159,862\" identifies one specific member of that class\u2014that is, one particular Model T car, owned by one specific person.\nThe concepts of name and identifier are denotatively equal, and the terms are thus denotatively synonymous; but they are not always connotatively synonymous, because code names and ID numbers are often connotatively distinguished from names in the sense of traditional natural language naming. For example, both \"Jamie Zawinski\" and \"Netscape employee number 20\" are identifiers for the same specific human being; but normal English-language connotation may consider \"Jamie Zawinski\" a \"name\" and not an \"identifier\", whereas it considers \"Netscape employee number 20\" an \"identifier\" but not a \"name\". This is an emic indistinction rather than an etic one."
+    },
+    "yet another advantageous embodiment": {
+        "position": [
+            [
+                4964,
+                4999
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Patent_claim",
+        "summary": "In a patent or patent application, the claims define, in technical terms, the extent, i.e. the scope, of the protection conferred by a patent, or the protection sought in a patent application. In other words, the purpose of the claims is to define which subject-matter is protected by the patent (or sought to be protected by the patent application). This is termed as the \"notice function\" of a patent claim\u2014to warn others of what they must not do if they are to avoid infringement liability. The claims are of the utmost importance both during prosecution and litigation alike.\nFor instance, a claim could read:\n\n\"An apparatus for catching mice, said apparatus comprising a base, a spring member coupled to the base, and ...\"\n\"A chemical composition for cleaning windows, said composition substantially consisting of 10\u201315% ammonia, ...\"\n\"Method for computing future life expectancies, said method comprising gathering data including X, Y, Z,  analyzing the data, comparing the analyzed data results...\""
+    },
+    "computer recordable storage medium": {
+        "position": [
+            [
+                5071,
+                5105
+            ],
+            [
+                5137,
+                5171
+            ],
+            [
+                5910,
+                5944
+            ],
+            [
+                5976,
+                6010
+            ],
+            [
+                20684,
+                20718
+            ],
+            [
+                20748,
+                20782
+            ],
+            [
+                20971,
+                21005
+            ],
+            [
+                21130,
+                21164
+            ],
+            [
+                21582,
+                21616
+            ],
+            [
+                21646,
+                21680
+            ],
+            [
+                22121,
+                22155
+            ],
+            [
+                22289,
+                22323
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Data_storage",
+        "summary": "Data storage is the recording (storing) of information (data) in a storage medium. Handwriting, phonographic recording, magnetic tape, and optical discs are all examples of storage media, some authors even propose that DNA is a natural data storage mechanism. Recording may be accomplished with virtually any form of energy. Electronic data storage requires electrical power to store and retrieve data. \nData storage in a digital, machine-readable medium is sometimes called digital data. Computer data storage is one of the core functions of a general-purpose computer. Electronic documents can be stored in much less space than paper documents. Barcodes and magnetic ink character recognition (MICR) are two ways of recording machine-readable data on paper."
+    },
+    "program code": {
+        "position": [
+            [
+                5110,
+                5122
+            ],
+            [
+                5177,
+                5189
+            ],
+            [
+                5348,
+                5360
+            ],
+            [
+                5456,
+                5468
+            ],
+            [
+                5949,
+                5961
+            ],
+            [
+                6016,
+                6028
+            ],
+            [
+                6439,
+                6451
+            ],
+            [
+                6555,
+                6567
+            ],
+            [
+                6825,
+                6837
+            ],
+            [
+                6887,
+                6899
+            ],
+            [
+                7685,
+                7697
+            ],
+            [
+                7747,
+                7759
+            ],
+            [
+                8309,
+                8321
+            ],
+            [
+                20720,
+                20732
+            ],
+            [
+                20943,
+                20955
+            ],
+            [
+                21102,
+                21114
+            ],
+            [
+                21618,
+                21630
+            ],
+            [
+                22093,
+                22105
+            ],
+            [
+                22261,
+                22273
+            ],
+            [
+                22524,
+                22536
+            ],
+            [
+                22585,
+                22597
+            ],
+            [
+                23975,
+                23987
+            ],
+            [
+                24424,
+                24436
+            ],
+            [
+                25030,
+                25042
+            ],
+            [
+                25091,
+                25103
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Computer_program",
+        "summary": "A computer program is a collection of instructions that can be executed by a computer to perform a specific task. \nA computer program is usually written by a computer programmer in a programming language. From the program in its human-readable form of source code, a compiler or assembler can derive machine code\u2014a form consisting of instructions that the computer can directly execute. Alternatively, a computer program may be executed with the aid of an interpreter.\nA collection of computer programs, libraries, and related data are referred to as software. Computer programs may be categorized along functional lines, such as application software and system software.  The underlying method used for some calculation or manipulation is known as an algorithm.\n\n"
+    },
+    "yet another": {
+        "position": [
+            [
+                5789,
+                5800
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Yet_another",
+        "summary": "Among programmers, yet another (often abbreviated ya, Ya, or YA in the initial part of an acronym) is an idiomatic qualifier in the name of a computer program, organisation, or event that is confessedly unoriginal.Stephen C. Johnson is credited with establishing the naming convention in the late 1970s when he named his compiler-compiler yacc (Yet Another Compiler-Compiler), since he felt there were already numerous compiler-compilers in circulation at the time."
+    },
+    "storage device": {
+        "position": [
+            [
+                6760,
+                6774
+            ],
+            [
+                6801,
+                6815
+            ],
+            [
+                7620,
+                7634
+            ],
+            [
+                7661,
+                7675
+            ],
+            [
+                22498,
+                22512
+            ],
+            [
+                25004,
+                25018
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Storage_device",
+        "summary": null
+    },
+    "processor unit": {
+        "position": [
+            [
+                6781,
+                6795
+            ],
+            [
+                6843,
+                6857
+            ],
+            [
+                7059,
+                7073
+            ],
+            [
+                7188,
+                7202
+            ],
+            [
+                7641,
+                7655
+            ],
+            [
+                7703,
+                7717
+            ],
+            [
+                8172,
+                8186
+            ],
+            [
+                22544,
+                22558
+            ],
+            [
+                23923,
+                23937
+            ],
+            [
+                24372,
+                24386
+            ],
+            [
+                25050,
+                25064
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Central_processing_unit",
+        "summary": "A central processing unit (CPU), also called a central processor, main processor or just processor, is the electronic circuitry that executes instructions comprising a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program. This contrasts with external components such as main memory and I/O circuitry, and specialized processors such as graphics processing units (GPUs).\nThe form, design, and implementation of CPUs have changed over time, but their fundamental operation remains almost unchanged. Principal components of a CPU include the arithmetic logic unit (ALU) that performs arithmetic and logic operations, processor registers that supply operands to the ALU and store the results of ALU operations, and a control unit that orchestrates the fetching (from memory) and execution of instructions by directing the coordinated operations of the ALU, registers and other components.\nMost modern CPUs are implemented on integrated circuit (IC) microprocessors, with one or more CPUs on a single metal-oxide-semiconductor (MOS) IC chip. Microprocessors chips with multiple CPUs are multi-core processors. The individual physical CPUs, processor cores, can also be multithreaded to create additional virtual or logical CPUs.An IC that contains a CPU may also contain memory, peripheral interfaces, and other components of a computer; such integrated devices are variously called microcontrollers or systems on a chip (SoC). \nArray processors or vector processors have multiple processors that operate in parallel, with no unit considered central. Virtual CPUs are an abstraction of dynamical aggregated computational resources."
+    },
+    "features": {
+        "position": [
+            [
+                8446,
+                8454
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Feature",
+        "summary": null
+    },
+    "novel features": {
+        "position": [
+            [
+                8738,
+                8752
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Hyperion_(Simmons_novel)",
+        "summary": "Hyperion is a Hugo Award-winning 1989 science fiction novel by American writer Dan Simmons. It is the first book of his Hyperion Cantos. The plot of the novel features multiple time-lines and characters. It follows a similar structure to The Canterbury Tales by Geoffrey Chaucer. The next book in the series was The Fall of Hyperion, published in 1990.\n\n"
+    },
+    "preferred mode of use": {
+        "position": [
+            [
+                8899,
+                8920
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Preferred_Roaming_List",
+        "summary": "The Preferred Roaming List (PRL) is a database residing in a wireless (primarily CDMA) device, such as a cellphone, that contains information used during the system selection and acquisition process.  In the case of R-UIM-based CDMA devices, the PRL resides on the R-UIM.  The PRL indicates which bands, sub bands, and service provider identifiers will be scanned and in what priority order.  Without a PRL, the device may not be able to roam, i.e. obtain service outside of the home area.  There may be cases where missing or corrupt PRLs can lead to a customer not having service at all.\nOn many networks, regularly updating the PRL is advised if the subscriber uses the device outside the home area frequently, particularly if they do so in multiple different areas. This allows the phone to choose the best roaming carriers, particularly \"roaming partners\" with whom the home carrier has a cost-saving roaming agreement, rather than using non-affiliated carriers.  PRL files can also be used to identify home networks along with roaming partners, thus making the PRL an actual list that determines the total coverage of the subscriber, both home and roaming coverage.\nThe PRL is built by an operator and is normally not accessible to the user. Many operators provide the ability for the user to download the latest PRL to their device by dialing an Over-the-air (OTA) feature code. In the United States, for Verizon / MetroPCS / US Cellular, this feature code is *228 (*ACT).  For Sprint, it is ##873283# (it is also possible to use code ##72786# on Android or ##25327# on iOS to completely clear out the service programming and redo OTA activation, which includes updating the PRL).  In Canada, for Telus Mobility, the PRL update feature code is *22803 (*ACT03).\n\n"
+    },
+    "objectives": {
+        "position": [
+            [
+                8930,
+                8940
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Objective",
+        "summary": null
+    },
+    "conjunction": {
+        "position": [
+            [
+                9109,
+                9120
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Conjunction",
+        "summary": null
+    },
+    "service method": {
+        "position": [
+            [
+                9221,
+                9235
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Jakarta_Servlet",
+        "summary": "A Jakarta Servlet (formerly Java Servlet) is a Java software component that extends the capabilities of a server. Although servlets can respond to many types of requests, they most commonly implement web containers for hosting web applications on web servers and thus qualify as a server-side servlet web API. Such web servlets are the Java counterpart to other dynamic web content technologies such as PHP and ASP.NET.\n\n"
+    },
+    "block diagram": {
+        "position": [
+            [
+                9411,
+                9424
+            ],
+            [
+                9538,
+                9551
+            ],
+            [
+                9657,
+                9670
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Block_diagram",
+        "summary": "A block diagram is a diagram of a system in which the principal parts or functions are represented by blocks connected by lines that show the relationships of the blocks. They are heavily used in engineering in hardware design, electronic design, software design, and process flow diagrams.\nBlock diagrams are typically used for higher level, less detailed descriptions that are intended to clarify overall concepts without concern for the details of implementation. Contrast this with the schematic diagrams and layout diagrams used in electrical engineering, which show the implementation details of electrical components and physical construction."
+    },
+    "image management environment": {
+        "position": [
+            [
+                9431,
+                9459
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Document_management_system",
+        "summary": "A document management system (DMS) is a system used to receive, track, manage and store documents and reduce paper. Most are capable of keeping a record of the various versions created and modified by different users (history tracking). In the case of the management of digital documents such systems are based on computer programs. The term has some overlap with the concepts of content management systems. It is often viewed as a component of enterprise content management (ECM) systems and related to digital asset management, document imaging, workflow systems and records management systems."
+    },
+    "image management process": {
+        "position": [
+            [
+                9677,
+                9701
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Document_management_system",
+        "summary": "A document management system (DMS) is a system used to receive, track, manage and store documents and reduce paper. Most are capable of keeping a record of the various versions created and modified by different users (history tracking). In the case of the management of digital documents such systems are based on computer programs. The term has some overlap with the concepts of content management systems. It is often viewed as a component of enterprise content management (ECM) systems and related to digital asset management, document imaging, workflow systems and records management systems."
+    },
+    "wiring diagram": {
+        "position": [
+            [
+                10130,
+                10144
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Wiring_diagram",
+        "summary": "A wiring diagram is a simplified conventional pictorial representation of an electrical circuit. It shows the components of the circuit as simplified shapes, and the power and signal connections between the devices. \nA wiring diagram usually gives information about the relative position and arrangement of devices and terminals on the devices, to help in building or servicing the device.  This is unlike a schematic diagram, where the arrangement of the components' interconnections on the diagram usually does not correspond to the components' physical locations in the finished device. A pictorial diagram would show more detail of the physical appearance, whereas a wiring diagram uses a more symbolic notation to emphasize interconnections over physical appearance. \nA wiring diagram is often used to troubleshoot problems and to make sure that all the connections have been made and that everything is present."
+    },
+    "process": {
+        "position": [
+            [
+                10361,
+                10368
+            ],
+            [
+                10495,
+                10502
+            ],
+            [
+                10631,
+                10638
+            ],
+            [
+                10757,
+                10764
+            ],
+            [
+                10881,
+                10888
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Process",
+        "summary": "A process is a series or set of activities that interact to produce a result; it may occur once-only or be recurrent or periodic.\nThings called a process include:"
+    },
+    "user input": {
+        "position": [
+            [
+                10904,
+                10914
+            ],
+            [
+                19362,
+                19372
+            ],
+            [
+                20422,
+                20432
+            ],
+            [
+                20527,
+                20537
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Input/output",
+        "summary": "In computing, input/output (I/O, or informally io or IO) is the communication between an information processing system, such as a computer, and the outside world, possibly a human or another information processing system. Inputs are the signals or data received by the system and outputs are the signals or data sent from it. The term can also be used as part of an action; to \"perform I/O\" is to perform an input or output operation.\nI/O devices are the pieces of hardware used by a human (or other system) to communicate with a computer. For instance, a keyboard or computer mouse is an input device for a computer, while monitors and printers are output devices. Devices for communication between computers, such as modems and network cards, typically perform both input and output operations.\nThe designation of a device as either input or output depends on perspective. Mice and keyboards take physical movements that the human user outputs and convert them into input signals that a computer can understand; the output from these devices is the computer's input. Similarly, printers and monitors take signals that computers output as input, and they convert these signals into a representation that human users can understand. From the human user's perspective, the process of reading or seeing these representations is receiving output; this type of interaction between computers and humans is studied in the field of human\u2013computer interaction. A further complication is that a device traditionally considered an input device, e.g., card reader, keyboard, may accept control commands to, e.g., select stacker, display keyboard lights, while a device traditionally considered as an output device may provide status data, e.g., low toner, out of paper, paper jam.\nIn computer architecture, the combination of the CPU and main memory, to which the CPU can read or write directly using individual instructions, is considered the brain of a computer.  Any transfer of information to or from the CPU/memory combo, for example by reading data from a disk drive, is considered I/O.  The CPU and its supporting circuitry may provide memory-mapped I/O that is used in low-level computer programming, such as in the implementation of device drivers, or may provide access to I/O channels.  An I/O algorithm is one designed to exploit locality and perform efficiently when exchanging data with a secondary storage device, such as a disk drive.\n\n"
+    },
+    "images comprising": {
+        "position": [
+            [
+                11113,
+                11130
+            ],
+            [
+                16366,
+                16383
+            ],
+            [
+                20663,
+                20680
+            ],
+            [
+                21561,
+                21578
+            ],
+            [
+                22477,
+                22494
+            ],
+            [
+                24983,
+                25000
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Everydays:_the_First_5000_Days",
+        "summary": null
+    },
+    "method of claim": {
+        "position": [
+            [
+                11704,
+                11719
+            ],
+            [
+                12002,
+                12017
+            ],
+            [
+                12193,
+                12208
+            ],
+            [
+                12409,
+                12424
+            ],
+            [
+                12710,
+                12725
+            ],
+            [
+                12986,
+                13001
+            ],
+            [
+                13134,
+                13149
+            ],
+            [
+                13322,
+                13337
+            ],
+            [
+                13536,
+                13551
+            ],
+            [
+                13808,
+                13823
+            ],
+            [
+                13946,
+                13961
+            ],
+            [
+                14150,
+                14165
+            ],
+            [
+                14548,
+                14563
+            ],
+            [
+                14709,
+                14724
+            ],
+            [
+                14834,
+                14849
+            ],
+            [
+                15146,
+                15161
+            ],
+            [
+                15858,
+                15873
+            ],
+            [
+                17006,
+                17021
+            ],
+            [
+                17718,
+                17733
+            ],
+            [
+                18168,
+                18183
+            ],
+            [
+                18838,
+                18853
+            ],
+            [
+                19233,
+                19248
+            ],
+            [
+                19494,
+                19509
+            ],
+            [
+                19686,
+                19701
+            ],
+            [
+                19848,
+                19863
+            ],
+            [
+                20162,
+                20177
+            ],
+            [
+                20371,
+                20386
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Patent_claim",
+        "summary": "In a patent or patent application, the claims define, in technical terms, the extent, i.e. the scope, of the protection conferred by a patent, or the protection sought in a patent application. In other words, the purpose of the claims is to define which subject-matter is protected by the patent (or sought to be protected by the patent application). This is termed as the \"notice function\" of a patent claim\u2014to warn others of what they must not do if they are to avoid infringement liability. The claims are of the utmost importance both during prosecution and litigation alike.\nFor instance, a claim could read:\n\n\"An apparatus for catching mice, said apparatus comprising a base, a spring member coupled to the base, and ...\"\n\"A chemical composition for cleaning windows, said composition substantially consisting of 10\u201315% ammonia, ...\"\n\"Method for computing future life expectancies, said method comprising gathering data including X, Y, Z,  analyzing the data, comparing the analyzed data results...\""
+    },
+    "image": {
+        "position": [
+            [
+                11879,
+                11884
+            ],
+            [
+                12371,
+                12376
+            ],
+            [
+                13284,
+                13289
+            ],
+            [
+                18562,
+                18567
+            ],
+            [
+                18638,
+                18643
+            ],
+            [
+                18744,
+                18749
+            ],
+            [
+                18927,
+                18932
+            ],
+            [
+                19070,
+                19075
+            ],
+            [
+                19184,
+                19189
+            ],
+            [
+                20260,
+                20265
+            ],
+            [
+                23347,
+                23352
+            ],
+            [
+                23849,
+                23854
+            ],
+            [
+                24896,
+                24901
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Image",
+        "summary": "An image (from Latin: imago) is an artifact that depicts visual perception, such as a photograph or other two-dimensional picture, that resembles a subject\u2014usually a physical object\u2014and thus provides a depiction of it. In the context of signal processing, an image is a distributed amplitude of color(s). A pictorial script is a writing system that employs images as symbols for various semantic entities, rather than the abstract signs used by alphabets.\n\n"
+    },
+    "grid": {
+        "position": [
+            [
+                12060,
+                12064
+            ],
+            [
+                23533,
+                23537
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Grid",
+        "summary": null
+    },
+    "physical location": {
+        "position": [
+            [
+                12121,
+                12138
+            ],
+            [
+                23594,
+                23611
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Global_Location_Number",
+        "summary": "The Global Location Number (GLN) is part of the GS1 systems of standards.  It is a simple tool used to identify a location and can identify locations uniquely where required. This identifier is compliant with norm ISO/IEC 6523.The GS1 Identification Key is used to identify physical locations or legal entities. The key comprises a GS1 Company Prefix, Location Reference, and Check Digit.\nLocation identified with GLN could be a physical location such as a warehouse or a legal entity such as a company or customer or a function that takes place within a legal entity. It can also be used to identify something as specific as a particular shelf in a store.  Being able to identify locations with a unique number is a key to many business processes. The GLN is used in electronic messaging between customers and suppliers, where location advice is important. GLN is also used within companies to identify specific locations both electronically in a database and physically where the GLN can be produced in a bar code or GS1 EPC tag.\n\n"
+    },
+    "metadata": {
+        "position": [
+            [
+                12737,
+                12745
+            ],
+            [
+                12932,
+                12940
+            ],
+            [
+                13017,
+                13025
+            ],
+            [
+                13165,
+                13173
+            ],
+            [
+                13353,
+                13361
+            ],
+            [
+                14095,
+                14103
+            ],
+            [
+                24282,
+                24290
+            ],
+            [
+                24534,
+                24542
+            ],
+            [
+                24624,
+                24632
+            ],
+            [
+                24777,
+                24785
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Metadata",
+        "summary": null
+    },
+    "location.\n": {
+        "position": [
+            [
+                13117,
+                13127
+            ],
+            [
+                24724,
+                24734
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Location",
+        "summary": "In geography, location or place are used to denote a region (point, line, or area) on Earth\u2019s surface or elsewhere. The term location generally implies a higher degree of certainty than place, the latter often indicating an entity with an ambiguous boundary, relying more on human or social attributes of place identity and sense of place than on geometry."
+    },
+    "relative location": {
+        "position": [
+            [
+                13223,
+                13240
+            ],
+            [
+                24835,
+                24852
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Location",
+        "summary": "In geography, location or place are used to denote a region (point, line, or area) on Earth\u2019s surface or elsewhere. The term location generally implies a higher degree of certainty than place, the latter often indicating an entity with an ambiguous boundary, relying more on human or social attributes of place identity and sense of place than on geometry."
+    },
+    "content": {
+        "position": [
+            [
+                13746,
+                13753
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Content",
+        "summary": null
+    },
+    "request": {
+        "position": [
+            [
+                14602,
+                14609
+            ],
+            [
+                15290,
+                15297
+            ],
+            [
+                15890,
+                15897
+            ],
+            [
+                15909,
+                15916
+            ],
+            [
+                15960,
+                15967
+            ],
+            [
+                17150,
+                17157
+            ],
+            [
+                17750,
+                17757
+            ],
+            [
+                17769,
+                17776
+            ],
+            [
+                17820,
+                17827
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Request",
+        "summary": null
+    },
+    "threshold": {
+        "position": [
+            [
+                15429,
+                15438
+            ],
+            [
+                15503,
+                15512
+            ],
+            [
+                16106,
+                16115
+            ],
+            [
+                16186,
+                16195
+            ],
+            [
+                17289,
+                17298
+            ],
+            [
+                17363,
+                17372
+            ],
+            [
+                17966,
+                17975
+            ],
+            [
+                18046,
+                18055
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Threshold",
+        "summary": null
+    },
+    "greater level of detail": {
+        "position": [
+            [
+                15659,
+                15682
+            ],
+            [
+                17519,
+                17542
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Level_of_detail_(computer_graphics)",
+        "summary": "In computer graphics, level of detail (LOD) refers to the complexity of a 3D model representation. LOD can be decreased as the model moves away from the viewer or according to other metrics such as object importance, viewpoint-relative speed or position.\nLOD techniques increase the efficiency of rendering by decreasing the workload on graphics pipeline stages, usually vertex transformations.\nThe reduced visual quality of the model is often unnoticed because of the small effect on object appearance when distant or moving fast.\nAlthough most of the time LOD is applied to geometry detail only, the basic concept can be generalized. Recently, LOD techniques  also included shader management to keep control of pixel complexity.\nA form of level of detail management has been applied to texture maps for years, under the name of mipmapping, also providing higher rendering quality.\nIt is commonplace to say that \"an object has been LOD-ed\" when the object is simplified by the underlying LOD-ing algorithm."
+    },
+    "place": {
+        "position": [
+            [
+                15825,
+                15830
+            ],
+            [
+                16288,
+                16293
+            ],
+            [
+                17685,
+                17690
+            ],
+            [
+                18110,
+                18115
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Place",
+        "summary": null
+    },
+    "copy.\n": {
+        "position": [
+            [
+                15844,
+                15850
+            ],
+            [
+                16308,
+                16314
+            ],
+            [
+                17704,
+                17710
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Copy",
+        "summary": null
+    },
+    "number of components": {
+        "position": [
+            [
+                19764,
+                19784
+            ],
+            [
+                19818,
+                19838
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Component_(graph_theory)",
+        "summary": "In graph theory, a component of an undirected graph is an induced subgraph in which any two vertices are connected to each other by paths, and which is connected to no additional vertices in the rest of the graph. For example, the graph shown in the illustration has three components.   A vertex with no incident edges is itself a component.  A graph that is itself connected has exactly one component, consisting of the whole graph. Components are also sometimes called connected components."
+    },
+    "wiring system": {
+        "position": [
+            [
+                19926,
+                19939
+            ],
+            [
+                19990,
+                20003
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Knob-and-tube_wiring",
+        "summary": "Knob-and-tube wiring (sometimes abbreviated K&T) is an early standardized method of electrical wiring in buildings, in common use in North America from about 1880 to the 1930s. It consisted of single-insulated copper conductors run within wall or ceiling cavities, passing through joist and stud drill-holes via protective porcelain insulating tubes, and supported along their length on nailed-down porcelain knob insulators.  Where conductors entered a wiring device such as a lamp or switch, or were pulled into a wall, they were protected by flexible cloth insulating sleeving called loom.  The first insulation was asphalt-saturated cotton cloth, then rubber became common. Wire splices in such installations were twisted together for good mechanical strength, then soldered and wrapped with rubber insulating tape and friction tape (asphalt saturated cloth), or made inside metal junction boxes.\nKnob and tube wiring was eventually displaced from interior wiring systems because of the high cost of installation compared with use of power cables, which combined both power conductors of a circuit in one run (and which later included grounding conductors).\nAt present, new knob and tube installations are permitted in the U.S. only in a few very specific situations listed in the National Electrical Code, such as certain industrial and agricultural environments.\n\n"
+    },
+    "document.\n": {
+        "position": [
+            [
+                20353,
+                20363
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Document",
+        "summary": "A document is a written, drawn, presented, or memorialized representation of thought, often the manifestation of non-fictional, as well as fictional, content.  The word originates from the Latin Documentum, which denotes a \"teaching\" or \"lesson\": the verb doce\u014d denotes \"to teach\". In the past, the word was usually used to denote written proof useful as evidence of a truth or fact. In the computer age, \"document\" usually denotes a primarily textual computer file, including its structure and format, e.g. fonts, colors, and images. Contemporarily, \"document\" is not defined by its transmission medium, e.g., paper, given the existence of electronic documents. \"Documentation\" is distinct because it has more denotations than \"document\". Documents are also distinguished from \"realia\", which are three-dimensional objects that would otherwise satisfy the definition of \"document\" because they memorialize or represent thought; documents are considered more as 2-dimensional representations. While documents can have large varieties of customization, all documents can be shared freely and have the right to do so, creativity can be represented by documents, also. History, events, examples, opinions, etc. all can be expressed in documents."
+    },
+    "activation": {
+        "position": [
+            [
+                20447,
+                20457
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Activation",
+        "summary": "Activation, in chemistry and biology, is the process whereby something is prepared or excited for a subsequent reaction.\n\n"
+    },
+    "color highlight.\n": {
+        "position": [
+            [
+                20590,
+                20607
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Highlight",
+        "summary": null
+    },
+    "30.": {
+        "position": [
+            [
+                20607,
+                20610
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/30_for_30",
+        "summary": "30 for 30 is the title for a series of documentary films airing on ESPN, its sister networks, and online highlighting interesting people and events in sports history. This includes three \"volumes\" of 30 episodes each, a 13-episode series under the ESPN Films Presents title in 2011\u20132012, and a series of 30 for 30 Shorts shown through the ESPN.com website. The series has also expanded to include Soccer Stories, which aired in advance of the 2014 FIFA World Cup, and audio podcasts.\n\n"
+    },
+    "32.": {
+        "position": [
+            [
+                22435,
+                22438
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/32",
+        "summary": "3 (three) is a number, numeral and digit. It is the natural number following 2 and preceding 4, and is the smallest odd prime number and the only prime preceding a square number. It has religious or cultural significance in many societies."
+    },
+    "apparatus of claim": {
+        "position": [
+            [
+                23168,
+                23186
+            ],
+            [
+                23471,
+                23489
+            ],
+            [
+                23667,
+                23685
+            ],
+            [
+                23888,
+                23906
+            ],
+            [
+                24251,
+                24269
+            ],
+            [
+                24589,
+                24607
+            ],
+            [
+                24742,
+                24760
+            ]
+        ],
+        "wikilink": "https://en.wikipedia.org/wiki/Patent_claim",
+        "summary": "In a patent or patent application, the claims define, in technical terms, the extent, i.e. the scope, of the protection conferred by a patent, or the protection sought in a patent application. In other words, the purpose of the claims is to define which subject-matter is protected by the patent (or sought to be protected by the patent application). This is termed as the \"notice function\" of a patent claim\u2014to warn others of what they must not do if they are to avoid infringement liability. The claims are of the utmost importance both during prosecution and litigation alike.\nFor instance, a claim could read:\n\n\"An apparatus for catching mice, said apparatus comprising a base, a spring member coupled to the base, and ...\"\n\"A chemical composition for cleaning windows, said composition substantially consisting of 10\u201315% ammonia, ...\"\n\"Method for computing future life expectancies, said method comprising gathering data including X, Y, Z,  analyzing the data, comparing the analyzed data results...\""
+    }
+}

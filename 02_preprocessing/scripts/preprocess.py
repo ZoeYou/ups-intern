@@ -215,7 +215,9 @@ def main():
      'useful',
      'usual',
      'vital',
-     'present'}
+     'present',
+     'corresponding',
+     'i-th'}
 
     # build matcher
     matcher = Matcher(nlp.vocab, validate=True)

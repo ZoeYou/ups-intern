@@ -5,6 +5,7 @@ import argparse
 from wasabi import msg
 from tqdm import tqdm
 from pathlib import Path
+from random import sample
 
 
 def main():
@@ -26,7 +27,7 @@ def main():
 
     ## Other parameters
     parser.add_argument("--year",
-                        default=2015,
+                        default=2018,
                         type=int,
                         help="The earliest year to keep the patent files (inclusive), the patents before this year will not be retained.")
     
@@ -34,6 +35,11 @@ def main():
                         default=None,
                         type=str,
                         help="subclass of target patents to retain eg. g06f")
+
+    parser.add_argument("--sample_files",
+                        default=None,
+                        type=int,
+                        help="Number of files to sample randomly from the input directory.")
 
     args = parser.parse_args()
 
@@ -51,8 +57,11 @@ def main():
         files_list = list(input_path.rglob(f'{(args.subclass).upper()}*.txt'))
         output_file = output_path / f"{(args.subclass).upper()}_{args.year}.txt"
     else:
-        files_list = list(input_path.glob('*.txt'))
-        output_file = output_path / f"{input_path.parent.stem}{input_path.stem}_{args.year}.txt"
+        files_list = list(input_path.rglob('*.txt'))
+        output_file = output_path / f"{input_path.stem}_{args.year}.txt"
+
+    if args.sample_files:
+        files_list = sample(files_list, args.sample_files)
 
     with output_file.open('w', encoding='utf8') as f:
         cnt = 0

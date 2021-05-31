@@ -31,6 +31,9 @@ def collect_sents(doc, matcher):
     # Append mock entity for match in displaCy style to matched_sents
     # get the match span by ofsetting the start and end of the span with the
     # start and end of the sentence in the doc
+        if term[-1].text in ['.','_']:
+            term.end_char -= 1
+            
         match_ents = (
             term.start_char - sent.start_char,  # start
             term.end_char - sent.start_char,    # end 

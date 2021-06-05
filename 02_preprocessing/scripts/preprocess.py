@@ -55,14 +55,17 @@ def convert_format(dataset):
     db = DocBin()
 
     for text, ann in tqdm(dataset):
-        doc = nlp.make_doc(text)
-        ents = []
-        for start, end, label in ann['entities']:
-            span = doc.char_span(start, end, label=label, alignment_mode = 'contract')
-            if span != None:
-                ents.append(span)
-        doc.ents = ents 
-        db.add(doc)
+        try:
+            doc = nlp.make_doc(text)
+            ents = []
+            for start, end, label in ann['entities']:
+                span = doc.char_span(start, end, label=label, alignment_mode = 'contract')
+                if span != None:
+                    ents.append(span)
+            doc.ents = ents 
+            db.add(doc)
+        except ValueError:
+            continue
     return db
 
 def train_eval_split(dataset, eval_size):
@@ -220,7 +223,19 @@ def main():
      'vital',
      'present',
      'corresponding',
-     'i-th'}
+     'i-th',
+     'particular',
+     'fifth',
+     'sixth',
+     'plural',
+     'available',
+     'received',
+     'transmitted',
+     'yet',
+     'above-mentioned',
+     'FIELD',
+     'BACKGROUND'  
+    }
 
     # build matcher
     matcher = Matcher(nlp.vocab, validate=True)

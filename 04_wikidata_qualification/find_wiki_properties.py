@@ -63,7 +63,7 @@ def retrieve_value_P(P):
     return target_properties[P]
 
 
-def retrieve_value_Q(Q, reference = DICT_WIKIDATA_ID): 
+def retrieve_value_Q(Q, reference): 
     if Q in reference:
         return reference[Q]
     else:
@@ -81,7 +81,7 @@ def retrieve_value_Q(Q, reference = DICT_WIKIDATA_ID):
                     return value
 
 
-def get_target_ItemProperties(wikidata_item, wikidata_id):
+def get_target_ItemProperties(wikidata_item, wikidata_id, reference):
     url = "https://www.wikidata.org/w/api.php?action=wbgetclaims&format=json&entity="+wikidata_id
     json_response = requests.get(url).json()
 
@@ -98,7 +98,7 @@ def get_target_ItemProperties(wikidata_item, wikidata_id):
                 continue 
                 
             # replace all the wikidataItem ID by wikidataItem name          
-            property_value = retrieve_value_Q(dict_['datavalue']['value']['id'])
+            property_value = retrieve_value_Q(dict_['datavalue']['value']['id'], reference)
             
             if property_value is None:
                 continue
@@ -119,13 +119,7 @@ def main():
                         default=None,
                         type=str,
                         required=True,
-                        help="Path of the patent text file after being preprocessed.")
-    
-    parser.add_argument("--out_dir",
-                        default=None,
-                        required=True,
-                        type=str,
-                        help="Path to output directory.")
+                        help="Path of the patent text file after being preprocessed.") 
 
     parser.add_argument("--spacy_model",
                         default=None,
@@ -153,19 +147,15 @@ def main():
 
     
     # load input/ output file
-    input_path = Path(args.in_file)
-    output_path = Path(args.out_dir)
-    
+    input_path = Path(args.in_file) 
+
     if not input_path.exists():
         msg.fail("Can't find input file", in_file, exits=1)   
     else:
         with input_path.open("r", encoding="utf8") as f:
             patents = f.read().split('\n\n\n')       
     
-    if not output_path.exists():
-        output_path.mkdir(parents=True)
-        msg.good(f"Created output directory {output_path}")
-    
+ 
     # load spaCy model
     nlp = spacy.load(args.spacy_model)
     msg.info(f"Using spaCy model {args.spacy_model}")  
@@ -183,7 +173,7 @@ def main():
 
     def ner2wiki(text, nlp, wikidata_property): # find entities and complete its wiki information (wiki title, summary, wikidata id and properties)                                                             
         doc = nlp(text)
-        ents = set([ent.text for ent in doc.ents])
+        ents = set([ent.text for ent in doc.ents]) - set(wikidata_property.term1.values)
         for term in ents:
             try:
                 wiki_title = DICT_PAGE_TITLE[term]['title']
@@ -201,7 +191,7 @@ def main():
                 if wikidata_id and not_disambiguation_page(wikidata_id):
                     DICT_WIKIDATA_ID.update({wiki_title: wikidata_id})
                     # find wiki properties 
-                    list_to_append = get_target_ItemProperties(wiki_title, wikidata_id)
+                    list_to_append = get_target_ItemProperties(wiki_title, wikidata_id, DICT_WIKIDATA_ID)
                     wikidata_property = wikidata_property.append(pd.DataFrame(list_to_append, columns=wikidata_property.columns), ignore_index=True)
                     wikidata_property.drop_duplicates()
         return wikidata_property     

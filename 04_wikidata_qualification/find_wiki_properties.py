@@ -4,8 +4,10 @@ import spacy
 import json
 import requests 
 import urllib
-import re 
+import re
+import wikipedia
 import numpy as np
+import pandas as pd
 
 from wasabi import msg
 from pathlib import Path
@@ -104,32 +106,8 @@ def get_target_ItemProperties(wikidata_item, wikidata_id):
             res = np.append(res, [row_to_append], 0)  
   
     return res 
+
     
-
-def ner2wiki(text, nlp, wikidata_property, target_properties): # find entities and complete its wiki information (wiki title, summary, wikidata id and properties)
-    doc = nlp(text)
-    for ent in doc.ents:
-        term = ent.text
-        try:
-            wiki_title = DICT_PAGE_TITLE[term]['title']
-        except KeyError:
-            wiki_title = find_wiki_title(term)  
-            if wiki_title:
-                wiki_summary = find_wiki_summary(wiki_title)
-                DICT_PAGE_TITLE.update({term:{'title':wiki_title, 'summary': wiki_summary}})
-            else:
-                DICT_PAGE_TITLE.update({term:{'title': None, 'summary': None}})
-                
-        # find wikidata id and properties
-        if wiki_title and wiki_title not in DICT_WIKIDATA_ID:
-            wikidata_id = get_wikidata_id(wiki_title)
-            if wikidata_id and not_disambiguation_page(wikidata_id):
-                DICT_WIKIDATA_ID.update({wiki_title: wikidata_id})
-                # find wiki properties 
-                list_to_append = get_target_ItemProperties(wiki_title, wikidata_id)
-                wikidata_property = np.vstack((wikidata_property, list_to_append))
-    return wikidata_property
-
 
 
 def main():
@@ -142,7 +120,7 @@ def main():
     
     parser.add_argument("--out_dir",
                         default=None,
-                        requires=True,
+                        required=True,
                         type=str,
                         help="Path to output directory.")
 
@@ -153,7 +131,7 @@ def main():
                         help="Path to the spaCy ner model.")
 
     parser.add_argument("--wikidata_id",
-                        default='./wikidata_id.txt',
+                        default='./wikidata_id.json',
                         type=str,
                         help="Path to wikidata id lookup table.")
     
@@ -183,30 +161,60 @@ def main():
     
     if not output_path.exists():
         output_path.mkdir(parents=True)
-        msg.good(f"Created output directory {out_dir}")
+        msg.good(f"Created output directory {output_path}")
     
     # load spaCy model
     nlp = spacy.load(args.spacy_model)
     msg.info(f"Using spaCy model {args.spacy_model}")  
    
     # load wikidata_id file and wikidata_property file
+    msg.text("Loading wikidata id lookup table...")
     with open(args.wikidata_id, 'r', encoding='utf-8') as f:
         DICT_WIKIDATA_ID = json.load(f)
-    wikidata_property = np.loadtxt(args.wikidata_property, delimiter='\t', dtype='str')
+    msg.text("Loading wikidata property file...")
+    #wikidata_property = np.loadtxt(args.wikidata_property, delimiter='\t', dtype='str')
+    wikidata_property = pd.read_csv(args.wikidata_property, delimiter='\t', header=None)
     
     # read json file of wikipedia page title and summary
     with open(args.title_summary, 'r', encoding='utf-8') as f:
         DICT_PAGE_TITLE = json.load(f)
-    
+
+    def ner2wiki(text, nlp, wikidata_property): # find entities and complete its wiki information (wiki title, summary, wikidata id and properties)                                                             
+        doc = nlp(text)
+        for ent in tqdm(doc.ents):
+            term = ent.text
+            try:
+                wiki_title = DICT_PAGE_TITLE[term]['title']
+            except KeyError:
+                wiki_title = find_wiki_title(term)  
+                if wiki_title:
+                    wiki_summary = find_wiki_summary(wiki_title)
+                    DICT_PAGE_TITLE.update({term:{'title':wiki_title, 'summary': wiki_summary}})
+                else:
+                    DICT_PAGE_TITLE.update({term:{'title': None, 'summary': None}})
+                
+            # find wikidata id and properties
+            if wiki_title and wiki_title not in DICT_WIKIDATA_ID:
+                wikidata_id = get_wikidata_id(wiki_title)
+                if wikidata_id and not_disambiguation_page(wikidata_id):
+                    DICT_WIKIDATA_ID.update({wiki_title: wikidata_id})
+                    # find wiki properties 
+                    list_to_append = get_target_ItemProperties(wiki_title, wikidata_id)
+                    #wikidata_property = np.vstack((wikidata_property, list_to_append))
+                    wikidata_property = wikidata_property.append(pd.DataFrame(list_to_append, columns=wikidata_property.columns), ignore_index=True)
+        return wikidata_property   
+
     msg.text('Extracting wiki information for entities in patent file:')
-    for patent in tqdm(patents):
-        properties_found = ner2wiki(patent, nlp, wikidata_property, target_properties)    
-        wikidata_property = np.vstack((wikidata_property, properties_found))
+    for patent in patents[0]:
+        properties_found = ner2wiki(patent, nlp, wikidata_property)    
+        #wikidata_property = np.vstack((wikidata_property, properties_found))
+        wikidata_property = wikidata_property.append(pd.DataFrame(properties_found, columns=wikidata_property.columns), ignore_index=True)
         
     # save the update files
     with open(args.wikidata_id, "w", encoding='utf-8') as f: 
         json.dump(DICT_WIKIDATA_ID, f, indent = 4)
-    np.savetxt(args.wikidata_property, wikidata_property, delimiter='\t', fmt='%s')
+    #np.savetxt(args.wikidata_property, wikidata_property, delimiter='\t', fmt='%s', dtype='str')
+    wikidata_property.to_csv (args.wikidata_property, index = False, header=None, sep='\t')
     
     with open(args.title_summary, "w", encoding='utf-8') as f: 
         json.dump(DICT_PAGE_TITLE, f, indent = 4)

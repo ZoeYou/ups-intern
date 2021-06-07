@@ -63,19 +63,22 @@ def retrieve_value_P(P):
     return target_properties[P]
 
 
-def retrieve_value_Q(Q):    
-    url = f"https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels&languages=en&ids={Q}"
-    json_response = requests.get(url).json()
-    entities = json_response.get('entities')
-    
-    entity = entities.get(Q)
-    if entity:
-        labels = entity.get('labels')
-        if labels:
-            en = labels.get('en')
-            if en:
-                value = en.get('value')
-                return value 
+def retrieve_value_Q(Q, reference = DICT_WIKIDATA_ID): 
+    if Q in reference:
+        return reference[Q]
+    else:
+        url = f"https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels&languages=en&ids={Q}"
+        json_response = requests.get(url).json()
+        entities = json_response.get('entities')
+
+        entity = entities.get(Q)
+        if entity:
+            labels = entity.get('labels')
+            if labels:
+                en = labels.get('en')
+                if en:
+                    value = en.get('value')
+                    return value
 
 
 def get_target_ItemProperties(wikidata_item, wikidata_id):
@@ -172,8 +175,7 @@ def main():
     with open(args.wikidata_id, 'r', encoding='utf-8') as f:
         DICT_WIKIDATA_ID = json.load(f)
     msg.text("Loading wikidata property file...")
-    #wikidata_property = np.loadtxt(args.wikidata_property, delimiter='\t', dtype='str')
-    wikidata_property = pd.read_csv(args.wikidata_property, delimiter='\t', header=None)
+    wikidata_property = pd.read_csv(args.wikidata_property, delimiter='\t')
     
     # read json file of wikipedia page title and summary
     with open(args.title_summary, 'r', encoding='utf-8') as f:
@@ -181,8 +183,8 @@ def main():
 
     def ner2wiki(text, nlp, wikidata_property): # find entities and complete its wiki information (wiki title, summary, wikidata id and properties)                                                             
         doc = nlp(text)
-        for ent in tqdm(doc.ents):
-            term = ent.text
+        ents = set([ent.text for ent in doc.ents])
+        for term in ents:
             try:
                 wiki_title = DICT_PAGE_TITLE[term]['title']
             except KeyError:
@@ -192,29 +194,26 @@ def main():
                     DICT_PAGE_TITLE.update({term:{'title':wiki_title, 'summary': wiki_summary}})
                 else:
                     DICT_PAGE_TITLE.update({term:{'title': None, 'summary': None}})
-                
+
             # find wikidata id and properties
-            if wiki_title and wiki_title not in DICT_WIKIDATA_ID:
+            if wiki_title and (wiki_title not in wikidata_property.term1.values) and (wiki_title not in DICT_WIKIDATA_ID.values()):
                 wikidata_id = get_wikidata_id(wiki_title)
                 if wikidata_id and not_disambiguation_page(wikidata_id):
                     DICT_WIKIDATA_ID.update({wiki_title: wikidata_id})
                     # find wiki properties 
                     list_to_append = get_target_ItemProperties(wiki_title, wikidata_id)
-                    #wikidata_property = np.vstack((wikidata_property, list_to_append))
                     wikidata_property = wikidata_property.append(pd.DataFrame(list_to_append, columns=wikidata_property.columns), ignore_index=True)
-        return wikidata_property   
+                    wikidata_property.drop_duplicates()
+        return wikidata_property     
 
     msg.text('Extracting wiki information for entities in patent file:')
-    for patent in patents[0]:
-        properties_found = ner2wiki(patent, nlp, wikidata_property)    
-        #wikidata_property = np.vstack((wikidata_property, properties_found))
-        wikidata_property = wikidata_property.append(pd.DataFrame(properties_found, columns=wikidata_property.columns), ignore_index=True)
+    for patent in tqdm(patents[:2]):
+        wikidata_property = ner2wiki(patent, nlp, wikidata_property)    
         
     # save the update files
     with open(args.wikidata_id, "w", encoding='utf-8') as f: 
         json.dump(DICT_WIKIDATA_ID, f, indent = 4)
-    #np.savetxt(args.wikidata_property, wikidata_property, delimiter='\t', fmt='%s', dtype='str')
-    wikidata_property.to_csv (args.wikidata_property, index = False, header=None, sep='\t')
+    wikidata_property.to_csv (args.wikidata_property, index = False, sep='\t')
     
     with open(args.title_summary, "w", encoding='utf-8') as f: 
         json.dump(DICT_PAGE_TITLE, f, indent = 4)

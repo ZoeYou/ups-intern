@@ -25,7 +25,7 @@ def main():
     ruler = nlp.add_pipe("entity_ruler", config={"validate": True})
     
     # load trigger word list
-    with open(arg.trigger_list, encoding = 'utf-8', mode='r') as f:
+    with open(args.trigger_list, encoding = 'utf-8', mode='r') as f:
         wordsFVE = f.read().replace('-','').strip()
     trigger_words = list(set([w for w in wordsFVE.split('\n') if w]))
  
@@ -35,7 +35,7 @@ def main():
     rulers = [trigger for trigger in trigger_words]
     patterns = [{"label": "ERROR", "pattern": rule} for rule in rulers]
     ruler.add_patterns(patterns)
-    msg.good(f"Added {} trigger words to the entity-ruler.")
+    msg.good(f"Added {len(patterns)} trigger words to the entity-ruler.")
     
     # resave the model with entity-ruler
     nlp.to_disk(args.model_path)   

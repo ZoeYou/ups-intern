@@ -1377,7 +1377,6 @@ platelet ca ( 2+ ) -atpases,protein,jnlpba
 97 kda ca ( 2+ ) -atpase target,protein,jnlpba
 catalytic subunit,protein,jnlpba
 cyclic amp-dependent protein kinase,protein,jnlpba
-c. sub .,protein,jnlpba
 97 kda ca ( 2+ ) -atpase,protein,jnlpba
 pl/im 430 monoclonal antibody,protein,jnlpba
 irf-1,protein,jnlpba
@@ -8951,7 +8950,6 @@ adipocyte fatty acid binding protein,protein,jnlpba
 adipocyte,cell_type,jnlpba
 foam cells,cell_type,jnlpba
 ap2 mrna,RNA,jnlpba
-adipocytes .,cell_type,jnlpba
 calcium/calmodulin-dependent serine/threonine phosphatase,protein,jnlpba
 phosphorylation sites,DNA,jnlpba
 stress-activated protein kinases,protein,jnlpba
@@ -15278,7 +15276,6 @@ ebv-transformed b cell lines,cell_line,jnlpba
 cd27,protein,jnlpba
 b cell cultures,cell_line,jnlpba
 cd70 transfectants,cell_line,jnlpba
-anti-cd70 mab .,protein,jnlpba
 cd27+ b cells,cell_type,jnlpba
 cd27- b cells,cell_type,jnlpba
 germline epsilon transcripts,RNA,jnlpba
@@ -15341,7 +15338,6 @@ gp91phox promoter constructs,DNA,jnlpba
 negative element,DNA,jnlpba
 -267 to -246,DNA,jnlpba
 gata consensus site,DNA,jnlpba
--256 to -250 .,DNA,jnlpba
 gata-3 binding site,DNA,jnlpba
 bp -267 to +12 construct,DNA,jnlpba
 bp -245 to +12 construct,DNA,jnlpba
@@ -15820,7 +15816,6 @@ okadaic acid-sensitive ser/thr phosphatases,protein,jnlpba
 activated tumorigenic t cell lines,cell_line,jnlpba
 okadaic acid-sensitive phosphatases,protein,jnlpba
 nf of activated t cells proteins,protein,jnlpba
-ap-1 proteins was even enhanced .,protein,jnlpba
 glucose transporter,protein,jnlpba
 3t3-l1 adipocytes,cell_type,jnlpba
 peroxisome proliferator-activated receptor gamma,protein,jnlpba
@@ -15844,7 +15839,6 @@ peptide/glycoprotein 96 complexes,protein,jnlpba
 p75 tumor necrosis factor receptor,protein,jnlpba
 p75tnf-r,protein,jnlpba
 lymphotoxin alpha,protein,jnlpba
-p55tnf-r .,protein,jnlpba
 human p75tnf-r,protein,jnlpba
 p55tnf-r,protein,jnlpba
 human tnf transgene,DNA,jnlpba
@@ -21548,7 +21542,6 @@ multiple cellular genes,DNA,jnlpba
 human peripheral blood t-lymphocytes,cell_type,jnlpba
 nf-kappa b-related complexes,protein,jnlpba
 putative p65/c-rel heterodimer,protein,jnlpba
-kbf1/p50 homodimers .,protein,jnlpba
 p50/p105,protein,jnlpba
 cd2+cd28,protein,jnlpba
 cd25/il-2r alpha,protein,jnlpba

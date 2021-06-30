@@ -2214,7 +2214,6 @@ constant load,Process,scienceie
 optimal voltage,Process,scienceie
 current load,Process,scienceie
 calculated by genetic algorithm,Task,scienceie
-whole optimal voltage changeable rule.,Process,scienceie
 energy saving,Task,scienceie
 beam pumping,Process,scienceie
 reducing a certain voltage,Process,scienceie
@@ -2387,7 +2386,6 @@ combining quantum features,Task,scienceie
 field of clusters and nano structures,Task,scienceie
 lasers,Process,scienceie
 imaging techniques,Process,scienceie
-qualitatively describe dynamical processes.,Process,scienceie
 simple metals,Material,scienceie
 simple metals with sufficiently delocalized wave functions,Material,scienceie
 organic systems,Task,scienceie
@@ -2466,7 +2464,6 @@ state space explosion,Process,scienceie
 fitting methods,Task,scienceie
 statistical multiplexing of several mmpps,Process,scienceie
 fluence of each capsule,Task,scienceie
-activation monitor sets.,Material,scienceie
 monitor sets,Material,scienceie
 metal wire pieces,Material,scienceie
 flux monitor,Material,scienceie
@@ -2687,7 +2684,7 @@ moving plate recognition system,Process,scienceie
 moving plate recognition algorithm,Process,scienceie
 principal component analysis,Process,scienceie
 pca,Process,scienceie
-color extraction.,Process,scienceie
+color extraction,Process,scienceie
 pca extraction algorithm,Process,scienceie
 recognition,Process,scienceie
 research on the moving plate recognition algorithm,Task,scienceie
@@ -3706,7 +3703,7 @@ image thresholding technique,Process,scienceie
 segmenting,Process,scienceie
 gray level image,Material,scienceie
 modal distribution,Process,scienceie
-gray level histogram.,Material,scienceie
+gray level histogram,Material,scienceie
 enhancing the performance,Task,scienceie
 otsu algorithm,Process,scienceie
 median-based otsu image thresholding algorithm,Process,scienceie
@@ -4488,8 +4485,7 @@ freezing,Process,scienceie
 sample surface,Material,scienceie
 restrict pollen tube growth to a single focal plane,Task,scienceie
 growth analysis under microscopic observation,Process,scienceie
-"assay pollen tube growth,",Process,scienceie
-observe their growth in detail.,Process,scienceie
+assay pollen tube growth,Process,scienceie
 accurate microscopic observations,Task,scienceie
 pollen tube growth,Process,scienceie
 pollen tubes grow,Process,scienceie
@@ -5692,7 +5688,8 @@ porosity in am components,Process,scienceie
 porosity structures in parts,Task,scienceie
 average porosity,Process,scienceie
 build direction,Process,scienceie
-electron beam raster and overlap pattern.,Process,scienceie
+electron beam raster,Process,scienceie
+overlap pattern,Process,scienceie
 recent reports,Material,scienceie
 porosity distribution,Task,scienceie
 electron beam melted samples,Material,scienceie
@@ -5769,7 +5766,7 @@ o(n) recursive robot,Material,scienceie
 o(n) recursive robot forward dynamic algorithm,Process,scienceie
 "tree topology, closed loop and spatial robot systems",Process,scienceie
 dynamics described with screws,Process,scienceie
-high efficient dynamics modelling.,Process,scienceie
+high efficient dynamics modelling,Process,scienceie
 dynamical expressions,Process,scienceie
 linear to the degree of freedom,Process,scienceie
 improvement of computation efficiency,Task,scienceie
@@ -5884,7 +5881,6 @@ shell model,Process,scienceie
 the fermi and gamow–teller transitions,Task,scienceie
 predicting e−(e+) event rates,Task,scienceie
 coulomb effects,Process,scienceie
-calculation by martinez-pinedo et al.,Process,scienceie
 shell model for fermi and gamow–teller transitions,Process,scienceie
 continuum random phase approximation,Process,scienceie
 crpa,Process,scienceie
@@ -6444,7 +6440,7 @@ natural phenomenon,Process,scienceie
 mathematical experimentation,Task,scienceie
 micro scale plasmas,Material,scienceie
 schrödinger-electrostatic algorithm,Process,scienceie
-detecting natural phenomena.,Process,scienceie
+detecting natural phenomena,Process,scienceie
 theoretical experimentation,Task,scienceie
 davis weather station,Process,scienceie
 macro scale atmospheric plasma,Material,scienceie
@@ -6836,7 +6832,6 @@ surfactant self-assembly,Process,scienceie
 homogeneous solution,Material,scienceie
 hydrochloric acid,Material,scienceie
 ethanol,Material,scienceie
-water.,Material,scienceie
 aerosol solutions,Material,scienceie
 soluble silica,Material,scienceie
 nitrogen,Process,scienceie
@@ -6975,7 +6970,7 @@ unattached chains,Material,scienceie
 mg,Material,scienceie
 network mesh,Material,scienceie
 mx,Material,scienceie
-chemical cross-links.,Material,scienceie
+chemical cross-links,Material,scienceie
 probe chain,Material,scienceie
 mx>me,Process,scienceie
 mx<me,Process,scienceie
@@ -6995,7 +6990,7 @@ computational volumetric mesh,Material,scienceie
 stl file,Material,scienceie
 acrylic resin,Material,scienceie
 vero,Material,scienceie
-removing spicule.,Process,scienceie
+removing spicule,Process,scienceie
 amira version x,Material,scienceie
 smoothing,Process,scienceie
 3d printer,Material,scienceie
@@ -7122,7 +7117,7 @@ lsmb,Process,scienceie
 flexures,Material,scienceie
 load cell,Process,scienceie
 displacement and load sensors,Process,scienceie
-fretting loops.,Material,scienceie
+fretting loops,Material,scienceie
 "lateral force, q, is measured and recorded",Task,scienceie
 lane selection policy,Task,scienceie
 vissim,Process,scienceie
@@ -7251,7 +7246,6 @@ plane wave,Material,scienceie
 k-point spacing,Process,scienceie
 spin polarization,Process,scienceie
 ti alloying,Process,scienceie
-electrons carrying quantized orbital angular momentum.,Process,scienceie
 lens system,Material,scienceie
 reduced schrödinger equation,Process,scienceie
 vortices,Material,scienceie

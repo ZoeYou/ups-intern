@@ -1550,7 +1550,6 @@ Youden 's J,researcher,ai_test
 Building Educational Applications workshop,conference,ai_test
 BEA,conference,ai_test
 NAACL,conference,ai_test
-NLI shared task.,task,ai_test
 Tetreault,researcher,ai_test
 Viterbi algorithm,algorithm,ai_test
 dynamic programming algorithm,algorithm,ai_test
@@ -1758,7 +1757,7 @@ Bonn,researcher,ai_test
 Sebastian Thrun,researcher,ai_test
 civil engineering,field,ai_test
 information systems,field,ai_test
-geosciences.,field,ai_test
+geosciences,field,ai_test
 AAAI Classic Paper award,ai,ai_test
 USA edition of Campus Party,conference,ai_test
 Yoshua Bengio,researcher,ai_test
@@ -1854,7 +1853,6 @@ Canadian Institute for Advanced Research,organisation,ai_test
 Canadian Psychological Association,organisation,ai_test
 eSpeak,product,ai_test
 Mandarin,ai,ai_test
-Cantonese.,ai,ai_test
 Software Automatic Mouth,product,ai_test
 synthesis program,task,ai_test
 TP / ( TP + FN ),metrics,ai_test

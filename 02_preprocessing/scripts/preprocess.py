@@ -262,11 +262,11 @@ def main():
 
         else: # if it is single word
             patterns.append([{"POS": {"IN":["ADJ", "NOUN", "PROPN"]}, "OP": "*", "IS_STOP": False}, 
-                             {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
+                             {"LEMMA": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
                              {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "*", "IS_STOP": False, "IS_DIGIT": False}])
 
             patterns.append([{"POS": {"IN":["ADJ", "NOUN", "PROPN"]}, "OP": "*", "IS_STOP": False},
-                             {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
+                             {"LEMMA": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
                              {"TEXT": "of"},
                              {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "+", "IS_STOP": False}])
 

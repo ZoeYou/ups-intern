@@ -31,14 +31,19 @@ def collect_sents(doc, matcher):
     # Append mock entity for match in displaCy style to matched_sents
     # get the match span by ofsetting the start and end of the span with the
     # start and end of the sentence in the doc
-        while term[-1].text in ['.','_', ';', '\n', ' ']:
-            term.end_char -= 1
+    	try:
+	    while term[-1].text in ['.','_','\n',';',',',' ','>','/','<'] and (not term.isupper() or (term.isupper() and len(term)<=4)):
+            	term.end_char -= 1
+            match = re.search('\([a-zA-Z0-9_]*$', term.text) 
+            if match: text.end_char = match.start()
+	except IndexError: # single character
+	    continue
             
         match_ents = (
             term.start_char - sent.start_char,  # start
             term.end_char - sent.start_char,    # end 
             "TERM", # label
-        )
+	)
         dict_sents[sent.text].append(match_ents)
     dict_sents = dict(dict_sents)
 
@@ -236,7 +241,12 @@ def main():
                              'FIELD',
                              'BACKGROUND',
                              'actual',
-                             'comprising'}
+                             'comprising',
+			     'successful',
+			     'smaller',
+			     'large'
+
+			     }
 
     # build matcher
     matcher = Matcher(nlp.vocab, validate=True)

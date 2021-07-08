@@ -31,19 +31,19 @@ def collect_sents(doc, matcher):
     # Append mock entity for match in displaCy style to matched_sents
     # get the match span by ofsetting the start and end of the span with the
     # start and end of the sentence in the doc
-    	try:
-	    while term[-1].text in ['.','_','\n',';',',',' ','>','/','<'] and (not term.isupper() or (term.isupper() and len(term)<=4)):
-            	term.end_char -= 1
+    try:
+        while term[-1].text in ['.','_','\n',';',',',' ','>','/','<'] and (not term.isupper() or (term.isupper() and len(term)<=4)):
+            term.end_char -= 1
             match = re.search('\([a-zA-Z0-9_]*$', term.text) 
-            if match: text.end_char = match.start()
-	except IndexError: # single character
-	    continue
+            if match: term.end_char = match.start()
+    except IndexError: # single character
+        continue
             
         match_ents = (
             term.start_char - sent.start_char,  # start
             term.end_char - sent.start_char,    # end 
             "TERM", # label
-	)
+        )
         dict_sents[sent.text].append(match_ents)
     dict_sents = dict(dict_sents)
 
@@ -245,7 +245,6 @@ def main():
 			     'successful',
 			     'smaller',
 			     'large'
-
 			     }
 
     # build matcher
@@ -262,11 +261,11 @@ def main():
 
         else: # if it is single word
             patterns.append([{"POS": {"IN":["ADJ", "NOUN", "PROPN"]}, "OP": "*", "IS_STOP": False}, 
-                             {"LEMMA": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
+                             {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
                              {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "*", "IS_STOP": False, "IS_DIGIT": False}])
 
             patterns.append([{"POS": {"IN":["ADJ", "NOUN", "PROPN"]}, "OP": "*", "IS_STOP": False},
-                             {"LEMMA": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
+                             {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
                              {"TEXT": "of"},
                              {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "+", "IS_STOP": False}])
 

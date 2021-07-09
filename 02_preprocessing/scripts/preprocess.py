@@ -32,9 +32,10 @@ def collect_sents(doc, matcher):
     # get the match span by ofsetting the start and end of the span with the
     # start and end of the sentence in the doc
         try:
-            while term[-1].text in ['.','_','\n',';',',',' ','>','/','<'] and (not term.isupper() or (term.isupper() and len(term)<=4)):
+            term_text = term.text
+            while term_text[-1] in ['.','_','\n',';',',',' ','>','/','<'] and (not term_text.isupper() or (term_text.isupper() and len(term_text)<=4)):
                 term.end_char -= 1
-            match = re.search('\([a-zA-Z0-9_]*$', term.text) 
+            match = re.search('\([a-zA-Z0-9_]*$', term_text) 
             if match: term.end_char = match.start()
         except IndexError: # single character
             continue

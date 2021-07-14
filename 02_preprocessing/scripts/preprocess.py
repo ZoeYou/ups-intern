@@ -34,16 +34,16 @@ def collect_sents(doc, matcher):
         try:
             term_text = term.text
 
-	    match = re.search('(\(|(\.|;)\\n|\\n|(\.|;) |;\\n- |(\.|;)\\n)[a-zA-Z0-9_]*', term_text)
-	    while match:
-	    	term.end_char = match.start()
-		term_text = term_text[:match.start()]
-		match = re.search('(\(|(\.|;)\\n|\\n|(\.|;) |;\\n- |(\.|;)\\n)[a-zA-Z0-9_]*', term_text)
-	    if term.isdigit(): continue
+	        match = re.search('(\(|(\.|;)\\n|\\n|(\.|;) |;\\n- |(\.|;)\\n)[a-zA-Z0-9_]*', term_text)
+	        while match:
+	    	    term.end_char = match.start()
+		        term_text = term_text[:match.start()]
+		        match = re.search('(\(|(\.|;)\\n|\\n|(\.|;) |;\\n- |(\.|;)\\n)[a-zA-Z0-9_]*', term_text)
+	        if term.isdigit(): continue
 
             while term_text[-1] in ['.','_','\n',';',',',' ','>','/','<','='] and (not term_text.isupper() or (term_text.isupper() and len(term_text)<=3)):
                 term.end_char -= 1
-	    if term.isdigit(): continue
+	        if term.isdigit(): continue
 
         except IndexError: # single character
             continue

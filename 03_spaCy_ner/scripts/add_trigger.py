@@ -12,7 +12,7 @@ def main():
                         help="Path to the spaCy model")
     
     parser.add_argument("--trigger_list",
-                        default='./wordsFVE.txt',
+                        default='assets/wordsFVE.txt',
                         type=str,
                         help="Path to the trigger words list.")
            

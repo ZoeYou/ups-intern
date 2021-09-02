@@ -10,7 +10,8 @@ import pandas as pd
 from wasabi import msg
 from pathlib import Path
 from tqdm import tqdm
-from spacy.tokens import DocBin
+
+from spacy.tokens import DocBin, Span
 from spacy.matcher import Matcher
 from spacy.tokenizer import Tokenizer
 from spacy.util import compile_infix_regex
@@ -24,8 +25,9 @@ def collect_sents(doc, matcher):
     matches = matcher(doc)
     dict_sents = defaultdict(list)
     
-    spans = [doc[start:end] for _, start, end in matches]
-    for span in spacy.util.filter_spans(spans): 
+    spans = [Span(doc, start, end, label=match_id) for match_id, start, end in matches]
+    #for span in spacy.util.filter_spans(spans): 
+    for span in spans:
         term = doc[span.start: span.end]      
         sent = term.sent  # Sentence containing matched span
     # Append mock entity for match in displaCy style to matched_sents
@@ -36,7 +38,7 @@ def collect_sents(doc, matcher):
             
             match = re.search('(\(|(\.|;)\\n|\\n|(\.|;) |;\\n- |(\.|;)\\n)[a-zA-Z0-9_]*', term_text)
             while match:
-                term.end_char = match.start()
+                term.end_char = term.start_char + match.start()
                 term_text = term_text[:match.start()]
                 match = re.search('(\(|(\.|;)\\n|\\n|(\.|;) |;\\n- |(\.|;)\\n)[a-zA-Z0-9_]*', term_text)
             if term_text.isdigit(): continue
@@ -44,11 +46,11 @@ def collect_sents(doc, matcher):
             while term_text[-1] in ['.','_','\n',';',',',' ','>','/','<','='] and (not term_text.isupper() or (term_text.isupper() and len(term_text)<=3)):
                 term.end_char -= 1
                 term_text = term_text[:-1]
-            if term_text.isdigit(): continue
 
             while term_text[0] in ['.','_','\n',';',',',' ','>','/','<','='] and (not term_text.isupper() or (term_text.isupper() and len(term_text)<=3)):
                 term.start_char += 1
                 term_text = term_text[1:]
+
             if term_text.isdigit(): continue
 
         except IndexError: # single character
@@ -70,19 +72,19 @@ def save_data(dataset, out_file):
         json.dump(dataset, f, indent=4)
 
 
-def convert_format(dataset):
+def convert_format(dataset, span_key):
     nlp = spacy.blank('en')
     db = DocBin()
 
     for text, ann in tqdm(dataset):
         try:
             doc = nlp.make_doc(text)
-            ents = []
+            spans = []
             for start, end, label in ann['entities']:
                 span = doc.char_span(start, end, label=label, alignment_mode = 'contract')
                 if span != None:
-                    ents.append(span)
-            doc.ents = ents 
+                    spans.append(span)
+            doc.spans[span_key] = spans 
             db.add(doc)
         except ValueError:
             continue
@@ -106,7 +108,7 @@ def main():
                         help="Path of the patent text file after being preprocessed.")
     
     parser.add_argument("--out_dir",
-                        default='../03_spaCy_ner/assets',
+                        default='./corpus',
                         type=str,
                         help="Path to output directory.")
 
@@ -125,10 +127,10 @@ def main():
                         type=int,
                         help="Maximum docs per batch.")
 
-    parser.add_argument("--n_process",
-                        default=4,
-                        type=int,
-                        help="Number of process (multiprocessinng)"
+    parser.add_argument("--span_key",
+                        default='grit',
+                        type=str,
+                        help="span categorizer spans key"
                         )
            
 
@@ -260,7 +262,7 @@ def main():
 			                 'successful',
 			                 'smaller',
 			                 'large'
-			                 }
+			                }
 
     # build matcher
     matcher = Matcher(nlp.vocab, validate=True)
@@ -283,7 +285,6 @@ def main():
                              {"TEXT": term_split[0], "POS": {"IN":["PROPN", "NOUN"]}},
                              {"TEXT": "of"},
                              {"POS": {"IN":["PROPN", "NOUN"]}, "OP": "+", "IS_STOP": False, "TEXT": {"NOT_IN": ["a"]}}])
-
 
 
     patterns.append([{"POS": {"IN":["PROPN", "NOUN"]}, "IS_TITLE": True, "OP": '+'}, 
@@ -320,19 +321,22 @@ def main():
 
 
     # split to training and evaluation set
-    TRAIN_DATA, TEST_DATA = train_eval_split(dataset = DATA, eval_size = args.eval_size)   
+    TRAIN_DATA, TEST_DATA = train_eval_split(dataset = DATA, eval_size = args.eval_size)  
+
+    patent_name = os.path.basename(args.in_file).split('.')[0]
+    ##save_data(TRAIN_DATA, f'{patent_name}_training.json')
+    ##save_data(TEST_DATA, f'{patent_name}_eval.json')
 
     # transform data format from jsonl to spacy v3.0's version .spacy
     msg.text('Converting data format from jsonl to .spacy:')
 
-    db_train = convert_format(dataset=TRAIN_DATA)
-    db_eval = convert_format(dataset=TEST_DATA)
+    db_train = convert_format(dataset=TRAIN_DATA, span_key = args.span_key)
+    db_eval = convert_format(dataset=TEST_DATA, span_key = args.span_key)
 
     # save .spacy file
-    patent_name = os.path.basename(args.in_file).split('.')[0]
     db_train.to_disk(f"{args.out_dir}/{patent_name}_training.spacy")
     db_eval.to_disk(f"{args.out_dir}/{patent_name}_eval.spacy")
-    msg.good(f"Processed totally {len(db_train) + len(db_eval)} documents to {args.out_dir}")
+    msg.good(f"Processed totally {len(TRAIN_DATA) + len(TEST_DATA)} documents to {args.out_dir}")
 
 
 

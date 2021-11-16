@@ -1,0 +1,27 @@
+{
+  "token_acc":null,
+  "token_p":null,
+  "token_r":null,
+  "token_f":null,
+  "spans_grit_p":0.7355679702,
+  "spans_grit_r":0.5966767372,
+  "spans_grit_f":0.658882402,
+  "spans_grit_per_type":{
+    "ORGANISATION":{
+      "p":0.5225225225,
+      "r":0.479338843,
+      "f":0.5
+    },
+    "PERSON":{
+      "p":0.7173913043,
+      "r":0.6197183099,
+      "f":0.6649874055
+    },
+    "PLACE":{
+      "p":0.847107438,
+      "r":0.625,
+      "f":0.7192982456
+    }
+  },
+  "speed":9783.3155599832
+}
